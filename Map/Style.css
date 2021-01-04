@@ -18,6 +18,7 @@ label {
 }
 
 input, label {
-    height: 2vh;
+    height: 3vh;
+    font-size: 3vh;
 }
 
