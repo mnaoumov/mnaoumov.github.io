@@ -17,3 +17,7 @@ label {
     display: block;
 }
 
+input, label {
+    height: 2vh;
+}
+
