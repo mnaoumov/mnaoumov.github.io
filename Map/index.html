@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Schools for Lenny</title>
+	<script defer
+    	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAliThy0cwIcFv31eNjbEcHkJwTm7ALLRE&callback=initMap&libraries=places">
+	</script>
+	<link rel="stylesheet" href="Style.css"></link>
+</head>
+
+<body>
+	<form id="controls">
+		<label for="distance-to-school-input">Distance from school in minutes:</label>
+		<input id="distance-to-school-input" type="number" value="15">
+		<label for="distance-to-subway-input">Distance from subway in minutes:</label>
+		<input id="distance-to-subway-input" type="number" value="10">
+		<button type="submit" formaction='javascript:refresh()'>Refresh</button>
+	</form>
+	<div style="display: none">
+		<input
+		  id="pac-input"
+		  class="controls"
+		  type="text"
+		  placeholder="Enter a location"
+		/>
+	  </div>
+	  <div id="map"></div>
+	  <div id="infowindow-content">
+		<span id="place-name" class="title"></span><br />
+		<strong>Place ID:</strong> <span id="place-id"></span><br />
+		<span id="place-address"></span>
+	  </div>
+	<script src="Script.js"></script>
+</body>
+</html>
