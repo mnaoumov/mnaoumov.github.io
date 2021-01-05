@@ -401,7 +401,10 @@ function initMap() {
       map,
       title: school.Name,
       label: String(schoolCounter),
-      icon: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'
+      icon: {
+        url: 'http://maps.google.com/mapfiles/ms/icons/red-dot.png',
+        scaledSize: new google.maps.Size(64, 64)
+      }
     });
     const circle = new google.maps.Circle({
       strokeColor: SCHOOL_CIRCLE_COLOR,
@@ -430,7 +433,10 @@ function initMap() {
           position: subwayPoint,
           map,
           title: place.Name,
-          icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png'
+          icon: {
+            url: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+            scaledSize: new google.maps.Size(64, 64)
+          } 
         });
         const circle = new google.maps.Circle({
           strokeColor: SUBWAY_CIRCLE_COLOR,
@@ -492,7 +498,10 @@ function initMap() {
         map,
         title: searchPlace.name,
         position: searchPlacePoint,
-        icon: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'
+        icon: {
+          url: 'http://maps.google.com/mapfiles/ms/icons/green-dot.png',
+          scaledSize: new google.maps.Size(64, 64)
+        }
       });
       searchPlaceMarkers.push(searchPlaceMarker);
 
