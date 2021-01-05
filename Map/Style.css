@@ -7,13 +7,13 @@ body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-size: 16px;
 }
 
-label {
+form {
     background-color: white;
 }
 
-#controls * {
-    display: block;
+label {
+    font-size: medium;
+    font-weight: bold;
 }
