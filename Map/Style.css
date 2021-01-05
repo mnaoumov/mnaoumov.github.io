@@ -17,3 +17,11 @@ label {
     font-size: medium;
     font-weight: bold;
 }
+
+.school-title {
+    color: red;
+}
+
+.subway-title {
+    color: blue;
+}

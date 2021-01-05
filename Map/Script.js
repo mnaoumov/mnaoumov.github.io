@@ -507,8 +507,8 @@ function initMap() {
 
       const infowindow = new google.maps.InfoWindow({
         content: `
-<div>Closest school is in <strong>${closestSchool.distanceInMinutes}</strong> minutes walking</div>
-<div>Closest subway is in <strong>${closestSubway.distanceInMinutes}</strong> minutes walking</div>`,
+<div>The closest <span class="school-title">school</span> is in <strong>${closestSchool.distanceInMinutes}</strong> minutes walking</div>
+<div>The closest <span class="subway-title">subway</span> is in <strong>${closestSubway.distanceInMinutes}</strong> minutes walking</div>`,
       });
 
       infowindow.open(map, searchPlaceMarker);
