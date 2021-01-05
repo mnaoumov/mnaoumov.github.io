@@ -381,6 +381,7 @@ const subwayPoints = [];
 const subwayCircles = [];
 
 let map;
+let lines = [];
 
 function initMap() {
   map = new google.maps.Map(document.getElementById("map"), {
@@ -460,7 +461,7 @@ function initMap() {
     searchBox.setBounds(map.getBounds());
   });
   let searchPlaceMarkers = [];
-  let lines = [];
+
   searchBox.addListener("places_changed", () => {
     const places = searchBox.getPlaces();
 
@@ -473,7 +474,7 @@ function initMap() {
     });
     searchPlaceMarkers = [];
 
-    for (const line in lines) {
+    for (const line of lines) {
       line.setMap(null);
     }
     lines = [];
