@@ -460,7 +460,7 @@ function initMap() {
     searchBox.setBounds(map.getBounds());
   });
   let searchPlaceMarkers = [];
-  let line;
+  let lines = [];
   searchBox.addListener("places_changed", () => {
     const places = searchBox.getPlaces();
 
@@ -473,10 +473,10 @@ function initMap() {
     });
     searchPlaceMarkers = [];
 
-    if (line) {
+    for (const line in lines) {
       line.setMap(null);
-      line = null;
     }
+    lines = [];
     // For each place, get the icon, name and location.
     const bounds = new google.maps.LatLngBounds();
     places.forEach((searchPlace) => {
@@ -530,7 +530,7 @@ const drawLineToClosest = (searchPlacePoint, points, color) => {
     }
   }
 
-  line = new google.maps.Polyline({
+  const line = new google.maps.Polyline({
     path: [searchPlacePoint, closestPoint],
     geodesic: true,
     strokeColor: color,
@@ -539,6 +539,7 @@ const drawLineToClosest = (searchPlacePoint, points, color) => {
   });
 
   line.setMap(map);
+  lines.push(line);
 
   return {
     point: closestPoint,
