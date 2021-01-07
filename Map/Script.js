@@ -463,7 +463,8 @@ function initMap() {
 
   const input = document.getElementById("pac-input");
   const searchBox = new google.maps.places.SearchBox(input);
-  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+  map.controls[google.maps.ControlPosition.LEFT_TOP].push(input);
+
   map.addListener("bounds_changed", () => {
     searchBox.setBounds(map.getBounds());
   });
