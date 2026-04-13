@@ -1,5 +1,5 @@
 {
-  "name": "blog2",
+  "name": "mnaoumov-dev",
   "type": "module",
   "version": "5.5.1",
   "scripts": {
@@ -19,19 +19,22 @@
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.16.6",
     "dayjs": "^1.11.19",
+    "hast-util-to-string": "^3.0.1",
     "lodash.kebabcase": "^4.1.1",
     "remark-collapse": "^0.1.2",
     "remark-toc": "^9.0.0",
     "satori": "^0.18.3",
     "sharp": "^0.34.5",
     "slugify": "^1.6.6",
-    "tailwindcss": "^4.1.18"
+    "tailwindcss": "^4.1.18",
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.6",
     "@pagefind/default-ui": "^1.4.0",
     "@shikijs/transformers": "^3.20.0",
     "@tailwindcss/typography": "^0.5.19",
+    "@types/hast": "^3.0.4",
     "@types/lodash.kebabcase": "^4.1.9",
     "@typescript-eslint/parser": "^8.51.0",
     "eslint": "^9.39.2",

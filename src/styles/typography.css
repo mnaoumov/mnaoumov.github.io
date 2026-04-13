@@ -44,7 +44,8 @@
     }
 
     img {
-      @apply mx-auto border border-border;
+      @apply mx-auto border border-border bg-muted;
+      min-height: 4rem;
     }
 
     figcaption {

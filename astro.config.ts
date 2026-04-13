@@ -10,6 +10,9 @@ import {
 } from "@shikijs/transformers";
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
+import { rehypeObsidianHeadings } from "./rehype-obsidian-headings.ts";
+import { remarkStripBackmatter } from "./remark-strip-backmatter.ts";
+import { remarkStripFirstHeading } from "./remark-strip-first-heading.ts";
 
 // https://astro.build/config
 export default defineConfig({
@@ -20,7 +23,8 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
+    remarkPlugins: [remarkStripFirstHeading, remarkStripBackmatter, remarkToc, [remarkCollapse, { test: "Table of contents" }]],
+    rehypePlugins: [rehypeObsidianHeadings],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
       themes: { light: "min-light", dark: "night-owl" },
@@ -47,6 +51,12 @@ export default defineConfig({
   image: {
     responsiveStyles: true,
     layout: "constrained",
+    service: {
+      entrypoint: 'astro/assets/services/sharp',
+      config: {
+        limitInputPixels: false,
+      },
+    },
   },
   env: {
     schema: {

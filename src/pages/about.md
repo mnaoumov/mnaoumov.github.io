@@ -3,35 +3,27 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+## Michael Naumov
 
-![Astro Paper](public/astropaper-og.jpg)
+Software engineer based in Queretaro, Mexico. I build tools for [Obsidian](https://obsidian.md/) and open-source developer tooling.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+### Obsidian
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+I maintain **20+** Obsidian plugins and tools with **800+** combined stars. Some highlights:
 
-## Features
+- [CodeScript Toolkit](https://github.com/mnaoumov/obsidian-codescript-toolkit) — Run JS/TS scripts directly inside Obsidian
+- [Dev Utils](https://github.com/mnaoumov/obsidian-dev-utils) — Essential functions and CLI tools for plugin development
+- [Frontmatter Markdown Links](https://github.com/mnaoumov/obsidian-frontmatter-markdown-links) — Markdown link support in frontmatter
+- [Custom Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location) — Customize attachment paths with variables
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+Full list at [obsidian-resources](https://github.com/mnaoumov/obsidian-resources).
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
+### Other Projects
 
-and so much more.
+- [Invoke-NativeApplication](https://github.com/mnaoumov/Invoke-NativeApplication) — PowerShell module for proper native command error handling
+- [typescript-template](https://github.com/mnaoumov/typescript-template) — Strict TypeScript project template
 
-## Show your support
+### Links
 
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+- [GitHub](https://github.com/mnaoumov)
+- [Buy Me a Coffee](https://www.buymeacoffee.com/mnaoumov)
