@@ -1,11 +1,13 @@
-import { execSync } from "node:child_process";
+import { cpSync, rmSync } from "node:fs";
 import { resolve } from "node:path";
 
-const SOURCE = "/f/Obsidian/Blogs/mnaoumov.dev/Posts/";
-const TARGET = resolve(import.meta.dirname, "..", "src", "data", "blog") + "/";
+const SOURCE = "F:/Obsidian/Blogs/mnaoumov.dev/Posts";
+const TARGET = resolve(import.meta.dirname, "..", "src", "data", "blog");
 
 function main(): void {
-  execSync(`rsync -a --delete "${SOURCE}" "${TARGET}"`, { stdio: "inherit" });
+  rmSync(TARGET, { recursive: true, force: true });
+  cpSync(SOURCE, TARGET, { recursive: true });
+  console.log(`Synced posts from ${SOURCE} to ${TARGET}`);
 }
 
 main();
