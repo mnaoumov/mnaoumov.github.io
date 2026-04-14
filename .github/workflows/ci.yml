@@ -16,35 +16,26 @@ jobs:
   build:
     name: Code standards & build
     runs-on: ubuntu-latest
-    timeout-minutes: 3
-
-    strategy:
-      matrix:
-        node-version: [20]
+    timeout-minutes: 5
 
     steps:
-      - name: "☁️ Checkout repository"
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: "📦 Install pnpm"
-        uses: pnpm/action-setup@v4
-        with:
-          version: 10.11.1
-
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: "pnpm"
+          node-version: 20
+          cache: npm
 
-      - name: "📦 Install dependencies"
-        run: pnpm install
+      - name: Install dependencies
+        run: npm ci
 
-      - name: "🔎 Lint code"
-        run: pnpm run lint
+      - name: Lint
+        run: npm run lint
 
-      - name: "📝 Checking code format"
-        run: pnpm run format:check
+      - name: Check formatting
+        run: npm run format:check
 
-      - name: "🚀 Build the project"
-        run: pnpm run build
+      - name: Build
+        run: npm run build
