@@ -3,10 +3,11 @@
   "type": "module",
   "version": "5.5.1",
   "scripts": {
-    "dev": "astro dev",
     "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
+    "dev": "astro dev",
     "preview": "astro preview",
     "sync": "astro sync",
+    "sync:posts": "rsync -a --delete /f/Obsidian/Blogs/mnaoumov.dev/Posts/ src/data/blog/",
     "astro": "astro",
     "format:check": "prettier --check .",
     "format": "prettier --write .",
