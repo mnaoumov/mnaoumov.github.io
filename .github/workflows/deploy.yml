@@ -33,6 +33,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Cache Astro build
+        uses: actions/cache@v4
+        with:
+          path: node_modules/.astro
+          key: astro-build-${{ hashFiles('src/data/blog/**') }}
+          restore-keys: |
+            astro-build-
+
       - name: Build
         run: npm run build
 

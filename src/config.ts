@@ -16,7 +16,7 @@ export const SITE = {
     text: "",
     url: "",
   },
-  dynamicOgImage: true,
+  dynamicOgImage: false,
   dir: "ltr",
   lang: "en",
   timezone: "America/Mexico_City",
