@@ -48,7 +48,9 @@ const modDate = modDayjs ? modDayjs.format("D MMM, YYYY") : null;
   >
   {
     modDate && (
-      <span class:list={["text-sm opacity-70", { "sm:text-base": size === "lg" }]}>
+      <span
+        class:list={["text-sm opacity-70", { "sm:text-base": size === "lg" }]}
+      >
         (Updated: <time datetime={modDayjs!.toISOString()}>{modDate}</time>)
       </span>
     )
