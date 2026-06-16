@@ -23,7 +23,12 @@ export default defineConfig({
     }),
   ],
   markdown: {
-    remarkPlugins: [remarkStripFirstHeading, remarkStripBackmatter, remarkToc, [remarkCollapse, { test: "Table of contents" }]],
+    remarkPlugins: [
+      remarkStripFirstHeading,
+      remarkStripBackmatter,
+      remarkToc,
+      [remarkCollapse, { test: "Table of contents" }],
+    ],
     rehypePlugins: [rehypeObsidianHeadings],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
@@ -52,7 +57,7 @@ export default defineConfig({
     responsiveStyles: true,
     layout: "constrained",
     service: {
-      entrypoint: 'astro/assets/services/sharp',
+      entrypoint: "astro/assets/services/sharp",
       config: {
         limitInputPixels: false,
       },
@@ -67,17 +72,14 @@ export default defineConfig({
       }),
     },
   },
-  experimental: {
-    preserveScriptOrder: true,
-    fonts: [
-      {
-        name: "Google Sans Code",
-        cssVariable: "--font-google-sans-code",
-        provider: fontProviders.google(),
-        fallbacks: ["monospace"],
-        weights: [300, 400, 500, 600, 700],
-        styles: ["normal", "italic"],
-      },
-    ],
-  },
+  fonts: [
+    {
+      name: "Google Sans Code",
+      cssVariable: "--font-google-sans-code",
+      provider: fontProviders.google(),
+      fallbacks: ["monospace"],
+      weights: [300, 400, 500, 600, 700],
+      styles: ["normal", "italic"],
+    },
+  ],
 });

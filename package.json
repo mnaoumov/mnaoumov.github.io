@@ -3,20 +3,21 @@
   "version": "5.5.1",
   "type": "module",
   "scripts": {
-    "astro": "astro",
-    "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
-    "dev": "astro dev",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "lint": "eslint .",
+    "astro": "jiti scripts/astro.ts",
+    "build": "jiti scripts/build.ts",
+    "dev": "jiti scripts/dev.ts",
+    "format": "jiti scripts/format.ts",
+    "format:check": "jiti scripts/format-check.ts",
+    "lint": "jiti scripts/lint.ts",
     "pre-push": "jiti scripts/pre-push.ts",
     "prepare": "husky",
-    "preview": "astro preview",
-    "sync": "astro sync",
+    "preview": "jiti scripts/preview.ts",
+    "sync": "jiti scripts/sync.ts",
     "sync:posts": "jiti scripts/sync-posts.ts"
   },
   "overrides": {
     "esbuild": "$esbuild",
+    "vite": "$vite",
     "yaml": "$yaml"
   },
   "dependencies": {
@@ -50,12 +51,13 @@
     "eslint-plugin-astro": "^1.7.0",
     "globals": "^17.6.0",
     "husky": "latest",
-    "jiti": "latest",
+    "jiti": "^2.7.0",
     "pagefind": "^1.5.2",
     "prettier": "^3.8.4",
     "prettier-plugin-astro": "^0.14.1",
     "prettier-plugin-tailwindcss": "^0.8.0",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.61.1"
+    "typescript-eslint": "^8.61.1",
+    "vite": "^7.3.5"
   }
 }
