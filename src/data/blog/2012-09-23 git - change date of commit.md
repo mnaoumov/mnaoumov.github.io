@@ -16,7 +16,7 @@ disabled rules:
 
 # 2012-09-23 git - change date of commit
 
-[git](<../../../Soft/Notes/Obsidian/git.md>) [PowerShell](<./Topics/PowerShell.md>)
+[git](<../Tags/git.md>) [powershell](<../Tags/powershell.md>)
 
 If you want for whatever reason change date of the existing commit you can use the following snippet (PowerShell)
 
