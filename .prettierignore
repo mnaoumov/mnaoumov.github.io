@@ -12,3 +12,6 @@
 !.prettierrc
 !eslint.config.js
 !README.md
+
+# Blog posts are synced from an external vault; leave their formatting untouched
+/src/data/blog
