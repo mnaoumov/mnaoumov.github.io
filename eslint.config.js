@@ -14,5 +14,7 @@ export default [
     },
   },
   { rules: { "no-console": "error" } },
+  // CLI scripts legitimately write to the console.
+  { files: ["scripts/**/*.ts"], rules: { "no-console": "off" } },
   { ignores: ["dist/**", ".astro", "public/pagefind/**"] },
 ];
