@@ -10,7 +10,7 @@ import getSortedPosts from "@/utils/getSortedPosts";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
-import { SOCIALS } from "@/constants";
+import { PROJECTS, SOCIALS } from "@/constants";
 
 const posts = await getCollection("blog");
 
@@ -42,8 +42,8 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </a>
 
       <p>
-        Programming blog by Michael Naumov. Writing about TypeScript, PowerShell,
-        Obsidian plugin development, and developer tooling.
+        Programming blog by Michael Naumov. Writing about TypeScript,
+        PowerShell, Obsidian plugin development, and developer tooling.
       </p>
       {
         // only display if at least one social link is enabled
@@ -55,6 +55,36 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         )
       }
     </section>
+
+    {
+      PROJECTS.length > 0 && (
+        <section
+          id="projects"
+          class:list={["pt-12 pb-6", "border-b border-border"]}
+        >
+          <h2 class="text-2xl font-semibold tracking-wide">Projects</h2>
+          <ul>
+            {PROJECTS.map(project => (
+              <li class="my-6">
+                <a
+                  href={project.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class:list={[
+                    "inline-block text-lg font-medium text-accent",
+                    "decoration-dashed underline-offset-4 hover:underline",
+                    "focus-visible:no-underline focus-visible:underline-offset-0",
+                  ]}
+                >
+                  <h3>{project.title}</h3>
+                </a>
+                <p>{project.description}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
 
     {
       featuredPosts.length > 0 && (

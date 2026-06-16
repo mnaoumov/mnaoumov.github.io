@@ -2,10 +2,12 @@ import type { Props } from "astro";
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
+import IconDiscord from "@/assets/icons/IconDiscord.svg";
 import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
-import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
+import IconMastodon from "@/assets/icons/IconMastodon.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
+import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconPinterest from "@/assets/icons/IconPinterest.svg";
 import { SITE } from "@/config";
 
@@ -22,6 +24,56 @@ export const SOCIALS: Social[] = [
     href: "https://github.com/mnaoumov",
     linkTitle: `${SITE.title} on GitHub`,
     icon: IconGitHub,
+  },
+  {
+    name: "LinkedIn",
+    href: "https://www.linkedin.com/in/mnaoumov",
+    linkTitle: `${SITE.title} on LinkedIn`,
+    icon: IconLinkedin,
+  },
+  {
+    name: "X",
+    href: "https://x.com/mnaoumov",
+    linkTitle: `${SITE.title} on X`,
+    icon: IconBrandX,
+  },
+  {
+    name: "Mastodon",
+    href: "https://mastodon.social/@mnaoumov",
+    linkTitle: `${SITE.title} on Mastodon`,
+    icon: IconMastodon,
+  },
+  {
+    name: "Discord",
+    href: "https://discord.com/users/331702070065364993",
+    linkTitle: `${SITE.title} on Discord`,
+    icon: IconDiscord,
+  },
+  {
+    name: "Mail",
+    href: "mailto:mnaoumov@gmail.com",
+    linkTitle: `Send an email to ${SITE.author}`,
+    icon: IconMail,
+  },
+] as const;
+
+interface Project {
+  title: string;
+  href: string;
+  description: string;
+}
+
+export const PROJECTS: Project[] = [
+  {
+    title: "obsidian-resources",
+    href: "https://github.com/mnaoumov/obsidian-resources",
+    description:
+      "Curated list of my Obsidian plugins, tools, and learning resources for plugin developers.",
+  },
+  {
+    title: "MathDoku Online Calculator",
+    href: "https://mnaoumov.dev/mathdoku-online-calculator/",
+    description: "Online solver and calculator for MathDoku (KenKen) puzzles.",
   },
 ] as const;
 
