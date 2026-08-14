@@ -15,6 +15,8 @@ I maintain **20+** Obsidian plugins and tools with **800+** combined stars. Some
 - [Dev Utils](https://github.com/mnaoumov/obsidian-dev-utils) — Essential functions and CLI tools for plugin development
 - [Frontmatter Markdown Links](https://github.com/mnaoumov/obsidian-frontmatter-markdown-links) — Markdown link support in frontmatter
 - [Custom Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location) — Customize attachment paths with variables
+- [Integration Testing](https://mnaoumov.dev/obsidian-integration-testing/) — Run your plugin's tests inside a real, running Obsidian — desktop or Android
+- [Test Mocks](https://mnaoumov.dev/obsidian-test-mocks/) — In-memory implementations of every class and function in `obsidian.d.ts`
 
 Full list at [obsidian-resources](https://github.com/mnaoumov/obsidian-resources).
 
