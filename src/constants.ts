@@ -71,6 +71,23 @@ export const PROJECTS: Project[] = [
       "Curated list of my Obsidian plugins, tools, and learning resources for plugin developers.",
   },
   {
+    title: "obsidian-dev-utils",
+    href: "https://mnaoumov.dev/obsidian-dev-utils/",
+    description: "Essential utilities for building Obsidian plugins.",
+  },
+  {
+    title: "obsidian-integration-testing",
+    href: "https://mnaoumov.dev/obsidian-integration-testing/",
+    description:
+      "Run your plugin's tests inside a real, running Obsidian — desktop or Android.",
+  },
+  {
+    title: "obsidian-test-mocks",
+    href: "https://mnaoumov.dev/obsidian-test-mocks/",
+    description:
+      "In-memory implementations of every class and function in obsidian.d.ts.",
+  },
+  {
     title: "MathDoku Online Calculator",
     href: "https://mnaoumov.dev/mathdoku-online-calculator/",
     description: "Online solver and calculator for MathDoku (KenKen) puzzles.",
