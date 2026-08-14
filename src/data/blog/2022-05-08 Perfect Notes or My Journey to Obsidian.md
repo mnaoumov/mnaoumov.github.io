@@ -889,12 +889,12 @@ Let's configure **Templater** to create Inbox notes
 >
 > ```markdown
 > ---
-> created: <% tp.date.now('YYYY-MM-DD-HH-mm-ssZ') %>
+> created: 2026-06-29-21-08-54-06:00
 > updated: 2022-04-29T15:02:19-06:00
-> title: <% tp.date.now('YYYY-MM-DD-HH-mm-ss') %>
+> title: 2026-06-29-21-08-54
 > > > ---
 >
-> # <% tp.date.now('YYYY-MM-DD-HH-mm-ss') %>
+> # 2026-06-29-21-08-54
 >
 > **<% tp.file.cursor() %>**
 > ```
