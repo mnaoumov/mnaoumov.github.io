@@ -1,0 +1,41 @@
+{
+  "comment": [
+    "Read automatically by depcheck, which update-npm-deps.ps1 runs at the end of every sweep to report declared",
+    "dependencies nothing appears to use. depcheck cannot see a package that is only invoked as a CLI from a script,",
+    "named as a string in a config, or pulled in by a compiler option, so each name below is a verified false positive",
+    "with the reference that proves it. Because this file exists, anything depcheck still reports fails the sweep -",
+    "so a genuinely unused dependency cannot be waved through, and a new entry here needs its reason recorded.",
+    "The key is `ignores`, depcheck's CLI-style rc name; `ignoreMatches` is the API-only spelling and is silently",
+    "ignored in this file.",
+    "",
+    "A theme runs through most of this list: depcheck parses .ts and .js, but not .astro and not .css, which is where",
+    "an Astro site does much of its importing.",
+    "",
+    "@astrojs/check - run as a CLI: scripts/build.ts runs `astro check`, which is a no-op stub unless this package is installed.",
+    "@pagefind/default-ui - imported twice by src/pages/search.astro (`@pagefind/default-ui/css/ui.css` and a dynamic",
+    "  `import(\"@pagefind/default-ui\")`); depcheck does not parse .astro.",
+    "@tailwindcss/typography - never imported: src/styles/typography.css loads it with `@plugin \"@tailwindcss/typography\"`.",
+    "dayjs - imported by src/components/Datetime.astro, along with its utc and timezone plugins; depcheck does not parse .astro.",
+    "esbuild - nothing imports it; it is declared so the `\"esbuild\": \"$esbuild\"` overrides shorthand has a version to resolve against.",
+    "pagefind - run as a CLI by scripts/build.ts (`pagefind --site dist`), which builds the search index into dist/.",
+    "prettier - run as a CLI by scripts/format.ts and scripts/format-check.ts; .prettierrc.mjs only references its type.",
+    "prettier-plugin-astro - named as a string in .prettierrc.mjs's `plugins`, never imported.",
+    "prettier-plugin-tailwindcss - same: a string in .prettierrc.mjs's `plugins`.",
+    "tailwindcss - never imported: src/styles/global.css pulls it in with `@import \"tailwindcss\"`, resolved by the",
+    "  @tailwindcss/vite plugin. depcheck does not parse .css.",
+    "yaml - nothing imports it; it is declared so the `\"yaml\": \"$yaml\"` overrides shorthand has a version to resolve against."
+  ],
+  "ignores": [
+    "@astrojs/check",
+    "@pagefind/default-ui",
+    "@tailwindcss/typography",
+    "dayjs",
+    "esbuild",
+    "pagefind",
+    "prettier",
+    "prettier-plugin-astro",
+    "prettier-plugin-tailwindcss",
+    "tailwindcss",
+    "yaml"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "comment": [
+    "Release conditions for every exact-pinned version in package.json (dependencies, devDependencies and overrides).",
+    "An exact pin is invisible to update-npm-deps.ps1 — that script upgrades caret ranges and skips exact versions — so",
+    "nothing would ever remind you a pin is stale. This file is what makes that check happen: on every run the script",
+    "executes each `check` and compares its trimmed stdout to `expect`. Equal means the pin is still required; different",
+    "means the condition that justified the pin has changed and the pin should be re-examined. `check: null` means no",
+    "mechanical test exists — it is reported for manual review on every run instead of going quiet. Every exact pin must",
+    "have an entry here, and every entry must correspond to a real pin; the script errors on either mismatch (rule G100)."
+  ],
+  "pins": {
+    "@astrojs/markdown-remark": {
+      "section": "dependencies",
+      "why": "astro@7 names this as an EXACT peer (\"@astrojs/markdown-remark\": \"7.2.4\") and marks it optional, so npm installs nothing and the package is simply absent — while astro.config.ts imports `unified` from it to build the markdown processor. Astro 6 shipped it as an ordinary dependency, which is why that import resolved before the sweep bumped astro 6 -> 7. It has to be declared here, and exactly: a caret range would resolve to a later 7.x the moment one publishes and then violate astro's exact peer with an ERESOLVE.",
+      "check": "node -e \"process.stdout.write(require('astro/package.json').peerDependencies['@astrojs/markdown-remark'])\"",
+      "expect": "7.2.4",
+      "manualCheck": "A changed value means astro moved its peer: match this pin to whatever the check prints. If astro drops the peer altogether the check errors instead — that means astro no longer exposes the package, so verify astro.config.ts still needs `unified` before removing the dependency and this entry."
+    },
+    "typescript": {
+      "section": "devDependencies",
+      "why": "Two independent consumers still refuse TypeScript 7. typescript-eslint (and its parser) peer-require >=4.8.4 <6.1.0, so type-aware ESLint cannot run on 7, and @astrojs/check — which backs `astro check` — peers ^5.0.0 || ^6.0.0 at its newest release, 0.9.10, so `npm install` fails outright with ERESOLVE on typescript@7. The caret sweep bumped ^6.0.3 to ^7.0.2 and broke the install; the pin is exact rather than ^6 precisely so the next sweep cannot drift it back to 7. Same rollback obsidian-dev-utils records for the same reason.",
+      "check": "node -e \"process.stdout.write(require('typescript-eslint/package.json').peerDependencies.typescript)\"",
+      "expect": ">=4.8.4 <6.1.0",
+      "manualCheck": "The mechanical check watches typescript-eslint only. @astrojs/check must widen too before this pin can be lifted — verify with `npm view @astrojs/check@latest peerDependencies`, which must accept ^7. When both allow 7, restore the caret range and run `npm run lint` plus `npm run build`."
+    }
+  }
+}
