@@ -65,24 +65,24 @@ interface Project {
 
 export const PROJECTS: Project[] = [
   {
-    title: "obsidian-resources",
+    title: "Obsidian Resources",
     href: "https://github.com/mnaoumov/obsidian-resources",
     description:
       "Curated list of my Obsidian plugins, tools, and learning resources for plugin developers.",
   },
   {
-    title: "obsidian-dev-utils",
+    title: "Obsidian Dev Utils - Documentation",
     href: "https://mnaoumov.dev/obsidian-dev-utils/",
     description: "Essential utilities for building Obsidian plugins.",
   },
   {
-    title: "obsidian-integration-testing",
+    title: "Obsidian Integration Testing - Documentation",
     href: "https://mnaoumov.dev/obsidian-integration-testing/",
     description:
       "Run your plugin's tests inside a real, running Obsidian — desktop or Android.",
   },
   {
-    title: "obsidian-test-mocks",
+    title: "Obsidian Test Mocks - Documentation",
     href: "https://mnaoumov.dev/obsidian-test-mocks/",
     description:
       "In-memory implementations of every class and function in obsidian.d.ts.",
@@ -91,6 +91,11 @@ export const PROJECTS: Project[] = [
     title: "MathDoku Online Calculator",
     href: "https://mnaoumov.dev/mathdoku-online-calculator/",
     description: "Online solver and calculator for MathDoku (KenKen) puzzles.",
+  },
+  {
+    title: "Secret Hitler Companion",
+    href: "https://mnaoumov.dev/secret-hitler-companion/",
+    description: "Companion app for the board game Secret Hitler.",
   },
 ] as const;
 
