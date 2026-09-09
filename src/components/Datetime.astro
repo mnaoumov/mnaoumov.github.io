@@ -44,15 +44,15 @@ const modDate = modDayjs ? modDayjs.format("D MMM, YYYY") : null;
   />
   <time
     class:list={["text-sm", { "sm:text-base": size === "lg" }]}
-    datetime={pubDayjs.toISOString()}>{pubDate}</time
+    datetime={pubDayjs.toISOString()}
   >
-  {
-    modDate && (
-      <span
-        class:list={["text-sm opacity-70", { "sm:text-base": size === "lg" }]}
-      >
-        (Updated: <time datetime={modDayjs!.toISOString()}>{modDate}</time>)
-      </span>
-    )
-  }
+    {pubDate}
+  </time>
+  {modDate && (
+    <span
+      class:list={["text-sm opacity-70", { "sm:text-base": size === "lg" }]}
+    >
+      (Updated: <time datetime={modDayjs!.toISOString()}>{modDate}</time>)
+    </span>
+  )}
 </div>

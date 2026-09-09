@@ -1,5 +1,7 @@
 import { defineConfig, envField, fontProviders } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
+// astro declares @astrojs/markdown-remark as an OPTIONAL peer, so npm installs nothing
+// and this import would not resolve; package.json therefore depends on it directly.
 import { unified } from "@astrojs/markdown-remark";
 import sitemap from "@astrojs/sitemap";
 import remarkToc from "remark-toc";
