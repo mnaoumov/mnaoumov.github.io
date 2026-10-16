@@ -39,6 +39,7 @@ export default async () => {
             type: "div",
             props: {
               style: {
+                position: "relative",
                 border: "4px solid #000",
                 background: "#fefbfb",
                 borderRadius: "4px",
@@ -77,14 +78,18 @@ export default async () => {
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 72, fontWeight: "bold" },
+                              style: {
+                                fontSize: 72,
+                                fontWeight: "bold",
+                                margin: 0,
+                              },
                               children: SITE.title,
                             },
                           },
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 28 },
+                              style: { fontSize: 28, margin: "28px 0 0" },
                               children: SITE.desc,
                             },
                           },
