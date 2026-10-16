@@ -7,12 +7,14 @@ import Socials from "@/components/Socials.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
+import getProjects from "@/utils/getProjects";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
-import { PROJECTS, SOCIALS } from "@/constants";
+import { SOCIALS } from "@/constants";
 
 const posts = await getCollection("blog");
+const projects = await getProjects();
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
@@ -56,14 +58,14 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       }
     </section>
 
-    {PROJECTS.length > 0 && (
+    {projects.length > 0 && (
       <section
         id="projects"
         class:list={["pt-12 pb-6", "border-b border-border"]}
       >
         <h2 class="text-2xl font-semibold tracking-wide">Projects</h2>
         <ul>
-          {PROJECTS.map(project => (
+          {projects.map(project => (
             <li class="my-6">
               <a
                 href={project.href}
@@ -77,7 +79,31 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
               >
                 <h3>{project.title}</h3>
               </a>
+              {project.retired && (
+                <span class="ms-2 rounded border border-border px-1.5 text-sm opacity-75">
+                  Retired
+                </span>
+              )}
               <p>{project.description}</p>
+              {project.retired && project.retired.replacements.length > 0 && (
+                <p>
+                  Replaced by{" "}
+                  {project.retired.replacements.map((replacement, index) => (
+                    <>
+                      {index > 0 && ", "}
+                      <a
+                        href={replacement.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-accent underline decoration-dashed underline-offset-4"
+                      >
+                        {replacement.title}
+                      </a>
+                    </>
+                  ))}
+                  .
+                </p>
+              )}
             </li>
           ))}
         </ul>
