@@ -17,6 +17,13 @@
       "expect": "0.7.3",
       "manualCheck": "A changed value means satori moved off the vulnerable pin: if it now names 0.7.5 or later, drop this override and this entry."
     },
+    "postcss-selector-parser": {
+      "section": "overrides",
+      "why": "GHSA-rj75-hqrm-r3gf: postcss-selector-parser before 7.1.6 has quadratic-time flat selector parsing. @tailwindcss/typography names it EXACTLY (postcss-selector-parser: 6.0.10) at its own latest release, 0.5.20, so no caret sweep can lift it, and npm audit fix would resolve it only by downgrading typography to 0.5.4. The override forces 7.x on every copy; typography only uses its parse/walk API in src/utils.js, and a full build rendered the prose styles through it. It is a caret rather than an exact pin so the sweep keeps floating it.",
+      "check": "node -e \"process.stdout.write(require('@tailwindcss/typography/package.json').dependencies['postcss-selector-parser'])\"",
+      "expect": "6.0.10",
+      "manualCheck": "A changed value means typography moved off the vulnerable pin: if it now names 7.1.6 or later, drop this override and this entry."
+    },
     "typescript": {
       "section": "devDependencies",
       "why": "Two independent consumers still refuse TypeScript 7. typescript-eslint (and its parser) peer-require >=4.8.4 <6.1.0, so type-aware ESLint cannot run on 7, and @astrojs/check — which backs `astro check` — peers ^5.0.0 || ^6.0.0 at its newest release, 0.9.10, so `npm install` fails outright with ERESOLVE on typescript@7. The caret sweep bumped ^6.0.3 to ^7.0.2 and broke the install; the pin is exact rather than ^6 precisely so the next sweep cannot drift it back to 7. Same rollback obsidian-dev-utils records for the same reason.",
