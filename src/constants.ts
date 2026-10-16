@@ -57,12 +57,15 @@ export const SOCIALS: Social[] = [
   },
 ] as const;
 
-interface Project {
+export interface Project {
   title: string;
   href: string;
   description: string;
+  retired?: { replacements: { title: string; href: string }[] };
 }
 
+// Projects that are not a repo site under https://mnaoumov.dev/. Repo sites
+// are listed by `getProjects`, straight from GitHub, at build time.
 export const PROJECTS: Project[] = [
   {
     title: "Obsidian Resources",
@@ -70,34 +73,7 @@ export const PROJECTS: Project[] = [
     description:
       "Curated list of my Obsidian plugins, tools, and learning resources for plugin developers.",
   },
-  {
-    title: "Obsidian Dev Utils - Documentation",
-    href: "https://mnaoumov.dev/obsidian-dev-utils/",
-    description: "Essential utilities for building Obsidian plugins.",
-  },
-  {
-    title: "Obsidian Integration Testing - Documentation",
-    href: "https://mnaoumov.dev/obsidian-integration-testing/",
-    description:
-      "Run your plugin's tests inside a real, running Obsidian — desktop or Android.",
-  },
-  {
-    title: "Obsidian Test Mocks - Documentation",
-    href: "https://mnaoumov.dev/obsidian-test-mocks/",
-    description:
-      "In-memory implementations of every class and function in obsidian.d.ts.",
-  },
-  {
-    title: "MathDoku Online Calculator",
-    href: "https://mnaoumov.dev/mathdoku-online-calculator/",
-    description: "Online solver and calculator for MathDoku (KenKen) puzzles.",
-  },
-  {
-    title: "Secret Hitler Companion",
-    href: "https://mnaoumov.dev/secret-hitler-companion/",
-    description: "Companion app for the board game Secret Hitler.",
-  },
-] as const;
+];
 
 export const SHARE_LINKS: Social[] = [
   {

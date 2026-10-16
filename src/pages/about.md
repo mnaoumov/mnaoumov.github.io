@@ -12,7 +12,8 @@ Software engineer based in Queretaro, Mexico. I build tools for [Obsidian](https
 I maintain **20+** Obsidian plugins and tools with **800+** combined stars. Some highlights:
 
 - [CodeScript Toolkit](https://github.com/mnaoumov/obsidian-codescript-toolkit) — Run JS/TS scripts directly inside Obsidian
-- [Dev Utils](https://github.com/mnaoumov/obsidian-dev-utils) — Essential functions and CLI tools for plugin development
+- [Obsidian Lib](https://mnaoumov.dev/obsidian-lib/) — Runtime library for plugin development: base classes, components, settings, modals
+- [Obsidian Dev Toolkit](https://mnaoumov.dev/obsidian-dev-toolkit/) — Build, lint, test and release tooling for plugin development
 - [Frontmatter Markdown Links](https://github.com/mnaoumov/obsidian-frontmatter-markdown-links) — Markdown link support in frontmatter
 - [Custom Attachment Location](https://github.com/mnaoumov/obsidian-custom-attachment-location) — Customize attachment paths with variables
 - [Integration Testing](https://mnaoumov.dev/obsidian-integration-testing/) — Run your plugin's tests inside a real, running Obsidian — desktop or Android

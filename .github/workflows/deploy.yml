@@ -5,6 +5,9 @@ on:
     branches:
       - main
   workflow_dispatch:
+  # Daily, so a new project site shows up in the hub's list without a push.
+  schedule:
+    - cron: "17 5 * * *"
 
 permissions:
   contents: read
@@ -43,6 +46,8 @@ jobs:
 
       - name: Build
         run: npm run build
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
