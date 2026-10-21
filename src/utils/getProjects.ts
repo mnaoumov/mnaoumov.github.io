@@ -25,6 +25,9 @@ const OVERRIDES: Record<string, ProjectOverride> = {
     title: "MathDoku Online Calculator",
     description: "Online solver and calculator for MathDoku (KenKen) puzzles.",
   },
+  paperio2: {
+    title: "Paper.io 2",
+  },
   "obsidian-dev-utils": {
     description:
       "Retired: split into five packages, each with its own documentation site.",
