@@ -26,7 +26,7 @@
     },
     "typescript": {
       "section": "devDependencies",
-      "why": "Two independent consumers still refuse TypeScript 7. typescript-eslint (and its parser) peer-require >=4.8.4 <6.1.0, so type-aware ESLint cannot run on 7, and @astrojs/check — which backs `astro check` — peers ^5.0.0 || ^6.0.0 at its newest release, 0.9.10, so `npm install` fails outright with ERESOLVE on typescript@7. The caret sweep bumped ^6.0.3 to ^7.0.2 and broke the install; the pin is exact rather than ^6 precisely so the next sweep cannot drift it back to 7. Same rollback obsidian-dev-utils records for the same reason.",
+      "why": "Two independent consumers still refuse TypeScript 7. typescript-eslint (and its parser) peer-require >=4.8.4 <6.1.0, so type-aware ESLint cannot run on 7, and @astrojs/check — which backs `astro check` — peers ^5.0.0 || ^6.0.0 at its newest release, 0.9.10, so `npm install` fails outright with ERESOLVE on typescript@7. The caret sweep bumped ^6.0.3 to ^7.0.2 and broke the install; the pin is exact rather than ^6 precisely so the next sweep cannot drift it back to 7. typescript-dev-toolkit, whose ESLint setup sits on the same typescript-eslint, pins 6.0.3 exactly too.",
       "check": "node -e \"process.stdout.write(require('typescript-eslint/package.json').peerDependencies.typescript)\"",
       "expect": ">=4.8.4 <6.1.0",
       "manualCheck": "The mechanical check watches typescript-eslint only. @astrojs/check must widen too before this pin can be lifted — verify with `npm view @astrojs/check@latest peerDependencies`, which must accept ^7. When both allow 7, restore the caret range and run `npm run lint` plus `npm run build`."
