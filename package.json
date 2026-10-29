@@ -6,6 +6,7 @@
     "astro": "jiti scripts/astro.ts",
     "build": "jiti scripts/build.ts",
     "dev": "jiti scripts/dev.ts",
+    "digest:releases": "jiti scripts/digest-releases.ts",
     "format": "jiti scripts/format.ts",
     "format:check": "jiti scripts/format-check.ts",
     "lint": "jiti scripts/lint.ts",

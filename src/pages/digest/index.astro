@@ -1,0 +1,54 @@
+---
+import Main from "@/layouts/Main.astro";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import getDigestIssues from "@/utils/getDigestIssues";
+import IconRss from "@/assets/icons/IconRss.svg";
+import { SITE } from "@/config";
+
+const issues = await getDigestIssues();
+---
+
+<Layout
+  title={`Obsidian digest | ${SITE.title}`}
+  description="What I shipped for Obsidian each month: new plugins and the features worth knowing about."
+>
+  <Header />
+  <Main
+    pageTitle="Obsidian digest"
+    pageDesc="What I shipped for Obsidian each month: new plugins and the features worth knowing about."
+  >
+    <a
+      target="_blank"
+      href="/digest/rss.xml"
+      class="inline-flex items-center gap-2 text-accent"
+      title="Digest RSS feed"
+    >
+      <IconRss width={20} height={20} class="stroke-accent" />
+      <span>Subscribe</span>
+    </a>
+    {issues.length === 0 ? (
+      <p class="my-6">No issues yet.</p>
+    ) : (
+      <ul>
+        {issues.map(issue => (
+          <li class="my-6">
+            <a
+              href={`/digest/${issue.month}/`}
+              class:list={[
+                "inline-block text-lg font-medium text-accent",
+                "decoration-dashed underline-offset-4 hover:underline",
+                "focus-visible:no-underline focus-visible:underline-offset-0",
+              ]}
+            >
+              <h2>{issue.monthName}</h2>
+            </a>
+            <p>{issue.entry.data.summary}</p>
+          </li>
+        ))}
+      </ul>
+    )}
+  </Main>
+  <Footer />
+</Layout>

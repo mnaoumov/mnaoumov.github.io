@@ -1,0 +1,78 @@
+---
+import { render } from "astro:content";
+import Layout from "@/layouts/Layout.astro";
+import Header from "@/components/Header.astro";
+import Footer from "@/components/Footer.astro";
+import Breadcrumb from "@/components/Breadcrumb.astro";
+import getDigestIssues, { type DigestIssue } from "@/utils/getDigestIssues";
+import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
+import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
+import { SITE } from "@/config";
+
+export async function getStaticPaths() {
+  const issues = await getDigestIssues();
+  // Newest first, so the older issue is the next one in the list.
+  return issues.map((issue, index) => ({
+    params: { month: issue.month },
+    props: {
+      issue,
+      newer: issues[index - 1],
+      older: issues[index + 1],
+    },
+  }));
+}
+
+type Props = {
+  issue: DigestIssue;
+  newer?: DigestIssue;
+  older?: DigestIssue;
+};
+
+const { issue, newer, older } = Astro.props;
+const { Content } = await render(issue.entry);
+---
+
+<Layout
+  title={`${issue.title} | ${SITE.title}`}
+  description={issue.entry.data.summary}
+>
+  <Header />
+  <Breadcrumb />
+  <main id="main-content" class="app-layout">
+    <article class="app-prose mb-12 max-w-app">
+      <h1 class="text-2xl tracking-wider sm:text-3xl">{issue.title}</h1>
+      <Content />
+    </article>
+    <nav
+      class="mb-28 flex justify-between gap-4 border-t border-border pt-6"
+      aria-label="digest issues"
+    >
+      {older ? (
+        <a
+          href={`/digest/${older.month}/`}
+          class="flex items-center gap-1 hover:text-accent"
+        >
+          <IconChevronLeft class="inline-block rtl:rotate-180" />
+          <span>{older.monthName}</span>
+        </a>
+      ) : (
+        <span />
+      )}
+      <a href="/digest/" class="hover:text-accent">
+        All issues
+      </a>
+      {newer ? (
+        <a
+          href={`/digest/${newer.month}/`}
+          class="flex items-center gap-1 hover:text-accent"
+        >
+          <span>{newer.monthName}</span>
+          <IconChevronRight class="inline-block rtl:rotate-180" />
+        </a>
+      ) : (
+        <span />
+      )}
+    </nav>
+  </main>
+  <Footer />
+</Layout>
