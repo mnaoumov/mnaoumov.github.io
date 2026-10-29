@@ -6,9 +6,13 @@ import IconArchive from "@/assets/icons/IconArchive.svg";
 import IconSunHigh from "@/assets/icons/IconSunHigh.svg";
 import IconMenuDeep from "@/assets/icons/IconMenuDeep.svg";
 import LinkButton from "./LinkButton.astro";
+import getDigestIssues from "@/utils/getDigestIssues";
 import { SITE } from "@/config";
 
 const { pathname } = Astro.url;
+
+// The digest is linked once it has a published issue.
+const hasDigest = (await getDigestIssues()).length > 0;
 
 // Remove trailing slash from current pathname if exists
 const currentPath =
@@ -79,6 +83,16 @@ const isActive = (path: string) => {
             Tags
           </a>
         </li>
+        {hasDigest && (
+          <li class="col-span-2">
+            <a
+              href="/digest"
+              class:list={{ "active-nav": isActive("/digest") }}
+            >
+              Digest
+            </a>
+          </li>
+        )}
         <li class="col-span-2">
           <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
             About

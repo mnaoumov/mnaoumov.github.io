@@ -37,4 +37,19 @@ const blog = defineCollection({
       })),
 });
 
-export const collections = { blog };
+export const DIGEST_PATH = "src/data/digest";
+
+// One issue of the monthly Obsidian digest per file, named by its month
+// (`2026-10.md`), so the file name is the page's slug and its month.
+const digest = defineCollection({
+  loader: glob({
+    pattern: "[0-9][0-9][0-9][0-9]-[0-9][0-9].md",
+    base: `./${DIGEST_PATH}`,
+  }),
+  schema: z.object({
+    summary: z.string(),
+    draft: z.boolean().optional(),
+  }),
+});
+
+export const collections = { blog, digest };
