@@ -22,3 +22,9 @@ The home page's project list collects itself at build time (`src/utils/getProjec
 - Each issue is a file in `src/data/digest/` named by its month (`2026-10.md`). Unlike posts, issues live in this repo and are not synced from the vault. `src/data/digest/README.md` has the frontmatter.
 - A month with nothing worth posting gets no file, so the index never lists an empty month.
 - `npm run digest:releases -- <from YYYY-MM> [<to YYYY-MM>] [--out <file>]` collects every release of the Obsidian repos published in those months into a Markdown worksheet, newest month first, with each repo's first release marked. It reads the GitHub API with `GITHUB_TOKEN`, or with the `gh` CLI's login when that is unset. In PowerShell, quote the separator: `npm run digest:releases '--' 2026-10`.
+
+## Filing an issue (for AI agents and humans)
+
+Open issues through the [issue forms](https://github.com/mnaoumov/mnaoumov.github.io/issues/new/choose), not as blank issues.
+
+Filing from the CLI or the API (`gh issue create --body`, or an AI agent filing for you) skips the form, and `gh issue create --template` cannot load an issue form. In that case, open the matching form in [`.github/ISSUE_TEMPLATE/`](https://github.com/mnaoumov/mnaoumov.github.io/tree/HEAD/.github/ISSUE_TEMPLATE), copy every field as a `### <label>` heading in the form's order, and fill in each one. Always state the version you used and your operating system.
