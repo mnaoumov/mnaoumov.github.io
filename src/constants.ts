@@ -68,6 +68,12 @@ export interface Project {
 // are listed by `getProjects`, straight from GitHub, at build time.
 export const PROJECTS: Project[] = [
   {
+    title: "Obsidian Digest",
+    href: "https://mnaoumov.dev/digest/",
+    description:
+      "My Obsidian-related work each month: new plugins and the features worth knowing about.",
+  },
+  {
     title: "Obsidian Resources",
     href: "https://github.com/mnaoumov/obsidian-resources",
     description:

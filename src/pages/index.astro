@@ -47,24 +47,6 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         Programming blog by Michael Naumov. Writing about TypeScript,
         PowerShell, Obsidian plugin development, and developer tooling.
       </p>
-      <p class="mt-2">
-        📰 My Obsidian-related work each month, new plugins and the features
-        worth knowing about:
-        <a
-          href="/digest/"
-          class="text-accent underline decoration-dashed underline-offset-4"
-        >
-          Obsidian digest
-        </a>
-        (
-        <a
-          href="/digest/rss.xml"
-          class="text-accent underline decoration-dashed underline-offset-4"
-        >
-          RSS
-        </a>
-        ).
-      </p>
       {
         // only display if at least one social link is enabled
         SOCIALS.length > 0 && (
