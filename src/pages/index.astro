@@ -6,8 +6,10 @@ import Footer from "@/components/Footer.astro";
 import Socials from "@/components/Socials.astro";
 import LinkButton from "@/components/LinkButton.astro";
 import Card from "@/components/Card.astro";
+import ReadMore from "@/components/ReadMore.astro";
 import getSortedPosts from "@/utils/getSortedPosts";
 import getProjects from "@/utils/getProjects";
+import getDigestIssues from "@/utils/getDigestIssues";
 import IconRss from "@/assets/icons/IconRss.svg";
 import IconArrowRight from "@/assets/icons/IconArrowRight.svg";
 import { SITE } from "@/config";
@@ -15,6 +17,7 @@ import { SOCIALS } from "@/constants";
 
 const posts = await getCollection("blog");
 const projects = await getProjects();
+const [latestDigest] = await getDigestIssues();
 
 const sortedPosts = getSortedPosts(posts);
 const featuredPosts = sortedPosts.filter(({ data }) => data.featured);
@@ -57,6 +60,42 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
         )
       }
     </section>
+
+    {latestDigest && (
+      <section
+        id="digest"
+        class:list={["pt-12 pb-6", "border-b border-border"]}
+      >
+        <h2 class="text-2xl font-semibold tracking-wide">Obsidian digest</h2>
+        <p class="mt-2">
+          What I shipped for Obsidian each month: new plugins and the features
+          worth knowing about.
+        </p>
+        <ul>
+          <li class="my-6">
+            <a
+              href={`/digest/${latestDigest.month}/`}
+              class:list={[
+                "inline-block text-lg font-medium text-accent",
+                "decoration-dashed underline-offset-4 hover:underline",
+                "focus-visible:no-underline focus-visible:underline-offset-0",
+              ]}
+            >
+              <h3>{latestDigest.monthName}</h3>
+            </a>
+            <p>{latestDigest.entry.data.summary}</p>
+            <ReadMore
+              href={`/digest/${latestDigest.month}/`}
+              title={`${latestDigest.monthName} digest`}
+            />
+          </li>
+        </ul>
+        <LinkButton href="/digest/">
+          All digest issues
+          <IconArrowRight class="inline-block rtl:-rotate-180" />
+        </LinkButton>
+      </section>
+    )}
 
     {projects.length > 0 && (
       <section

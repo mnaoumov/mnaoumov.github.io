@@ -1,0 +1,16 @@
+---
+type Props = {
+  href: string;
+  title: string;
+};
+
+const { href, title } = Astro.props;
+---
+
+<a
+  href={href}
+  class="mt-1 inline-block text-accent decoration-dashed underline-offset-4 hover:underline"
+  aria-label={`Read more: ${title}`}
+>
+  Read more&hellip;
+</a>
