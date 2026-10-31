@@ -3,6 +3,7 @@ import Main from "@/layouts/Main.astro";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
+import ReadMore from "@/components/ReadMore.astro";
 import getDigestIssues from "@/utils/getDigestIssues";
 import IconRss from "@/assets/icons/IconRss.svg";
 import { SITE } from "@/config";
@@ -45,13 +46,10 @@ const issues = await getDigestIssues();
               <h2>{issue.monthName}</h2>
             </a>
             <p>{issue.entry.data.summary}</p>
-            <a
+            <ReadMore
               href={`/digest/${issue.month}/`}
-              class="mt-1 inline-block text-accent decoration-dashed underline-offset-4 hover:underline"
-              aria-label={`Read the full ${issue.monthName} digest`}
-            >
-              Read the full digest &rarr;
-            </a>
+              title={`${issue.monthName} digest`}
+            />
           </li>
         ))}
       </ul>

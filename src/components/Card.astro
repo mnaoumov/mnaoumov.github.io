@@ -3,6 +3,7 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@/utils/slugify";
 import { getPath } from "@/utils/getPath";
 import Datetime from "./Datetime.astro";
+import ReadMore from "./ReadMore.astro";
 
 type Props = {
   variant?: "h2" | "h3";
@@ -30,4 +31,5 @@ const { title, description, ...props } = data;
   </a>
   <Datetime {...props} />
   <p>{description}</p>
+  <ReadMore href={getPath(id, filePath)} title={title} />
 </li>
