@@ -91,7 +91,15 @@ async function loadProjects(): Promise<Project[]> {
     warn(`Could not load the repo project list: ${String(error)}`);
     repoProjects = [];
   }
-  return [...PROJECTS, ...repoProjects];
+  return [...PROJECTS, ...repoProjects].sort(compareProjects);
+}
+
+// Current projects first, retired ones after them, each group alphabetical.
+function compareProjects(a: Project, b: Project): number {
+  return (
+    Number(Boolean(a.retired)) - Number(Boolean(b.retired)) ||
+    a.title.localeCompare(b.title)
+  );
 }
 
 async function loadRepoProjects(): Promise<Project[]> {
@@ -132,13 +140,7 @@ async function loadRepoProjects(): Promise<Project[]> {
 
   await checkHomepages(projects.map(({ project }) => project.href));
 
-  return projects
-    .map(({ project }) => project)
-    .sort(
-      (a, b) =>
-        Number(Boolean(a.retired)) - Number(Boolean(b.retired)) ||
-        a.title.localeCompare(b.title)
-    );
+  return projects.map(({ project }) => project);
 }
 
 async function fetchRepos(): Promise<GitHubRepo[]> {
