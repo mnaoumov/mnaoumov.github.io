@@ -7,7 +7,7 @@ export async function GET() {
   return rss({
     title: `Obsidian digest | ${SITE.title}`,
     description:
-      "What I shipped for Obsidian each month: new plugins and the features worth knowing about.",
+      "My Obsidian-related work each month: new plugins and the features worth knowing about.",
     site: SITE.website,
     items: issues.map(issue => ({
       link: `/digest/${issue.month}/`,
