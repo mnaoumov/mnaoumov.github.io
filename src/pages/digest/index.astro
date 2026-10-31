@@ -45,6 +45,13 @@ const issues = await getDigestIssues();
               <h2>{issue.monthName}</h2>
             </a>
             <p>{issue.entry.data.summary}</p>
+            <a
+              href={`/digest/${issue.month}/`}
+              class="mt-1 inline-block text-accent decoration-dashed underline-offset-4 hover:underline"
+              aria-label={`Read the full ${issue.monthName} digest`}
+            >
+              Read the full digest &rarr;
+            </a>
           </li>
         ))}
       </ul>
