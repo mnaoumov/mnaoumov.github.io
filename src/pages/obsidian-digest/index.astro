@@ -22,7 +22,7 @@ const issues = await getDigestIssues();
   >
     <a
       target="_blank"
-      href="/digest/rss.xml"
+      href="/obsidian-digest/rss.xml"
       class="inline-flex items-center gap-2 text-accent"
       title="Digest RSS feed"
     >
@@ -36,7 +36,7 @@ const issues = await getDigestIssues();
         {issues.map(issue => (
           <li class="my-6">
             <a
-              href={`/digest/${issue.month}/`}
+              href={`/obsidian-digest/${issue.month}/`}
               class:list={[
                 "inline-block text-lg font-medium text-accent",
                 "decoration-dashed underline-offset-4 hover:underline",
@@ -47,7 +47,7 @@ const issues = await getDigestIssues();
             </a>
             <p>{issue.entry.data.summary}</p>
             <ReadMore
-              href={`/digest/${issue.month}/`}
+              href={`/obsidian-digest/${issue.month}/`}
               title={`${issue.monthName} digest`}
             />
           </li>

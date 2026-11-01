@@ -69,7 +69,7 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     title: "Obsidian Digest",
-    href: "https://mnaoumov.dev/digest/",
+    href: "https://mnaoumov.dev/obsidian-digest/",
     description:
       "My Obsidian-related work each month: new plugins and the features worth knowing about.",
   },

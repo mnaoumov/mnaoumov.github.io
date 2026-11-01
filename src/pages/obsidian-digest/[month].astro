@@ -49,7 +49,7 @@ const { Content } = await render(issue.entry);
     >
       {older ? (
         <a
-          href={`/digest/${older.month}/`}
+          href={`/obsidian-digest/${older.month}/`}
           class="flex items-center gap-1 hover:text-accent"
         >
           <IconChevronLeft class="inline-block rtl:rotate-180" />
@@ -58,12 +58,12 @@ const { Content } = await render(issue.entry);
       ) : (
         <span />
       )}
-      <a href="/digest/" class="hover:text-accent">
+      <a href="/obsidian-digest/" class="hover:text-accent">
         All issues
       </a>
       {newer ? (
         <a
-          href={`/digest/${newer.month}/`}
+          href={`/obsidian-digest/${newer.month}/`}
           class="flex items-center gap-1 hover:text-accent"
         >
           <span>{newer.monthName}</span>

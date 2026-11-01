@@ -1,6 +1,6 @@
 # Obsidian digest
 
-One file per monthly issue, named by the month it covers: `2026-10.md` is published at `/digest/2026-10/`. Only `YYYY-MM.md` files are issues, so this README is not one.
+One file per monthly issue, named by the month it covers: `2026-10.md` is published at `/obsidian-digest/2026-10/`. Only `YYYY-MM.md` files are issues, so this README is not one.
 
 Frontmatter:
 

@@ -10,7 +10,7 @@ export async function GET() {
       "My Obsidian-related work each month: new plugins and the features worth knowing about.",
     site: SITE.website,
     items: issues.map(issue => ({
-      link: `/digest/${issue.month}/`,
+      link: `/obsidian-digest/${issue.month}/`,
       title: issue.title,
       description: issue.entry.data.summary,
       // An issue covers its whole month, so it is dated by the month's end.

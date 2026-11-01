@@ -17,9 +17,9 @@ The home page's project list collects itself at build time (`src/utils/getProjec
 
 ## Obsidian digest
 
-`/digest/` is a monthly digest of what I shipped for Obsidian: new plugins and tools, and the features worth knowing about. It has an index of every issue and its own feed at `/digest/rss.xml`, and the header links it once one issue is published.
+`/obsidian-digest/` is a monthly digest of what I shipped for Obsidian: new plugins and tools, and the features worth knowing about. It has an index of every issue and its own feed at `/obsidian-digest/rss.xml`, and the header links it once one issue is published.
 
-- Each issue is a file in `src/data/digest/` named by its month (`2026-10.md`). Unlike posts, issues live in this repo and are not synced from the vault. `src/data/digest/README.md` has the frontmatter.
+- Each issue is a file in `src/data/obsidian-digest/` named by its month (`2026-10.md`). Unlike posts, issues live in this repo and are not synced from the vault. `src/data/obsidian-digest/README.md` has the frontmatter.
 - A month with nothing worth posting gets no file, so the index never lists an empty month.
 - `npm run digest:releases -- <from YYYY-MM> [<to YYYY-MM>] [--out <file>]` collects every release of the Obsidian repos published in those months into a Markdown worksheet, newest month first, with each repo's first release marked. It reads the GitHub API with `GITHUB_TOKEN`, or with the `gh` CLI's login when that is unset. In PowerShell, quote the separator: `npm run digest:releases '--' 2026-10`.
 
