@@ -1,4 +1,9 @@
-import { PROJECTS, type Project } from "@/constants";
+import {
+  PROJECT_GROUPS,
+  PROJECTS,
+  type Project,
+  type ProjectGroup,
+} from "@/constants";
 import { SITE } from "@/config";
 
 // The hub collects its own project list: every repo of the owner whose GitHub
@@ -16,6 +21,14 @@ interface ProjectOverride {
   retired?: boolean;
   // Repo names whose sites replace a retired one.
   replacements?: string[];
+  // The Projects subsection, when the repo name does not decide it right.
+  group?: ProjectGroup;
+}
+
+export interface ProjectGroupList {
+  id: ProjectGroup;
+  title: string;
+  projects: Project[];
 }
 
 // Wording overrides, keyed by repo name. Anything not listed here comes from
@@ -78,6 +91,28 @@ export default function getProjects(): Promise<Project[]> {
   return projectsPromise;
 }
 
+// The projects split into the Projects subsections, in display order, each
+// keeping the list's order. Empty groups are left out.
+export async function getProjectGroups(): Promise<ProjectGroupList[]> {
+  const projects = await getProjects();
+  return PROJECT_GROUPS.map(({ id, title }) => ({
+    id,
+    title,
+    projects: projects.filter(project => (project.group ?? "other") === id),
+  })).filter(group => group.projects.length > 0);
+}
+
+// A repo's group follows from its name, so a new repo needs no edit here.
+function groupOf(repoName: string): ProjectGroup {
+  if (/^(create-)?obsidian-/.test(repoName)) {
+    return "obsidian";
+  }
+  if (repoName.startsWith("typescript-")) {
+    return "typescript";
+  }
+  return "other";
+}
+
 async function loadProjects(): Promise<Project[]> {
   let repoProjects: Project[];
   try {
@@ -116,6 +151,7 @@ async function loadRepoProjects(): Promise<Project[]> {
         href: repo.homepage ?? "",
         description:
           override.description ?? deprecation ?? repo.description ?? "",
+        group: override.group ?? groupOf(repo.name),
       };
       if (override.retired || repo.archived || deprecation !== undefined) {
         project.retired = { replacements: [] };
