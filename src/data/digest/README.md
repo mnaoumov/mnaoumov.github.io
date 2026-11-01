@@ -10,3 +10,5 @@ Frontmatter:
 Body sections, each only when the month has something for it: `## New plugins`, `## New in existing plugins`, `## For plugin developers`, and `## Writing` for the month's posts on this blog about Obsidian, last. A post goes in when it passes the same test as a release: I would count it as my own original work about Obsidian. A short post is judged the same way, and a post in doubt goes in. `npm run digest:releases` lists every post of the month beside the releases, marking the ones tagged `obsidian`, and the screen decides which of them are about Obsidian.
 
 The page title (`Obsidian digest: October 2026`) comes from the file name, so the body starts with the content, not with a heading of its own.
+
+Link one release per plugin or tool: the latest of the month. A plugin that shipped several versions that month gets only the newest version link, beside its repo link.
