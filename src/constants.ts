@@ -57,10 +57,21 @@ export const SOCIALS: Social[] = [
   },
 ] as const;
 
+// The subsections of the Projects list, in display order.
+export const PROJECT_GROUPS = [
+  { id: "obsidian", title: "Obsidian plugin development" },
+  { id: "typescript", title: "TypeScript tooling" },
+  { id: "other", title: "Other" },
+] as const;
+
+export type ProjectGroup = (typeof PROJECT_GROUPS)[number]["id"];
+
 export interface Project {
   title: string;
   href: string;
   description: string;
+  // Defaults to "other".
+  group?: ProjectGroup;
   retired?: { replacements: { title: string; href: string }[] };
 }
 
