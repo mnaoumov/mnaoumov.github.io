@@ -59,7 +59,7 @@ export const SOCIALS: Social[] = [
 
 // The subsections of the Projects list, in display order.
 export const PROJECT_GROUPS = [
-  { id: "obsidian", title: "Obsidian plugin development" },
+  { id: "obsidian", title: "Obsidian" },
   { id: "typescript", title: "TypeScript tooling" },
   { id: "other", title: "Other" },
 ] as const;
@@ -80,12 +80,14 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     title: "Obsidian Digest",
+    group: "obsidian",
     href: "https://mnaoumov.dev/obsidian-digest/",
     description:
       "My Obsidian-related work each month: new plugins and the features worth knowing about.",
   },
   {
     title: "Obsidian Resources",
+    group: "obsidian",
     href: "https://github.com/mnaoumov/obsidian-resources",
     description:
       "Curated list of my Obsidian plugins, tools, and learning resources for plugin developers.",
