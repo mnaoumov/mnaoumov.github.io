@@ -5,7 +5,7 @@ import {
   type ProjectGroup,
 } from "@/constants";
 import { SITE } from "@/config";
-import { mapConcurrent } from "./mapConcurrent";
+import { mapConcurrent } from "./map-concurrent";
 
 // The hub collects its own project list: every repo of the owner whose GitHub
 // homepage is a site under https://mnaoumov.dev/ is listed, so a new site shows

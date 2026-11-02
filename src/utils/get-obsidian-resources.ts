@@ -1,6 +1,6 @@
 import curated from "@/data/obsidian-resources.json";
 import { getOwnerRepos, type GitHubRepo } from "./getProjects";
-import { mapConcurrent } from "./mapConcurrent";
+import { mapConcurrent } from "./map-concurrent";
 
 export interface ObsidianResource {
   title: string;
