@@ -17,7 +17,6 @@ aliases:
   - "PowerShell + XAML => GUI"
 disabled rules:
   - yaml-title
-linter-yaml-title-alias: 2012-09-20 PowerShell XAML =_ GUI
 ---
 
 # 2012-09-20 PowerShell XAML =_ GUI

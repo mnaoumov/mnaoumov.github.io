@@ -14,7 +14,6 @@ disabled rules:
   - yaml-title
 aliases:
   - '2013-08-21 PowerShell scripts and "Pattern Main"'
-linter-yaml-title-alias: '2013-08-21 PowerShell scripts and "Pattern Main"'
 ---
 
 # 2013-08-21 PowerShell scripts and "Pattern Main"
