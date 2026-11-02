@@ -88,7 +88,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Obsidian Resources",
     group: "obsidian",
-    href: "https://github.com/mnaoumov/obsidian-resources",
+    href: "https://mnaoumov.dev/obsidian/",
     description:
       "Curated list of my Obsidian plugins, tools, and learning resources for plugin developers.",
   },

@@ -1,0 +1,184 @@
+---
+import Footer from "@/components/Footer.astro";
+import Header from "@/components/Header.astro";
+import { SITE } from "@/config";
+import Layout from "@/layouts/Layout.astro";
+import Main from "@/layouts/Main.astro";
+import {
+  getObsidianResources,
+  RESOURCE_GROUPS,
+} from "@/utils/getObsidianResources";
+
+const resources = await getObsidianResources();
+---
+
+<Layout
+  title={`Obsidian resources | ${SITE.title}`}
+  description="Obsidian plugins, developer libraries, tools, and learning resources I maintain and contribute to."
+>
+  <Header />
+  <Main
+    pageTitle="Obsidian resources"
+    pageDesc="Plugins, developer libraries, tools, and learning resources I maintain and contribute to."
+  >
+    <p class="mb-6">
+      Read the{" "}
+      <a class="text-accent underline" href="/obsidian-digest/">
+        Obsidian digest
+      </a>
+      for new releases and the features worth knowing about.
+    </p>
+    <nav
+      aria-label="Resource sections"
+      class="mb-6 flex flex-wrap gap-x-6 gap-y-2"
+    >
+      {RESOURCE_GROUPS.map(group => (
+        <a class="text-accent underline" href={`#${group.id}`}>
+          {group.title}
+        </a>
+      ))}
+    </nav>
+    <form role="search" class="mb-8" onsubmit="return false">
+      <label for="resource-search" class="mb-2 block font-semibold">
+        Find a resource
+      </label>
+      <input
+        id="resource-search"
+        type="search"
+        placeholder="Search names, descriptions, or previous names…"
+        class="w-full rounded border border-border bg-background px-3 py-2"
+        aria-controls="resource-list"
+      />
+      <p
+        id="resource-count"
+        role="status"
+        aria-live="polite"
+        class="mt-2 text-sm opacity-75"
+      >
+        {resources.length} resources
+      </p>
+    </form>
+    <div id="resource-list">
+      {RESOURCE_GROUPS.map(group => (
+        <section
+          id={group.id}
+          data-resource-group
+          aria-labelledby={`${group.id}-heading`}
+          class="mb-10"
+        >
+          <h2
+            id={`${group.id}-heading`}
+            class="border-b border-border pb-3 text-xl font-semibold"
+          >
+            {group.title}
+          </h2>
+          <ul class="grid gap-x-8 sm:grid-cols-2">
+            {resources
+              .filter(resource => resource.group === group.id)
+              .map(resource => (
+                <li data-resource class="border-b border-border py-5">
+                  <h3 class="text-lg font-medium">
+                    <a
+                      href={resource.href}
+                      class="text-accent underline decoration-dashed underline-offset-4"
+                    >
+                      {resource.title}
+                    </a>
+                  </h3>
+                  <p class="my-1 text-sm opacity-75">
+                    {resource.role}
+                    {resource.language && ` · ${resource.language}`}
+                    {resource.retired && " · Retired"}
+                  </p>
+                  <p>{resource.description}</p>
+                  {resource.previousName && (
+                    <p class="mt-1 text-sm">
+                      Previously {resource.previousName}.
+                    </p>
+                  )}
+                  {resource.replacements && (
+                    <p class="mt-1 text-sm">
+                      Replaced by{" "}
+                      {resource.replacements.map((replacement, index) => (
+                        <>
+                          {index > 0 && ", "}
+                          <a
+                            href={replacement.href}
+                            class="text-accent underline"
+                          >
+                            {replacement.title}
+                          </a>
+                        </>
+                      ))}
+                      .
+                    </p>
+                  )}
+                  {resource.site && (
+                    <a
+                      class="mt-2 inline-block text-sm text-accent underline"
+                      href={resource.site}
+                    >
+                      Documentation
+                    </a>
+                  )}
+                </li>
+              ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+    <p id="resource-empty" hidden>
+      No matching resources. Try another name or keyword.
+    </p>
+    <p class="my-8 text-sm">
+      If these resources help you, you can{" "}
+      <a
+        class="text-accent underline"
+        href="https://www.buymeacoffee.com/mnaoumov"
+      >
+        buy me a coffee
+      </a>
+      .
+    </p>
+  </Main>
+  <Footer />
+</Layout>
+
+<script>
+  document.addEventListener("astro:page-load", () => {
+    const search = document.querySelector<HTMLInputElement>("#resource-search");
+    const count = document.querySelector("#resource-count");
+    const empty = document.querySelector<HTMLElement>("#resource-empty");
+    const entries = [
+      ...document.querySelectorAll<HTMLElement>("[data-resource]"),
+    ];
+    if (!search || !count || !empty) {
+      return;
+    }
+    function filterResources() {
+      const terms = (search?.value ?? "")
+        .toLocaleLowerCase()
+        .trim()
+        .split(/\s+/);
+      let visible = 0;
+      for (const entry of entries) {
+        const text = entry.textContent.toLocaleLowerCase();
+        entry.hidden = !terms.every(term => text.includes(term));
+        if (!entry.hidden) {
+          visible++;
+        }
+      }
+      for (const group of document.querySelectorAll<HTMLElement>(
+        "[data-resource-group]"
+      )) {
+        group.hidden = !group.querySelector("[data-resource]:not([hidden])");
+      }
+      if (count && empty) {
+        count.textContent = `${visible} of ${entries.length} resources`;
+        empty.hidden = visible > 0;
+      }
+    }
+    search.addEventListener("input", filterResources);
+    filterResources();
+  });
+</script>
