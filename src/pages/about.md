@@ -19,7 +19,7 @@ I maintain **20+** Obsidian plugins and tools with **800+** combined stars. Some
 - [Integration Testing](https://mnaoumov.dev/obsidian-integration-testing/) — Run your plugin's tests inside a real, running Obsidian — desktop or Android
 - [Test Mocks](https://mnaoumov.dev/obsidian-test-mocks/) — In-memory implementations of every class and function in `obsidian.d.ts`
 
-Full list at [obsidian-resources](https://github.com/mnaoumov/obsidian-resources).
+Full list at [Obsidian resources](/obsidian/).
 
 ### Other Projects
 

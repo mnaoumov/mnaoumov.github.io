@@ -15,6 +15,12 @@ The home page's project list collects itself at build time (`src/utils/getProjec
 - Entries that are not repo sites stay in `PROJECTS` in `src/constants.ts`.
 - `deploy.yml` also runs daily, so a new site appears within a day without a push. The build reads the API with the workflow's `GITHUB_TOKEN`; locally it is unauthenticated unless `GITHUB_TOKEN` is set.
 
+## Obsidian resources
+
+`/obsidian/` lists the plugins, developer tools and community resources I maintain or contribute to, with descriptions and a local text filter. `/obsidian/resources.json` exposes the same generated catalogue for completeness checks and other consumers.
+
+The editorial snapshot in `src/data/obsidian-resources.json` preserves third-party contributions, roles, old plugin names and retired replacements. At build time, public non-fork repositories named `obsidian-*`, `create-obsidian-plugin` or `generator-obsidian-plugin` are discovered from GitHub, excluding empty repositories, demo vaults and the explicit sample, reproduction and index exclusions in `src/utils/getObsidianResources.ts`. The community vault is already listed under Community. Existing entries gain the current repository description, archive status and documentation homepage; new entries use `manifest.json` to distinguish plugins from tools. New owned projects therefore appear on the next daily build without editing the roster. Add third-party contributions and editorial details to the JSON snapshot, including projects whose public repository is still empty. GitHub failures stop CI; local offline builds retain the snapshot. Network work runs at most two requests concurrently.
+
 ## Obsidian digest
 
 `/obsidian-digest/` is a monthly digest of what I shipped for Obsidian: new plugins and tools, and the features worth knowing about. It has an index of every issue and its own feed at `/obsidian-digest/rss.xml`, and the header links it once one issue is published.

@@ -5,6 +5,7 @@ import {
   type ProjectGroup,
 } from "@/constants";
 import { SITE } from "@/config";
+import { mapConcurrent } from "./mapConcurrent";
 
 // The hub collects its own project list: every repo of the owner whose GitHub
 // homepage is a site under https://mnaoumov.dev/ is listed, so a new site shows
@@ -70,12 +71,14 @@ const TITLE_WORDS: Record<string, string> = {
 
 const HOMEPAGE_CHECK_ATTEMPTS = 3;
 
-interface GitHubRepo {
+export interface GitHubRepo {
   name: string;
   description: string | null;
   homepage: string | null;
   archived: boolean;
   fork: boolean;
+  default_branch: string;
+  size: number;
 }
 
 interface NpmPackument {
@@ -85,6 +88,12 @@ interface NpmPackument {
 }
 
 let projectsPromise: Promise<Project[]> | undefined;
+let reposPromise: Promise<GitHubRepo[]> | undefined;
+
+export function getOwnerRepos(): Promise<GitHubRepo[]> {
+  reposPromise ??= fetchRepos();
+  return reposPromise;
+}
 
 export default function getProjects(): Promise<Project[]> {
   projectsPromise ??= loadProjects();
@@ -138,27 +147,25 @@ function compareProjects(a: Project, b: Project): number {
 }
 
 async function loadRepoProjects(): Promise<Project[]> {
-  const repos = (await fetchRepos()).filter(
+  const repos = (await getOwnerRepos()).filter(
     repo => !repo.fork && isSiteHomepage(repo.homepage)
   );
 
-  const projects = await Promise.all(
-    repos.map(async repo => {
-      const override = OVERRIDES[repo.name] ?? {};
-      const deprecation = await fetchNpmDeprecation(repo.name);
-      const project: Project = {
-        title: override.title ?? toTitle(repo.name),
-        href: repo.homepage ?? "",
-        description:
-          override.description ?? deprecation ?? repo.description ?? "",
-        group: override.group ?? groupOf(repo.name),
-      };
-      if (override.retired || repo.archived || deprecation !== undefined) {
-        project.retired = { replacements: [] };
-      }
-      return { repo, override, project };
-    })
-  );
+  const projects = await mapConcurrent(repos, async repo => {
+    const override = OVERRIDES[repo.name] ?? {};
+    const deprecation = await fetchNpmDeprecation(repo.name);
+    const project: Project = {
+      title: override.title ?? toTitle(repo.name),
+      href: repo.homepage ?? "",
+      description:
+        override.description ?? deprecation ?? repo.description ?? "",
+      group: override.group ?? groupOf(repo.name),
+    };
+    if (override.retired || repo.archived || deprecation !== undefined) {
+      project.retired = { replacements: [] };
+    }
+    return { repo, override, project };
+  });
 
   const byName = new Map(
     projects.map(({ repo, project }) => [repo.name, project])
@@ -267,9 +274,10 @@ function toTitle(repoName: string): string {
 
 async function checkHomepages(urls: string[]): Promise<void> {
   const failures = (
-    await Promise.all(
-      urls.map(async url => ({ url, status: await checkHomepage(url) }))
-    )
+    await mapConcurrent(urls, async url => ({
+      url,
+      status: await checkHomepage(url),
+    }))
   ).filter(({ status }) => status !== 200);
   if (failures.length === 0) {
     return;

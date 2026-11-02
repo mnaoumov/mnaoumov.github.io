@@ -1,0 +1,437 @@
+[
+  {
+    "title": "Address Map Links",
+    "href": "https://github.com/mnaoumov/obsidian-address-map-links",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Renders address properties as live map links when a note is read, without storing anything in the note."
+  },
+  {
+    "title": "Advanced Debug Mode",
+    "href": "https://github.com/mnaoumov/obsidian-advanced-debug-mode",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Enhances debugging experience."
+  },
+  {
+    "title": "Advanced Exclude",
+    "href": "https://github.com/mnaoumov/obsidian-advanced-exclude",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Enhances the Excluded files setting bringing gitignore syntax."
+  },
+  {
+    "title": "Advanced Markdown Export",
+    "href": "https://github.com/mnaoumov/obsidian-advanced-markdown-export",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Export notes with their attachments and linked notes, picked in a dependency tree."
+  },
+  {
+    "title": "Advanced Metadata Cache",
+    "href": "https://github.com/mnaoumov/obsidian-advanced-metadata-cache",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Maintains the vault indexes that are otherwise rebuilt on every call, and answers the built-in lookups from them, so backlinks come from an index instead of a fresh scan of every note."
+  },
+  {
+    "title": "Advanced Note Composer",
+    "href": "https://github.com/mnaoumov/obsidian-advanced-note-composer",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Enhances Note composer core plugin."
+  },
+  {
+    "title": "Advanced Rename and Delete Handler",
+    "href": "https://github.com/mnaoumov/obsidian-advanced-rename-and-delete-handler",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Handles renames and deletes for the whole vault in one place: updates links, moves attachment files and folders, and cleans up what a deletion leaves behind."
+  },
+  {
+    "title": "Alias Quick Switcher",
+    "href": "https://github.com/mnaoumov/obsidian-alias-quick-switcher",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Quick switcher that resolves aliases in every path segment, folder notes included."
+  },
+  {
+    "title": "App Update Notifier",
+    "href": "https://github.com/mnaoumov/obsidian-app-update-notifier",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Notifies you about new app, beta and installer releases — not plugin updates — even when auto-update is disabled. It never installs anything."
+  },
+  {
+    "title": "Backlink Cache",
+    "href": "https://github.com/mnaoumov/obsidian-backlink-cache",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Points to its successor, Advanced Metadata Cache, and does nothing else.",
+    "retired": true,
+    "replacements": [
+      {
+        "title": "Advanced Metadata Cache",
+        "href": "https://github.com/mnaoumov/obsidian-advanced-metadata-cache"
+      }
+    ]
+  },
+  {
+    "title": "Backlink Full Path",
+    "href": "https://github.com/mnaoumov/obsidian-backlink-full-path",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Shows the backlink's full path in the backlinks panel."
+  },
+  {
+    "title": "Bases Auto Row Height",
+    "href": "https://github.com/mnaoumov/obsidian-bases-auto-row-height",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Adds an Auto row height to Bases table views, so each row grows to fit its content like a Markdown table."
+  },
+  {
+    "title": "Better Markdown Links",
+    "href": "https://github.com/mnaoumov/obsidian-better-markdown-links",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Adds support for angle bracket links, manages relative links properly, converts links in bulk, and demotes embeds to plain links."
+  },
+  {
+    "title": "CodeScript Toolkit",
+    "href": "https://github.com/mnaoumov/obsidian-codescript-toolkit",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Allows to do a lot of things with JavaScript/TypeScript scripts from inside the app.",
+    "previousName": "Fix Require Modules"
+  },
+  {
+    "title": "Consistent Attachments and Links",
+    "href": "https://github.com/dy-sh/obsidian-consistent-attachments-and-links",
+    "group": "plugins",
+    "role": "Maintainer",
+    "description": "Reports every link whose written path does not lead to its target and every misplaced attachment, and repairs names and paths that a platform your vault syncs to would reject."
+  },
+  {
+    "title": "Custom Attachment location",
+    "href": "https://github.com/mnaoumov/obsidian-custom-attachment-location",
+    "group": "plugins",
+    "role": "Maintainer",
+    "description": "Customize attachment location with variables({{noteFileName}}, {{date:format}}, etc) like typora."
+  },
+  {
+    "title": "Edit Link Alias",
+    "href": "https://github.com/mnaoumov/obsidian-edit-link-alias",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Adds edit link alias command."
+  },
+  {
+    "title": "Email to Vault",
+    "href": "https://github.com/mnaoumov/obsidian-email-to-vault",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Sends emails to your vault as notes. Create a free mailbox with one click — no backend or paid service required."
+  },
+  {
+    "title": "Embed HTML",
+    "href": "https://github.com/mnaoumov/obsidian-embed-html",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Adds support for embedding HTML files."
+  },
+  {
+    "title": "Explorer Multi-Select",
+    "href": "https://github.com/mnaoumov/obsidian-explorer-multi-select",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Select many files and folders in the File explorer with ease: a touch selection mode, keyboard selection, select by rule and batch actions."
+  },
+  {
+    "title": "External Rename Handler",
+    "href": "https://github.com/mnaoumov/obsidian-external-rename-handler",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Handles renames made outside of the app."
+  },
+  {
+    "title": "File Bundles",
+    "href": "https://github.com/mnaoumov/obsidian-file-bundles",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Declare which files and folders a file depends on, and move, rename, duplicate or delete them as one locked bundle."
+  },
+  {
+    "title": "File Explorer Reload",
+    "href": "https://github.com/mnaoumov/obsidian-file-explorer-reload",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Reloads file explorer pane."
+  },
+  {
+    "title": "Fix Tab Size",
+    "href": "https://github.com/mnaoumov/obsidian-fix-tab-size",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Makes one indent insert as many spaces as your configured Indent visual width, instead of a hardcoded four."
+  },
+  {
+    "title": "Frontmatter Markdown Links",
+    "href": "https://github.com/mnaoumov/obsidian-frontmatter-markdown-links",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Adds support for markdown links in frontmatter."
+  },
+  {
+    "title": "Importer",
+    "href": "https://github.com/obsidianmd/obsidian-importer",
+    "group": "plugins",
+    "role": "Contributor",
+    "description": "Import notes from other apps into Obsidian."
+  },
+  {
+    "title": "Indexed Search",
+    "href": "https://github.com/mnaoumov/obsidian-indexed-search",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Makes core Search fast on large vaults, with the same results, through a trigram index kept in IndexedDB."
+  },
+  {
+    "title": "Insert Multiple Attachments",
+    "href": "https://github.com/mnaoumov/obsidian-insert-multiple-attachments",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Allows to insert multiple attachments at a time."
+  },
+  {
+    "title": "Labelled Links",
+    "href": "https://github.com/mnaoumov/obsidian-labelled-links",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Label your links: give each link a relation, show the inverse relation from the other end, and browse every relation of a note in one pane."
+  },
+  {
+    "title": "Link Picker",
+    "href": "https://github.com/mnaoumov/obsidian-link-picker",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Pick a note by navigating folders and insert a link to it, from a command or from your own scripts."
+  },
+  {
+    "title": "More Events",
+    "href": "https://github.com/mnaoumov/obsidian-more-events",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Publishes named, typed workspace events the public API does not expose, so other plugins can react without patching internals. A growing set, starting with core and community plugins being enabled and disabled."
+  },
+  {
+    "title": "Nested Properties",
+    "href": "https://github.com/mnaoumov/obsidian-nested-properties",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Allows to view/edit nested frontmatter properties."
+  },
+  {
+    "title": "New Note Fixer",
+    "href": "https://github.com/mnaoumov/obsidian-new-note-fixer",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Unifies the way non-existing notes are created when clicking on their links."
+  },
+  {
+    "title": "Permanent Links",
+    "href": "https://github.com/mnaoumov/obsidian-permanent-links",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Give a note or an attachment a permanent key on request, and open it through a link that keeps working wherever the file moves."
+  },
+  {
+    "title": "Preserve Frontmatter Formatting",
+    "href": "https://github.com/mnaoumov/obsidian-preserve-frontmatter-formatting",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Keeps the formatting of your YAML front matter - comments, quoting, blank lines, indentation and inline lists - when any plugin edits a property."
+  },
+  {
+    "title": "Refresh Any View",
+    "href": "https://github.com/mnaoumov/obsidian-refresh-any-view",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Allows to refresh any view without reopening it.",
+    "previousName": "Refresh Preview"
+  },
+  {
+    "title": "Root Folder Context Menu",
+    "href": "https://github.com/mnaoumov/obsidian-root-folder-context-menu",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Enables context menu for vault root folder."
+  },
+  {
+    "title": "Sibling Notes",
+    "href": "https://github.com/mnaoumov/obsidian-sibling-notes",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Step through the notes of a folder in File explorer order, with a navigator bar above and below the note and a folder map."
+  },
+  {
+    "title": "Smart Rename",
+    "href": "https://github.com/mnaoumov/obsidian-smart-rename",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Renames notes keeping previous title in existing links."
+  },
+  {
+    "title": "Tag Notes",
+    "href": "https://github.com/mnaoumov/obsidian-tag-notes",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Make every tag a note: tag a note by linking it, with a tag hierarchy, a tag tree with counts, subtree search and a migration from existing tags."
+  },
+  {
+    "title": "Vault Problems",
+    "href": "https://github.com/mnaoumov/obsidian-vault-problems",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Catches a broken link or a broken frontmatter the moment it breaks, fixes what is unambiguous, and lists every vault problem in one view with quick fixes."
+  },
+  {
+    "title": "Create Obsidian Plugin",
+    "href": "https://github.com/mnaoumov/create-obsidian-plugin",
+    "group": "tools",
+    "role": "Author",
+    "description": "Create Obsidian plugin from modern templates."
+  },
+  {
+    "title": "eslint-plugin-obsidianmd",
+    "href": "https://github.com/obsidianmd/eslint-plugin",
+    "group": "tools",
+    "role": "Contributor",
+    "description": "ESLint rules for Obsidian plugins."
+  },
+  {
+    "title": "Obsidian API",
+    "href": "https://github.com/obsidianmd/obsidian-api",
+    "group": "tools",
+    "role": "Contributor",
+    "description": "Public API declarations and sample code for plugin developers."
+  },
+  {
+    "title": "Obsidian Dataview Types",
+    "href": "https://github.com/mnaoumov/obsidian-dataview-types",
+    "group": "tools",
+    "role": "Author",
+    "description": "Obsidian Dataview Types"
+  },
+  {
+    "title": "Obsidian Dev Toolkit",
+    "href": "https://github.com/mnaoumov/obsidian-dev-toolkit",
+    "group": "tools",
+    "role": "Author",
+    "description": "Tooling for Obsidian plugin development: the plugin builder for esbuild, vite, rollup, webpack and parcel, shared ESLint/Vitest configs, demo vaults and the release script."
+  },
+  {
+    "title": "Obsidian Dev Utils",
+    "href": "https://github.com/mnaoumov/obsidian-dev-utils",
+    "group": "tools",
+    "role": "Author",
+    "description": "Obsidian Dev Utils",
+    "retired": true,
+    "replacements": [
+      {
+        "title": "Obsidian Lib",
+        "href": "https://github.com/mnaoumov/obsidian-lib"
+      },
+      {
+        "title": "Obsidian Dev Toolkit",
+        "href": "https://github.com/mnaoumov/obsidian-dev-toolkit"
+      }
+    ]
+  },
+  {
+    "title": "Obsidian Extended Typings",
+    "href": "https://github.com/obsidian-typings/obsidian-typings",
+    "group": "tools",
+    "role": "Maintainer",
+    "description": "Extended type definitions for the Obsidian API (https://obsidian.md)."
+  },
+  {
+    "title": "Obsidian Integration Testing",
+    "href": "https://github.com/mnaoumov/obsidian-integration-testing",
+    "group": "tools",
+    "role": "Author",
+    "description": "Integration testing of Obsidian plugins inside a real Obsidian: any version, desktop or Android, driven by tests or by a coding agent."
+  },
+  {
+    "title": "Obsidian Lib",
+    "href": "https://github.com/mnaoumov/obsidian-lib",
+    "group": "tools",
+    "role": "Author",
+    "description": "Runtime library for Obsidian plugin development: plugin base classes, components, settings, modals, vault and metadata helpers."
+  },
+  {
+    "title": "Obsidian Plugin Yeoman Generator",
+    "href": "https://github.com/mnaoumov/generator-obsidian-plugin",
+    "group": "tools",
+    "role": "Author",
+    "description": "Obsidian Plugin Bootstrap",
+    "retired": true,
+    "replacements": [
+      {
+        "title": "Create Obsidian Plugin",
+        "href": "https://github.com/mnaoumov/create-obsidian-plugin"
+      }
+    ]
+  },
+  {
+    "title": "Obsidian Test Mocks",
+    "href": "https://github.com/mnaoumov/obsidian-test-mocks",
+    "group": "tools",
+    "role": "Author",
+    "description": "Comprehensive test mocks for the Obsidian API."
+  },
+  {
+    "title": "Sample Plugin Extended",
+    "href": "https://github.com/mnaoumov/obsidian-sample-plugin-extended",
+    "group": "tools",
+    "role": "Author",
+    "description": "Extended starter template demonstrating Obsidian plugin development."
+  },
+  {
+    "title": "Obsidian Developer Docs",
+    "href": "https://github.com/obsidianmd/obsidian-developer-docs",
+    "group": "community",
+    "role": "Contributor",
+    "description": "Guides and reference documentation for developing Obsidian plugins and themes."
+  },
+  {
+    "title": "Obsidian Forum - Developers: Plugin & API",
+    "href": "https://forum.obsidian.md/c/developers-api/14",
+    "group": "community",
+    "role": "Contributor",
+    "description": "Ask questions and discuss plugin development with the community."
+  },
+  {
+    "title": "Obsidian Help",
+    "href": "https://github.com/obsidianmd/obsidian-help",
+    "group": "community",
+    "role": "Contributor",
+    "description": "Official documentation for using Obsidian."
+  },
+  {
+    "title": "Russian-speaking Telegram Community \"Obsidian Chat\" (Obsidian Чат)",
+    "href": "https://t.me/obsidian_z",
+    "group": "community",
+    "role": "Maintainer",
+    "description": "Resources and conversation for the Russian-speaking Obsidian community.",
+    "language": "Russian"
+  },
+  {
+    "title": "Russian-speaking Knowledge Base of \"Obsidian Chat\" Community (База знаний сообщества \"Obsidian Чат\")",
+    "href": "https://github.com/mnaoumov/obsidian-community-vault",
+    "group": "community",
+    "role": "Author",
+    "description": "База знаний сообщества \"Obsidian Чат\"",
+    "language": "Russian"
+  }
+]
