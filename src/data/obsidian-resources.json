@@ -183,6 +183,13 @@
     "description": "Adds support for markdown links in frontmatter."
   },
   {
+    "title": "Hotkey Fallback",
+    "href": "https://github.com/mnaoumov/obsidian-hotkey-fallback",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Runs the next command sharing a hotkey when the first command is unavailable."
+  },
+  {
     "title": "Importer",
     "href": "https://github.com/obsidianmd/obsidian-importer",
     "group": "plugins",
