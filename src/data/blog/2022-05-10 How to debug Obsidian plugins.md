@@ -9,7 +9,7 @@ tagLinks:
   - "[browser](<../Tags/browser.md>)"
 pubDatetime: 2022-05-10T11:08:43-06:00
 created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:59-06:00
+updated: 2026-11-03T10:21:00-06:00
 title: "How to debug Obsidian plugins"
 disabled rules:
   - yaml-title
@@ -19,6 +19,8 @@ url:
 ---
 
 # 2022-05-10 How to debug Obsidian plugins
+
+> **Update, November 2026:** For TypeScript breakpoints in VS Code, see [Debugging Obsidian plugins in VS Code](https://mnaoumov.dev/posts/2026-11-03-debugging-obsidian-plugins-in-vs-code/) and the maintained [Obsidian Dev Toolkit debugging guide](https://mnaoumov.dev/obsidian-dev-toolkit/guides/debugging/). The original DevTools walkthrough follows below.
 
 Hi folks
 
