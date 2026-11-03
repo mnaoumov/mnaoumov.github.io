@@ -12,14 +12,16 @@
     "lint": "jiti scripts/lint.ts",
     "pre-push": "jiti scripts/pre-push.ts",
     "prepare": "husky",
+    "prepare:content": "jiti scripts/prepare-content.ts",
     "preview": "jiti scripts/preview.ts",
     "sync": "jiti scripts/sync.ts",
-    "sync:posts": "jiti scripts/sync-posts.ts"
+    "sync:posts": "jiti scripts/sync-posts.ts",
+    "test:hooks": "jiti scripts/pre-push.test.ts"
   },
   "overrides": {
+    "esbuild": "$esbuild",
     "fflate": "^0.8.3",
     "postcss-selector-parser": "^7.1.6",
-    "esbuild": "$esbuild",
     "vite": "$vite",
     "yaml": "$yaml"
   },

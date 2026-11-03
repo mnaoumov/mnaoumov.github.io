@@ -4,6 +4,14 @@ Personal programming blog by Michael Naumov. Writing about TypeScript, PowerShel
 
 Built with [Astro](https://astro.build/) and [AstroPaper](https://github.com/satnaing/astro-paper) theme.
 
+## Publishing content
+
+1. Run `npm run prepare:content` on the author's machine to sync posts from `F:/Obsidian/Blogs/mnaoumov.dev/Posts` and generate their OG images. This writes `src/data/blog/` and `public/posts/` but does not stage files or create commits.
+2. Review the generated changes, stage the intended files and commit them.
+3. Run `git push`. The pre-push hook validates the site with `npm run build`. It does not sync posts, change tracked content or create commits, so the commit selected by Git is the one pushed. Ordinary pushes do not require the vault.
+
+`npm run sync:posts` copies posts only. `npm run test:hooks` checks the pre-push validation contract without building the site.
+
 ## Project list
 
 The home page's project list collects itself at build time (`src/utils/getProjects.ts`):
