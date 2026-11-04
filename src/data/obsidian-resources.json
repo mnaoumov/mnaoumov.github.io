@@ -183,6 +183,13 @@
     "description": "Adds support for markdown links in frontmatter."
   },
   {
+    "title": "Hotkey Cleaner",
+    "href": "https://github.com/mnaoumov/obsidian-hotkey-cleaner",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Finds hotkeys whose command no longer exists, and lets you remove, remap or keep each one."
+  },
+  {
     "title": "Hotkey Fallback",
     "href": "https://github.com/mnaoumov/obsidian-hotkey-fallback",
     "group": "plugins",
