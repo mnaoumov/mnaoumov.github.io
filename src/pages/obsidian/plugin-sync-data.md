@@ -42,10 +42,14 @@ A vault that already synchronized this data with an earlier version of the plugi
 
 1. Update the plugin on every device first. Older versions do not understand a moved folder.
 2. In **Original name storage**, set **Plugin data folder** to a path inside the vault, such as `99-Meta/Plugin sync data`. To use a hidden folder such as `99-Meta/.plugin-data`, which only external sync tools can carry, also turn on **Allow hidden plugin data folders**.
-3. Choose **Apply folder**.
+3. Choose **Apply folder**, on one device only.
+
+You do not need to repeat the move on your other devices. The plugin records the move in the original folder, and every device that has synchronization turned on reads that record and switches to the new folder by itself, as soon as its sync tool delivers it. Applying the same path on another device does no harm, but applying a different path there before the first move arrives is refused.
 
 The plugin copies its own data to the new place and checks the copy. It refuses to go on if the new place already holds different data, rather than overwrite either one. If the move is interrupted, let the files finish synchronizing and choose **Apply folder** again with the same path.
 
 Moving changes where new data is written. The old folder stays, and a device that was offline can still deliver data into it, so **keep every folder the plugin lists in its settings synchronized**, permanently. The plugin never deletes an old folder by itself.
+
+**Never delete the original folder** (`@Plugin sync data (DO NOT REMOVE)`, or `Plugin data` in a vault that started on an earlier version), even once every device has switched. It is where every device, including one you add later, looks first to find out where the data went.
 
 The plugin's [full documentation](https://github.com/mnaoumov/obsidian-custom-attachment-location/blob/main/docs/original-name-storage.md) covers the details, including recovery.
