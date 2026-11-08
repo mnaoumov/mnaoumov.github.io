@@ -183,6 +183,13 @@
     "description": "Adds support for markdown links in frontmatter."
   },
   {
+    "title": "Dataview Pagination",
+    "href": "https://github.com/mnaoumov/obsidian-dataview-pagination",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Adds pagination to Dataview tables and lists."
+  },
+  {
     "title": "Hotkey Cleaner",
     "href": "https://github.com/mnaoumov/obsidian-hotkey-cleaner",
     "group": "plugins",
