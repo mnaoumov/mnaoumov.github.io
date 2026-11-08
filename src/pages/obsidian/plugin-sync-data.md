@@ -24,6 +24,8 @@ The folder is only useful if every device that uses the vault receives it.
 - **Obsidian Sync:** turn on **Sync all other types** in **Settings → Sync** on every device, because the history is stored as JSON files. Restart Obsidian after changing Sync settings. See [Obsidian Sync settings](https://help.obsidian.md/sync/settings).
 - **Git, WebDAV or another tool:** make sure it includes JSON files and the folder itself, on every device. If you moved the folder into a hidden folder (one whose name starts with a dot), check that your tool synchronizes hidden folders too.
 
+`Custom Attachment Location` checks the Obsidian Sync settings on the device you set it up on, but it cannot check your other devices, so check those yourself.
+
 Hiding the folder from Obsidian's search, described next, does not stop it from synchronizing. The two are separate settings.
 
 ## Why it is in Excluded files
@@ -37,6 +39,12 @@ The plugin adds the folder to **Settings → Files and links → Excluded files*
 The plugin writes to the folder only after you turn synchronization on, in **Settings → `Custom Attachment Location` → Original name storage**. Until then it keeps the names on this device only, and creates no folder. Each device opts in on its own, even if the plugin's settings arrive through sync.
 
 A vault that already synchronized this data with an earlier version of the plugin keeps using the folder those versions used, `Plugin data`, so devices on one vault never split their history between two folders.
+
+### When to turn it on
+
+Turn synchronization on only when another device uses the vault **and** a template reads `{{originalAttachmentFileName}}`. On a single device, local history already keeps that token stable.
+
+The **Original name storage** page tells each device which case it is in. **Set up Obsidian Sync** checks this device's Sync connection and its **Sync all other types** and **Excluded folders** settings, and refuses when they would keep the history from synchronizing. **Set up external sync** is always available, for Git, Syncthing, iCloud or WebDAV, because the plugin cannot see those tools.
 
 ### Moving the folder
 
