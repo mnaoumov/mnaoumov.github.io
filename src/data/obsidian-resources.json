@@ -204,13 +204,6 @@
     "description": "Runs the next command sharing a hotkey when the first command is unavailable."
   },
   {
-    "title": "Importer",
-    "href": "https://github.com/obsidianmd/obsidian-importer",
-    "group": "plugins",
-    "role": "Contributor",
-    "description": "Import notes from other apps into Obsidian."
-  },
-  {
     "title": "Indexed Search",
     "href": "https://github.com/mnaoumov/obsidian-indexed-search",
     "group": "plugins",
