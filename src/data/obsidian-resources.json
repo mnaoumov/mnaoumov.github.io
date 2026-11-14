@@ -303,6 +303,13 @@
     "description": "Renames notes keeping previous title in existing links."
   },
   {
+    "title": "Table Pagination",
+    "href": "https://github.com/mnaoumov/obsidian-table-pagination",
+    "group": "plugins",
+    "role": "Author",
+    "description": "Pages big Markdown tables in Reading view and Live Preview, so notes holding them open fast."
+  },
+  {
     "title": "Tag Notes",
     "href": "https://github.com/mnaoumov/obsidian-tag-notes",
     "group": "plugins",
