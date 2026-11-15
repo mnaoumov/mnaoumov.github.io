@@ -1,6 +1,6 @@
 ---
 description: Documents undocumented Type parameter behavior in Set-ItemProperty and how to correctly read and write typed registry values.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[registry](<../Tags/registry.md>)"

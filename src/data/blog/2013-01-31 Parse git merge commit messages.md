@@ -1,6 +1,6 @@
 ---
 description: PowerShell function with regex patterns to parse git's auto-generated merge commit messages and extract branch names.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[powershell](<../Tags/powershell.md>)"

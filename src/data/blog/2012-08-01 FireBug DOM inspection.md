@@ -1,6 +1,6 @@
 ---
 description: "Highlights Firebug's $0 and $1 command-line variables for referencing recently inspected DOM elements."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[firebug](<../Tags/firebug.md>)"
   - "[debugging](<../Tags/debugging.md>)"

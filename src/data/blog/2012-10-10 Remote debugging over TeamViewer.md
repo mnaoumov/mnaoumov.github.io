@@ -1,6 +1,6 @@
 ---
 description: Step-by-step guide to setting up Visual Studio remote debugging over a TeamViewer VPN connection.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[debugging](<../Tags/debugging.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"

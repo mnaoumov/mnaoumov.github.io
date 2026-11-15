@@ -1,6 +1,6 @@
 ---
 description: "Enabling the Chrome DevTools setting 'Search in anonymous and content scripts' allows searching inside dynamically eval-loaded JavaScript."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[browser](<../Tags/browser.md>)"
   - "[debugging](<../Tags/debugging.md>)"

@@ -1,6 +1,6 @@
 ---
 description: "Links to an improved open-source Space Cadet Pinball remake for Windows and an Android APK port with optional custom Russian sounds."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[gaming](<../Tags/gaming.md>)"
   - "[android](<../Tags/android.md>)"

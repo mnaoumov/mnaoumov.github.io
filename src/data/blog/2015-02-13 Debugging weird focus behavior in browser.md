@@ -1,6 +1,6 @@
 ---
 description: Technique for debugging unexpected focus changes by monkey-patching HTMLElement.prototype.focus with a debugger breakpoint.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[debugging](<../Tags/debugging.md>)"

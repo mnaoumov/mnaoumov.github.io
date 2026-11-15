@@ -1,6 +1,6 @@
 ---
 description: HFS (HTTP File Server) is a reliable free tool for peer-to-peer large file transfers, after uTorrent Remote and JustBeamIt both failed.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[file-sharing](<../Tags/file-sharing.md>)"
   - "[networking](<../Tags/networking.md>)"

@@ -1,6 +1,6 @@
 ---
 description: "A curated list of best-in-class tools for notes, photos, ebooks, music, and local file search chosen for their organizational depth."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[obsidian](<../Tags/obsidian.md>)"
   - "[adobe-lightroom](<../Tags/adobe-lightroom.md>)"

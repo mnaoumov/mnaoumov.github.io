@@ -1,6 +1,6 @@
 ---
 description: Bug report for NUnit console failing when error messages contain invalid XML characters such as null bytes.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[nunit](<../Tags/nunit.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

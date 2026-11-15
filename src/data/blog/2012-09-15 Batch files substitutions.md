@@ -1,6 +1,6 @@
 ---
 description: "Reference for batch file FOR variable substitution modifiers like %~f, %~d, %~p to extract path components."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[batch-files](<../Tags/batch-files.md>)"
   - "[windows](<../Tags/windows.md>)"

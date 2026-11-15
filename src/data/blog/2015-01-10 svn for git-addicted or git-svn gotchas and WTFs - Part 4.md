@@ -1,6 +1,6 @@
 ---
 description: Comparing SubGit and SmartGit for git-svn bridging, and using git filter-branch to rewrite SVN author history.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[svn](<../Tags/svn.md>)"

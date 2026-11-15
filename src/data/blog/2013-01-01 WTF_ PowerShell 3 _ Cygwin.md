@@ -1,6 +1,6 @@
 ---
 description: PowerShell -Version 2 flag is ignored when launched from Cygwin, always running PowerShell 3 instead.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[cygwin](<../Tags/cygwin.md>)"

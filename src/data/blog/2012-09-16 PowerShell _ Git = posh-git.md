@@ -1,6 +1,6 @@
 ---
 description: "Installing and configuring posh-git for PowerShell tab completion with Git, including a fix for slow prompt performance."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[git](<../Tags/git.md>)"

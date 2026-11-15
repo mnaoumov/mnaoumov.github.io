@@ -1,6 +1,6 @@
 ---
 description: "How to launch Git Extensions GUI from the command line on Windows by creating a custom git alias script."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-extensions](<../Tags/git-extensions.md>)"

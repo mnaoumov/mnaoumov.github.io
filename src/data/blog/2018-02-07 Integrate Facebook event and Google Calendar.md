@@ -1,6 +1,6 @@
 ---
 description: Use eventcal.flown.io to generate a webcal URL from Facebook events and subscribe to it in Google Calendar, filtering by RSVP status.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[google-calendar](<../Tags/google-calendar.md>)"
   - "[facebook](<../Tags/facebook.md>)"

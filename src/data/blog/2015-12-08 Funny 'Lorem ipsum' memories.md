@@ -1,6 +1,6 @@
 ---
 description: A brief anecdote about mistaking lorem ipsum placeholder text for Dutch language on the first encounter in a codebase.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[anecdote](<../Tags/anecdote.md>)"
 pubDatetime: 2015-12-08T00:00:00-07:00

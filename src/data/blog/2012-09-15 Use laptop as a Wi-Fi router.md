@@ -1,6 +1,6 @@
 ---
 description: "Guide to turning a Windows laptop into a Wi-Fi hotspot using netsh hosted network commands, with a Windows 8 driver fix."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[windows](<../Tags/windows.md>)"
   - "[networking](<../Tags/networking.md>)"

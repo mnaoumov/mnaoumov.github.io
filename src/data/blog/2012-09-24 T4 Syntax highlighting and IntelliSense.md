@@ -1,6 +1,6 @@
 ---
 description: "Third-party Visual Studio extensions for T4 syntax highlighting and IntelliSense, with a note on Visual Studio 2012 gaps."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[t4](<../Tags/t4.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"

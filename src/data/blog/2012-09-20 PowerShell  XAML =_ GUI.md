@@ -1,6 +1,6 @@
 ---
 description: "How to build a WPF GUI window in PowerShell using XAML, with a note on the STA threading requirement for PowerShell 2."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[wpf](<../Tags/wpf.md>)"

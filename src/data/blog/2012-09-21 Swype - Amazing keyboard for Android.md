@@ -1,6 +1,6 @@
 ---
 description: "Brief recommendation of the Swype swipe-based keyboard app for Android for faster typing."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[android](<../Tags/android.md>)"
   - "[keyboard](<../Tags/keyboard.md>)"

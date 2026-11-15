@@ -1,6 +1,6 @@
 ---
 description: "Explains how to sync arbitrary folders with Dropbox by creating symbolic links using Link Shell Extension."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[dropbox](<../Tags/dropbox.md>)"
   - "[symbolic-links](<../Tags/symbolic-links.md>)"

@@ -1,6 +1,6 @@
 ---
 description: C# regex approach to remove unpaired UTF-16 surrogate characters from strings to ensure valid Unicode output.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[csharp](<../Tags/csharp.md>)"
   - "[unicode](<../Tags/unicode.md>)"

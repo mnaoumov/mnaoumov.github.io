@@ -1,6 +1,6 @@
 ---
 description: Introduction to a git hooks repository that prevents ugly pull-merge commits from cluttering git history.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

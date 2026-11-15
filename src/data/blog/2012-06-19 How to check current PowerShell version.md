@@ -1,6 +1,6 @@
 ---
 description: "Shows how to check the current PowerShell version using the $Host.Version variable."
-tagLinks:
+keywords:
   - "[migrated-from-blogger](<../Tags/migrated-from-blogger.md>)"
   - "[powershell](<../Tags/powershell.md>)"
 pubDatetime: 2012-06-19T21:18:00-07:00

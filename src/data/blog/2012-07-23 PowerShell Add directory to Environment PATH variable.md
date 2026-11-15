@@ -1,6 +1,6 @@
 ---
 description: "PowerShell script to append a directory to the system PATH and broadcast the change to running processes without rebooting."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[windows](<../Tags/windows.md>)"

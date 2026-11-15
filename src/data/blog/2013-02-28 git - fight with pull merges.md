@@ -1,6 +1,6 @@
 ---
 description: How to eliminate pull-merge commits using pull --rebase, autosetuprebase, --preserve-merges, and rerere.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[rebase](<../Tags/rebase.md>)"

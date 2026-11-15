@@ -1,6 +1,6 @@
 ---
 description: "A JavaScript one-liner to hide WordPress advertisement banners in the browser, alongside recommending Adblock."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[browser](<../Tags/browser.md>)"

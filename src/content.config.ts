@@ -17,7 +17,7 @@ const blog = defineCollection({
         featured: z.boolean().optional(),
         draft: z.boolean().optional(),
         tags: z.array(z.string()).default(["others"]),
-        tagLinks: z.array(z.string()).optional(),
+        keywords: z.array(z.string()).optional(),
         ogImage: image().or(z.string()).optional(),
         description: z.string().default(""),
         canonicalURL: z.string().optional(),
@@ -31,8 +31,8 @@ const blog = defineCollection({
       .transform(data => ({
         ...data,
         pubDatetime: data.pubDatetime ?? new Date(0),
-        tags: data.tagLinks?.length
-          ? data.tagLinks.map(link => link.replace(/^\[([^\]]+)\].*$/, "$1"))
+        tags: data.keywords?.length
+          ? data.keywords.map(link => link.replace(/^\[([^\]]+)\].*$/, "$1"))
           : data.tags,
       })),
 });

@@ -1,6 +1,6 @@
 ---
 description: "Explains how to make MSBuild emit the intermediate .metaproj file when building a .sln solution by setting msbuildemitsolution=1."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[msbuild](<../Tags/msbuild.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"

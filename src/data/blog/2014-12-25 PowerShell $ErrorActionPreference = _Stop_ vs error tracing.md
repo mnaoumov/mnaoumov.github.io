@@ -1,6 +1,6 @@
 ---
 description: Why ErrorActionPreference Stop hides the true error line number and how trap { throw $Error[0] } fixes it.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[debugging](<../Tags/debugging.md>)"

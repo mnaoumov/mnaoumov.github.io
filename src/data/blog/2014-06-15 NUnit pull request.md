@@ -1,6 +1,6 @@
 ---
 description: Announcement of a pull request submitted to the NUnit framework to fix invalid XML character handling in test output.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[nunit](<../Tags/nunit.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

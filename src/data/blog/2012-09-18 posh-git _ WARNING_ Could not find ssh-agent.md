@@ -1,6 +1,6 @@
 ---
 description: "How to suppress the posh-git ssh-agent warning by commenting out Start-SshAgent in the profile script."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[git](<../Tags/git.md>)"

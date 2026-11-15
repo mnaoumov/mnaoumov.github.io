@@ -1,6 +1,6 @@
 ---
 description: Managing atomic commits and branch merging workflows when using git-svn to push changes back to Subversion.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[svn](<../Tags/svn.md>)"

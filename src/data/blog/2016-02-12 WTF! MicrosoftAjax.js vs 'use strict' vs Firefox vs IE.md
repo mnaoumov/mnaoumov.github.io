@@ -1,6 +1,6 @@
 ---
 description: Fixing a Firefox-only strict mode error in MicrosoftAjaxWebForms.js caused by window.event being undefined, requiring a cross-browser property descriptor hack.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[debugging](<../Tags/debugging.md>)"

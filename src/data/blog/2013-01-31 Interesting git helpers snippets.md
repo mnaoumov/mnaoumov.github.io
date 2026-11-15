@@ -1,6 +1,6 @@
 ---
 description: "PowerShell git helper snippets: get current branch, resolve refs, test fast-forward, find commit's originating branch."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[powershell](<../Tags/powershell.md>)"

@@ -1,6 +1,6 @@
 ---
 description: How to extract files and folders from a bare git repository using git archive, avoiding encoding and binary issues.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[powershell](<../Tags/powershell.md>)"

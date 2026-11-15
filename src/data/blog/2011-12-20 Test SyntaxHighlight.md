@@ -1,6 +1,6 @@
 ---
 description: "Test post confirming SyntaxHighlighter integration works on Blogger with a C# code sample."
-tagLinks:
+keywords:
   - "[migrated-from-blogger](<../Tags/migrated-from-blogger.md>)"
   - "[blogger](<../Tags/blogger.md>)"
   - "[syntax-highlighting](<../Tags/syntax-highlighting.md>)"

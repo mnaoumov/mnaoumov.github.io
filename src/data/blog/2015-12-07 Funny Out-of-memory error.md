@@ -1,6 +1,6 @@
 ---
 description: Accidentally opening a large file in Sublime Text via Total Commander's F4 key consumed all available RAM, causing VirtualBox to fail.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[debugging](<../Tags/debugging.md>)"
   - "[windows](<../Tags/windows.md>)"

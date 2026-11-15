@@ -1,6 +1,6 @@
 ---
 description: "How to enable PowerShell common parameters -Debug and -Verbose in custom scripts using CmdletBinding and DebugPreference."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[debugging](<../Tags/debugging.md>)"

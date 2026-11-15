@@ -1,6 +1,6 @@
 ---
 description: Completion of the git hooks suite with functional tests using PoshUnit and UI Automation PowerShell Extensions.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

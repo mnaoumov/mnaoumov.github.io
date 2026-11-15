@@ -1,6 +1,6 @@
 ---
 description: PowerShell function to query TeamCity REST API and detect broken builds, including currently running ones.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[teamcity](<../Tags/teamcity.md>)"

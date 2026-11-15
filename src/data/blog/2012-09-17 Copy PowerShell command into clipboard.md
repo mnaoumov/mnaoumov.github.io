@@ -1,6 +1,6 @@
 ---
 description: "One-liner to copy the last executed PowerShell command to the clipboard using Get-History and clip."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[clipboard](<../Tags/clipboard.md>)"

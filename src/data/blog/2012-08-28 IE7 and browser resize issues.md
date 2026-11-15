@@ -1,6 +1,6 @@
 ---
 description: "Documents IE7 positioning bugs triggered by browser resize and provides a CSS fix using position: relative on body."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[internet-explorer](<../Tags/internet-explorer.md>)"
   - "[css](<../Tags/css.md>)"

@@ -1,6 +1,6 @@
 ---
 description: Step-by-step derivation of a C# regex to strip or escape characters invalid in XML, handling UTF-16 surrogate pairs correctly.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[csharp](<../Tags/csharp.md>)"
   - "[xml](<../Tags/xml.md>)"

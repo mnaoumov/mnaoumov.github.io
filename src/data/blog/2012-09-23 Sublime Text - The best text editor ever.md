@@ -1,6 +1,6 @@
 ---
 description: "Introduction to Sublime Text as a developer-friendly editor, with tips on Package Control and PowerShell syntax highlighting."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sublime-text](<../Tags/sublime-text.md>)"
   - "[text-editor](<../Tags/text-editor.md>)"

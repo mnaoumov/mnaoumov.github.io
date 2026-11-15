@@ -1,6 +1,6 @@
 ---
 description: Retrospective on a NUnit v2 bug fix submitted before pull requests existed, credited only via a manual description.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[nunit](<../Tags/nunit.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

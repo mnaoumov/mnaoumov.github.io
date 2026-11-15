@@ -1,6 +1,6 @@
 ---
 description: A require.js plugin that loads dependencies from the top-level window so BlockUI works across iframe popups.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[jquery](<../Tags/jquery.md>)"

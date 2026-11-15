@@ -1,6 +1,6 @@
 ---
 description: "A real incident where a wrong-branch git reset --hard corrupted a release branch, with recovery steps for the team."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[debugging](<../Tags/debugging.md>)"

@@ -1,6 +1,6 @@
 ---
 description: Use the Sysinternals regjump tool installed via Chocolatey to open Registry Editor directly at any specified key path.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[windows](<../Tags/windows.md>)"
   - "[registry](<../Tags/registry.md>)"

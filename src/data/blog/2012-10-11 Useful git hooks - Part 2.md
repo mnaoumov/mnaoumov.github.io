@@ -1,6 +1,6 @@
 ---
 description: Adds a commit-msg hook that enforces TFS work item ID prefixes on all commit messages.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

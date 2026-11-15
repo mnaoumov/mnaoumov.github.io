@@ -1,6 +1,6 @@
 ---
 description: A 20-year journey through photo organization tools concluding with Adobe Lightroom Classic CC, PhotoStructure, AntiDupl.NET, ExifTool, and two key plugins.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[photo-management](<../Tags/photo-management.md>)"
   - "[adobe-lightroom](<../Tags/adobe-lightroom.md>)"

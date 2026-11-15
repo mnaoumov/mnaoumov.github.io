@@ -1,6 +1,6 @@
 ---
 description: First hands-on experience with git bisect to locate a regression in an ASP.NET WebForms GridView rendering bug.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[debugging](<../Tags/debugging.md>)"

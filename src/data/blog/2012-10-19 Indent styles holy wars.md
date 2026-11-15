@@ -1,6 +1,6 @@
 ---
 description: Discussion of Allman vs K&R brace styles across C#, JavaScript, CSS, and PowerShell.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[code-style](<../Tags/code-style.md>)"
   - "[csharp](<../Tags/csharp.md>)"

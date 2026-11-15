@@ -1,6 +1,6 @@
 ---
 description: Pattern for structuring PowerShell scripts with a Main function so core logic appears at the top before helper functions.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[scripting](<../Tags/scripting.md>)"

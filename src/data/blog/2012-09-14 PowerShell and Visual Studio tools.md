@@ -1,6 +1,6 @@
 ---
 description: "PowerShell script to import Visual Studio command prompt environment variables (vcvarsall.bat) into a PowerShell session."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"

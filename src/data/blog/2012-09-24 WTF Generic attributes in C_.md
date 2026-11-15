@@ -1,6 +1,6 @@
 ---
 description: "C# CLR limitation prevents generic types from deriving from Attribute, causing a CS0698 compile error."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[csharp](<../Tags/csharp.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

@@ -1,6 +1,6 @@
 ---
 description: "How to add a code-behind partial class to a T4 runtime template by manually editing the csproj file, with a Visual Studio add-in."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[t4](<../Tags/t4.md>)"
   - "[csharp](<../Tags/csharp.md>)"

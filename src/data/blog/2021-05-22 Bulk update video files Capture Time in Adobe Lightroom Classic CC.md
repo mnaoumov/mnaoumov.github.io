@@ -1,6 +1,6 @@
 ---
 description: Two methods for bulk-updating video capture time in Lightroom using ExifTool and the jb Video Metadata plugin, working around SDK limitations.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[adobe-lightroom](<../Tags/adobe-lightroom.md>)"
   - "[exiftool](<../Tags/exiftool.md>)"

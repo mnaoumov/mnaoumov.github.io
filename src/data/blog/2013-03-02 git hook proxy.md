@@ -1,6 +1,6 @@
 ---
 description: Final implementation of a PowerShell git hook proxy that extracts and runs hooks from the repo for both client and server sides.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

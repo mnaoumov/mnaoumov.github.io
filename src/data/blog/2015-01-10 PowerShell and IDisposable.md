@@ -1,6 +1,6 @@
 ---
 description: Implementing a PSUsing helper function in PowerShell that mimics C# using blocks for IDisposable objects.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

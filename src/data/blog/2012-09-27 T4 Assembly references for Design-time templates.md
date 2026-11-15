@@ -1,6 +1,6 @@
 ---
 description: "Common patterns for referencing assemblies in T4 design-time templates using GAC paths, absolute paths, and MSBuild variables."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[t4](<../Tags/t4.md>)"
   - "[code-generation](<../Tags/code-generation.md>)"

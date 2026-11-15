@@ -1,6 +1,6 @@
 ---
 description: "Pattern for self-updating git server-side hooks: a proxy script checks out hook code directly from the repository on each run."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

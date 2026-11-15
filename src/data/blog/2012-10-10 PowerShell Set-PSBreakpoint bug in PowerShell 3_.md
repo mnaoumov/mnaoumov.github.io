@@ -1,6 +1,6 @@
 ---
 description: "Bug report: Set-PSBreakpoint breakpoints are not hit when the script runs in a new PowerShell 3 process."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[debugging](<../Tags/debugging.md>)"

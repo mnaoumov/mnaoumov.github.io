@@ -1,6 +1,6 @@
 ---
 description: Working around SSMS truncation of nvarchar(max) strings during concatenation and result copying via FOR XML PATH.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sql-server](<../Tags/sql-server.md>)"
   - "[ssms](<../Tags/ssms.md>)"

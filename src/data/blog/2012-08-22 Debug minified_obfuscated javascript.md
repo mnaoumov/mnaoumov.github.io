@@ -1,6 +1,6 @@
 ---
 description: "Shows how to pretty-print and debug minified or obfuscated JavaScript in IE9+, Chrome 13+, and Firefox using built-in or plugin tools."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[debugging](<../Tags/debugging.md>)"

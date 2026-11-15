@@ -1,6 +1,6 @@
 ---
 description: PowerShell Write-Error always reports line 1 instead of the actual error location, with no clean workaround found.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[debugging](<../Tags/debugging.md>)"

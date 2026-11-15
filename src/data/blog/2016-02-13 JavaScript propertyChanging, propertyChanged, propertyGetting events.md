@@ -1,6 +1,6 @@
 ---
 description: A reusable JavaScript helper that wraps DOM element properties with CustomEvent-based propertyChanging, propertyChanged, and propertyGetting events.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[dom](<../Tags/dom.md>)"

@@ -1,6 +1,6 @@
 ---
 description: "Brief recommendation of Pluralsight as a professional screencast platform covering a wide range of technologies."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[learning](<../Tags/learning.md>)"
   - "[screencasts](<../Tags/screencasts.md>)"

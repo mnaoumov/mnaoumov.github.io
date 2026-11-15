@@ -1,6 +1,6 @@
 ---
 description: "Total Commander's Ignore List feature lets you exclude wildcard patterns from directory synchronization and other file operations."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[total-commander](<../Tags/total-commander.md>)"
   - "[file-management](<../Tags/file-management.md>)"

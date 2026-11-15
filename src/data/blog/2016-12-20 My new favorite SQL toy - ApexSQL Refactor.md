@@ -1,6 +1,6 @@
 ---
 description: ApexSQL Refactor is a highly configurable SQL formatter for SSMS, with a known bug that can incorrectly move SELECT statements inside IF blocks.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sql](<../Tags/sql.md>)"
   - "[ssms](<../Tags/ssms.md>)"

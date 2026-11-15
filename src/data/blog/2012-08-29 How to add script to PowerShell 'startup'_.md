@@ -1,6 +1,6 @@
 ---
 description: "Explains how to use a PowerShell profile script to automatically run commands on every PowerShell session start."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[windows](<../Tags/windows.md>)"

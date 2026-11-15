@@ -1,6 +1,6 @@
 ---
 description: "Brief mention of BugAid, a Visual Studio plugin for enhanced debugging features."
-tagLinks:
+keywords:
   - "[migrated-from-blogger](<../Tags/migrated-from-blogger.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"
   - "[debugging](<../Tags/debugging.md>)"

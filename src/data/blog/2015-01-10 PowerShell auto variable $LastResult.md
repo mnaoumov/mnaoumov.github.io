@@ -1,6 +1,6 @@
 ---
 description: Adding a $LastResult automatic variable to PowerShell by wrapping Out-Default to store the last pipeline output.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[scripting](<../Tags/scripting.md>)"

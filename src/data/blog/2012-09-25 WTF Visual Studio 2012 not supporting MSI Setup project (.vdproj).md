@@ -1,6 +1,6 @@
 ---
 description: "Visual Studio 2012 dropped .vdproj MSI setup project support; workaround options include WiX and InstallShield Limited Edition."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"
   - "[msi](<../Tags/msi.md>)"

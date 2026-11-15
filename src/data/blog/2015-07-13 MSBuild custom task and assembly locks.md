@@ -1,6 +1,6 @@
 ---
 description: Copying a custom MSBuild task assembly to a temp folder before loading it to prevent file locking after build.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[msbuild](<../Tags/msbuild.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

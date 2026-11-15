@@ -1,6 +1,6 @@
 ---
 description: A PowerShell wrapper for sqlcmd that maps batch-relative error line numbers back to the real script line.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sql-server](<../Tags/sql-server.md>)"
   - "[sqlcmd](<../Tags/sqlcmd.md>)"

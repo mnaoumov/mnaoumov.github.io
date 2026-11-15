@@ -1,6 +1,6 @@
 ---
 description: Explores PowerShell name collisions between XML attributes and .NET properties, and how PSBase and PSObject.Members resolve them.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"
