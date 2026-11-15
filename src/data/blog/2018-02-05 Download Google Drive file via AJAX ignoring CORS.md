@@ -1,6 +1,6 @@
 ---
 description: Using the cors-anywhere proxy to fetch a Google Drive download link via AJAX, bypassing the CORS restriction on the redirect.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[cors](<../Tags/cors.md>)"

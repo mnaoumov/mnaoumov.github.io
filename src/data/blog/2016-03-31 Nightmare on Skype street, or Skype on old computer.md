@@ -1,6 +1,6 @@
 ---
 description: Troubleshooting Skype on a 15-year-old Windows XP machine without SSE2 support, eventually resolved with a patched Skype 4.2 build.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[skype](<../Tags/skype.md>)"
   - "[windows](<../Tags/windows.md>)"

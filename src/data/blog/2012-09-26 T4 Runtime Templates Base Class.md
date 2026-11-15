@@ -1,6 +1,6 @@
 ---
 description: "Demonstrates extracting T4 runtime template auto-generated base class into a shared reusable C# base class for all templates."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[t4](<../Tags/t4.md>)"
   - "[csharp](<../Tags/csharp.md>)"

@@ -1,6 +1,6 @@
 ---
 description: A Stack Overflow question seeking community input on efficient techniques for debugging stored procedures in SQL Server Management Studio.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sql](<../Tags/sql.md>)"
   - "[ssms](<../Tags/ssms.md>)"

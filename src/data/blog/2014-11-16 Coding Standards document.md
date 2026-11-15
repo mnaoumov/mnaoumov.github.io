@@ -1,6 +1,6 @@
 ---
 description: A concise C# coding standards document with ReSharper configuration, covering access modifiers, var usage, and best practices.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"
   - "[csharp](<../Tags/csharp.md>)"

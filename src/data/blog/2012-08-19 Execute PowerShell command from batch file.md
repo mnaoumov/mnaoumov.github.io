@@ -1,6 +1,6 @@
 ---
 description: "Shows the syntax for running a PowerShell command from a .cmd batch file, including how to escape quotes."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[batch-files](<../Tags/batch-files.md>)"

@@ -1,6 +1,6 @@
 ---
 description: Summary of an expanded git hooks suite enforcing branch merge order, rebase safety, TeamCity build status, and push timing rules.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

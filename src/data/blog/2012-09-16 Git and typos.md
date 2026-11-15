@@ -1,6 +1,6 @@
 ---
 description: "Shows how to enable git help.autocorrect to automatically fix and run mistyped git commands."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
 pubDatetime: 2012-09-16T00:00:00-07:00

@@ -1,6 +1,6 @@
 ---
 description: Installing a custom codec to add AC3 audio playback support to MX Player on Android.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[android](<../Tags/android.md>)"
   - "[media](<../Tags/media.md>)"

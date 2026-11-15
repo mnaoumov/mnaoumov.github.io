@@ -1,6 +1,6 @@
 ---
 description: "PowerShell snippet to change the author and committer date of an existing git commit using GIT_COMMITTER_DATE and --amend."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[powershell](<../Tags/powershell.md>)"

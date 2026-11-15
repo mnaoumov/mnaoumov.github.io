@@ -1,6 +1,6 @@
 ---
 description: "Explains how to take a screenshot on Android 4 ICS by pressing Power and Volume Down simultaneously."
-tagLinks:
+keywords:
   - "[migrated-from-blogger](<../Tags/migrated-from-blogger.md>)"
   - "[android](<../Tags/android.md>)"
 pubDatetime: 2012-06-21T16:57:00-07:00

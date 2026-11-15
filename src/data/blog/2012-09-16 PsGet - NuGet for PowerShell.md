@@ -1,6 +1,6 @@
 ---
 description: "Introduction to PsGet, a package manager for PowerShell modules installable with a one-liner."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[package-manager](<../Tags/package-manager.md>)"

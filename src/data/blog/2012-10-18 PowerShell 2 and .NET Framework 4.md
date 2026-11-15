@@ -1,6 +1,6 @@
 ---
 description: How to configure PowerShell 2 to use .NET Framework 4 CLR via registry or config files.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

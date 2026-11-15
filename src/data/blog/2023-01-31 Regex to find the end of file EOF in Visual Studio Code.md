@@ -1,6 +1,6 @@
 ---
 description: The regex $(?!\n) matches the true end of file in Visual Studio Code's multiline search mode, enabling EOF-only bulk replacements.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[vscode](<../Tags/vscode.md>)"
   - "[regex](<../Tags/regex.md>)"

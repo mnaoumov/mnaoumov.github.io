@@ -1,6 +1,6 @@
 ---
 description: Setting up git-svn with a non-standard Subversion repository layout, including branch and tag mappings.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[svn](<../Tags/svn.md>)"

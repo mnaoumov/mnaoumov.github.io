@@ -1,6 +1,6 @@
 ---
 description: How Set-StrictMode interacts with legacy PowerShell scripts and safe workarounds for missing variables and properties.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[scripting](<../Tags/scripting.md>)"

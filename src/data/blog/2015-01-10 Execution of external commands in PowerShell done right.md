@@ -1,6 +1,6 @@
 ---
 description: A PowerShell exec helper that correctly captures stdout and stderr from native commands and checks exit codes.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[scripting](<../Tags/scripting.md>)"

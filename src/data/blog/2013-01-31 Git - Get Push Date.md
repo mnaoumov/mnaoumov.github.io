@@ -1,6 +1,6 @@
 ---
 description: How to record and retrieve the actual push date for git commits using git notes and server-side post-receive hooks.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

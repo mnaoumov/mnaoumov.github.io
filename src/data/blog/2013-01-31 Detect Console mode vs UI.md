@@ -1,6 +1,6 @@
 ---
 description: Reliable PowerShell technique to detect whether a git hook runs in a console or a GUI environment like Git Extensions.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[git-hooks](<../Tags/git-hooks.md>)"

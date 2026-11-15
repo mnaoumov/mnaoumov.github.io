@@ -1,6 +1,6 @@
 ---
 description: Tip to reassign the VirtualBox host key from Right Ctrl to a less-used key like the Application key.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[virtualbox](<../Tags/virtualbox.md>)"
   - "[virtualization](<../Tags/virtualization.md>)"

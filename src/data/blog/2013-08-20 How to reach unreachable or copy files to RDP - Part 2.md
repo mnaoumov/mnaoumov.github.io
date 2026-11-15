@@ -1,6 +1,6 @@
 ---
 description: Follow-up on clipboard-based RDP file transfer, describing clipboard hang issues and a planned chunked clipboard watcher solution.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[rdp](<../Tags/rdp.md>)"

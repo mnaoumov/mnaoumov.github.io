@@ -1,6 +1,6 @@
 ---
 description: "Describes a critical bug in Firebug Lite 1.4 on IE7 and provides a bookmarklet to use the stable 1.3 version instead."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[firebug](<../Tags/firebug.md>)"
   - "[internet-explorer](<../Tags/internet-explorer.md>)"

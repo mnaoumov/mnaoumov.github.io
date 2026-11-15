@@ -1,6 +1,6 @@
 ---
 description: Frustration with existing SQL formatters and a call for community input on automatic SQL code formatting tools.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sql](<../Tags/sql.md>)"
   - "[sql-server](<../Tags/sql-server.md>)"

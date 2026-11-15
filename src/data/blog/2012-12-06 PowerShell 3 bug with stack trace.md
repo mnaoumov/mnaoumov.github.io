@@ -1,6 +1,6 @@
 ---
 description: PowerShell 3 shows incorrect line numbers in stack traces when CmdletBinding and ErrorActionPreference are combined; trap workaround included.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[debugging](<../Tags/debugging.md>)"

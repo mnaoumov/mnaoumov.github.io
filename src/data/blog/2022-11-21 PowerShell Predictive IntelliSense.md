@@ -1,6 +1,6 @@
 ---
 description: "How to accept PSReadLine Predictive IntelliSense suggestions in PowerShell 7.3 using the Right Arrow key, and why F2 switches prediction view modes."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[terminal](<../Tags/terminal.md>)"

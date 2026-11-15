@@ -1,6 +1,6 @@
 ---
 description: Implements a clipboard change watcher in PowerShell using inline C# with P/Invoke and WinForms WM_CLIPBOARDUPDATE.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[csharp](<../Tags/csharp.md>)"

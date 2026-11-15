@@ -1,6 +1,6 @@
 ---
 description: "Script to open any PowerShell cmdlet's source code directly in .NET Reflector for inspection."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

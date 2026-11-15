@@ -1,6 +1,6 @@
 ---
 description: "Best practices for PowerShell scripts: error handling preamble, strict mode, PSScriptRoot, and readability rules."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[best-practices](<../Tags/best-practices.md>)"

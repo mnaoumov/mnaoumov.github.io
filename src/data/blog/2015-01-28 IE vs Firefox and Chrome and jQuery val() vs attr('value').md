@@ -1,6 +1,6 @@
 ---
 description: Cross-browser bug where jQuery .val() returns null on non-form elements in Firefox and Chrome but works in IE.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[jquery](<../Tags/jquery.md>)"

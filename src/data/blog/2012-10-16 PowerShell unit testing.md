@@ -1,6 +1,6 @@
 ---
 description: "Comparison of PowerShell unit testing frameworks: Pester, PsUnit, and PsTest."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[unit-testing](<../Tags/unit-testing.md>)"

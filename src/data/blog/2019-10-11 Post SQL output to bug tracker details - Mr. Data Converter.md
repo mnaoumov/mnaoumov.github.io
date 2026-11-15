@@ -1,6 +1,6 @@
 ---
 description: Mr. Data Converter converts SSMS query results copied with headers into formatted markdown or wiki tables for pasting into bug trackers.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sql](<../Tags/sql.md>)"
   - "[ssms](<../Tags/ssms.md>)"

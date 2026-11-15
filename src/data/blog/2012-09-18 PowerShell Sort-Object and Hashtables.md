@@ -1,6 +1,6 @@
 ---
 description: "Explains why Sort-Object -Property fails on PowerShell hashtables and how to sort them correctly using a script block."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[hashtable](<../Tags/hashtable.md>)"

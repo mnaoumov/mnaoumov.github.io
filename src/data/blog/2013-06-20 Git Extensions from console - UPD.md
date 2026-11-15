@@ -1,6 +1,6 @@
 ---
 description: How to launch Git Extensions from the console using a git alias, including a fix to avoid blocking the terminal.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-extensions](<../Tags/git-extensions.md>)"

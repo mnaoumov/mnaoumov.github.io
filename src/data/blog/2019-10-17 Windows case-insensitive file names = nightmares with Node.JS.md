@@ -1,6 +1,6 @@
 ---
 description: Windows filesystem canonical casing causes Node.js module require cache misses when __dirname and process.cwd() differ in letter case.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[nodejs](<../Tags/nodejs.md>)"
   - "[windows](<../Tags/windows.md>)"

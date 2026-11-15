@@ -233,12 +233,12 @@ function readPosts(): Post[] {
       data.pubDatetime instanceof Date
         ? data.pubDatetime.toISOString()
         : String(data.pubDatetime);
-    const tagLinks = Array.isArray(data.tagLinks) ? data.tagLinks : [];
+    const keywords = Array.isArray(data.keywords) ? data.keywords : [];
     posts.push({
       title: String(data.title ?? file.replace(/\.md$/, "")),
       url: `${SITE_URL}/posts/${toSlug(file.replace(/\.md$/, ""))}/`,
       published,
-      tags: tagLinks.map(link => String(link).replace(/^\[([^\]]+)\].*$/, "$1")),
+      tags: keywords.map(link => String(link).replace(/^\[([^\]]+)\].*$/, "$1")),
       length: match[2].trim().length,
     });
   }

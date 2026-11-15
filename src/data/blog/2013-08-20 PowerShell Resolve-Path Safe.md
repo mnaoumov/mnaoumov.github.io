@@ -1,6 +1,6 @@
 ---
 description: How to resolve paths for non-existent files in PowerShell using GetUnresolvedProviderPathFromPSPath instead of Resolve-Path.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[file-io](<../Tags/file-io.md>)"

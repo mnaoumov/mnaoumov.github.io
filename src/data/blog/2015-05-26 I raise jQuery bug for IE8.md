@@ -1,6 +1,6 @@
 ---
 description: Discovering that a jQuery behavior discrepancy in IE8 is actually an IE8 bug with named function expressions.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[jquery](<../Tags/jquery.md>)"

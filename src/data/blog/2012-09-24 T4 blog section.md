@@ -1,6 +1,6 @@
 ---
 description: "Introduction to the T4 (Text Template Transformation Toolkit) blog series covering code generation in Visual Studio."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[t4](<../Tags/t4.md>)"
   - "[code-generation](<../Tags/code-generation.md>)"

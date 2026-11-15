@@ -1,6 +1,6 @@
 ---
 description: How to install and configure the Source Code Pro TTF font for consistent rendering across Visual Studio, Sublime Text, and ConEmu.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[fonts](<../Tags/fonts.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"

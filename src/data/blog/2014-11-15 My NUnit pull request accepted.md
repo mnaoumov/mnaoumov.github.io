@@ -1,6 +1,6 @@
 ---
 description: Announcement that a NUnit pull request fixing invalid XML character handling was merged and referenced in NUnit source code.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[nunit](<../Tags/nunit.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

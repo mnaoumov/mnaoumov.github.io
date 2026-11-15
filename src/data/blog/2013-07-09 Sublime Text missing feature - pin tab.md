@@ -1,6 +1,6 @@
 ---
 description: Feature request for Sublime Text to support pinning tabs to prevent accidental closure during file search.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[sublime-text](<../Tags/sublime-text.md>)"
   - "[editor](<../Tags/editor.md>)"

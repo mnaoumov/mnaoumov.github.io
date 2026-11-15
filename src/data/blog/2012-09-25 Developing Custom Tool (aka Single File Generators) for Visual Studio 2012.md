@@ -1,6 +1,6 @@
 ---
 description: "Step-by-step guide to creating and registering a COM-visible Single File Generator custom tool for Visual Studio 2012."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"
   - "[csharp](<../Tags/csharp.md>)"

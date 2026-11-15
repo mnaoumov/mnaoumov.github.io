@@ -1,6 +1,6 @@
 ---
 description: Using the CHERRY_PICK_HEAD ref to inspect the commit being cherry-picked during conflict resolution.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[cherry-pick](<../Tags/cherry-pick.md>)"

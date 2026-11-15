@@ -1,6 +1,6 @@
 ---
 description: Reading EXIF tags such as date-taken from images in PowerShell using System.Drawing.Image.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[exif](<../Tags/exif.md>)"

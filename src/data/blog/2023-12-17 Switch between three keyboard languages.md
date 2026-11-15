@@ -1,6 +1,6 @@
 ---
 description: An AutoHotkey v2 script that maps Left Control, Right Control, and Right Alt to instantly switch between English, Russian, and Ukrainian keyboard layouts.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[autohotkey](<../Tags/autohotkey.md>)"
   - "[windows](<../Tags/windows.md>)"

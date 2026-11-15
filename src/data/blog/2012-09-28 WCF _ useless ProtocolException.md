@@ -1,6 +1,6 @@
 ---
 description: "WCF ProtocolException truncates the server error response; an extension method on WebException extracts the full response body."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"
   - "[wcf](<../Tags/wcf.md>)"

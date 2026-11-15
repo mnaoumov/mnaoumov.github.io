@@ -1,6 +1,6 @@
 ---
 description: "Brief introduction to MarkdownPad, a WYSIWYG Markdown editor for Windows."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[markdown](<../Tags/markdown.md>)"
   - "[editor](<../Tags/editor.md>)"

@@ -1,6 +1,6 @@
 ---
 description: Story of working around a completely broken Android screen using USB OTG mouse, AirDroid, and blind navigation to restore phone access.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[android](<../Tags/android.md>)"
   - "[hardware](<../Tags/hardware.md>)"

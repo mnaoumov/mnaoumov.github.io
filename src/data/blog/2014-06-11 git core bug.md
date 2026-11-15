@@ -1,6 +1,6 @@
 ---
 description: Announcement that a git core pull request fixing ANSI sequences in non-terminal output was accepted upstream.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[open-source](<../Tags/open-source.md>)"

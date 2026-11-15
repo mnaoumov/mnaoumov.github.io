@@ -1,6 +1,6 @@
 ---
 description: Using Debugger.Launch and Debugger.Break in C# code to attach a debugger to hard-to-reach processes like Visual Studio plugins.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[debugging](<../Tags/debugging.md>)"
   - "[csharp](<../Tags/csharp.md>)"

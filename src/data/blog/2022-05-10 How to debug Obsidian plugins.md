@@ -1,6 +1,6 @@
 ---
 description: Practical guide to debugging Obsidian plugins using Chrome DevTools, eval-loaded source navigation, TypeScript compilation, and hot reload.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[obsidian](<../Tags/obsidian.md>)"
   - "[debugging](<../Tags/debugging.md>)"

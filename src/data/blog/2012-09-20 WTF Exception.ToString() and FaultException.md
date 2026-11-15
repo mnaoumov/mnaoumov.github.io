@@ -1,6 +1,6 @@
 ---
 description: "FaultException inner details are silently dropped by Exception.ToString(); an extension method restores the full fault message."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"
   - "[wcf](<../Tags/wcf.md>)"

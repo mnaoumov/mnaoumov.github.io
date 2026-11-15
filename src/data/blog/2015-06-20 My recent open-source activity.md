@@ -1,6 +1,6 @@
 ---
 description: Summary of contributions to GitExtensions, Monodevelop, jHtmlArea, T4 TransformOnBuild, and posh-git.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[open-source](<../Tags/open-source.md>)"
   - "[git](<../Tags/git.md>)"

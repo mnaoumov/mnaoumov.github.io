@@ -1,6 +1,6 @@
 ---
 description: A multi-hour debugging session reveals why setting checkbox.checked inside an onclick handler requires setTimeout to work correctly.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[debugging](<../Tags/debugging.md>)"

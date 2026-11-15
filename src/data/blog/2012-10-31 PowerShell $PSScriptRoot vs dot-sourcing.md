@@ -1,6 +1,6 @@
 ---
 description: Bug in PowerShell 2 where dot-sourcing overwrites $PSScriptRoot; workaround using a function instead of a variable.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[scripting](<../Tags/scripting.md>)"

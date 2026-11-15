@@ -1,6 +1,6 @@
 ---
 description: A merged pull request to Git Extensions fixing the commit window title not refreshing on branch name changes.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-extensions](<../Tags/git-extensions.md>)"

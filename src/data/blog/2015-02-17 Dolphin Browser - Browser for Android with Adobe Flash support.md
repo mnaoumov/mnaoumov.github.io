@@ -1,6 +1,6 @@
 ---
 description: Dolphin Browser as a stable Android browser option for sites that still require Adobe Flash.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[android](<../Tags/android.md>)"
   - "[browser](<../Tags/browser.md>)"

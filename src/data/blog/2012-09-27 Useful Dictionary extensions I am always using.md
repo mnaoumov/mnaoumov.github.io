@@ -1,6 +1,6 @@
 ---
 description: "Two reusable C# IDictionary extension methods: GetValueOrDefault and GetOrAddValue with a factory function."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[csharp](<../Tags/csharp.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

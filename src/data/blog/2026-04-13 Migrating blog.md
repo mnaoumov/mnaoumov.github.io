@@ -1,6 +1,6 @@
 ---
 description: ""
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
 pubDatetime: 2026-04-13
 title: Migrating blog

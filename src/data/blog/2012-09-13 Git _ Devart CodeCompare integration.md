@@ -1,6 +1,6 @@
 ---
 description: "Configuration for using Devart CodeCompare as the diff and merge tool for Git via .gitconfig entries."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[diff-tool](<../Tags/diff-tool.md>)"

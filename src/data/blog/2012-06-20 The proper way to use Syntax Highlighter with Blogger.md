@@ -1,6 +1,6 @@
 ---
 description: "Step-by-step guide to integrating SyntaxHighlighter 3 with Blogger using jQuery autoLoader to support all languages."
-tagLinks:
+keywords:
   - "[migrated-from-blogger](<../Tags/migrated-from-blogger.md>)"
   - "[blogger](<../Tags/blogger.md>)"
   - "[syntax-highlighting](<../Tags/syntax-highlighting.md>)"

@@ -1,6 +1,6 @@
 ---
 description: Demonstrates that PowerShell silently returns null when a .NET property getter throws an exception, and how to avoid it.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[dotnet](<../Tags/dotnet.md>)"

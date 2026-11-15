@@ -1,6 +1,6 @@
 ---
 description: A detailed comparison of note-taking systems over many years, explaining why Obsidian with Syncthing and a curated plugin list became the final choice.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[obsidian](<../Tags/obsidian.md>)"
   - "[note-taking](<../Tags/note-taking.md>)"

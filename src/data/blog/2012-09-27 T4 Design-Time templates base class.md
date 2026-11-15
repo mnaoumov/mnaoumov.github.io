@@ -1,6 +1,6 @@
 ---
 description: "How to create a shared custom base class for T4 design-time templates by extending TextTransformation, with a working example."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[t4](<../Tags/t4.md>)"
   - "[csharp](<../Tags/csharp.md>)"

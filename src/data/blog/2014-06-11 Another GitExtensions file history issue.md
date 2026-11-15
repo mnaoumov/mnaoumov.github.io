@@ -1,6 +1,6 @@
 ---
 description: Reports and proposes a fix for another file history bug in GitExtensions.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-extensions](<../Tags/git-extensions.md>)"

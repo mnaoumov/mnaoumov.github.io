@@ -1,6 +1,6 @@
 ---
 description: Technique for transferring binary files to an RDP server with no drive sharing by encoding them as Base64 via the clipboard.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[rdp](<../Tags/rdp.md>)"

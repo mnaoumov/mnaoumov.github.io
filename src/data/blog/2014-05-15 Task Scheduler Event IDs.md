@@ -1,6 +1,6 @@
 ---
 description: Reference table of Windows Task Scheduler event log IDs and their corresponding task lifecycle categories.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[windows](<../Tags/windows.md>)"
   - "[task-scheduler](<../Tags/task-scheduler.md>)"

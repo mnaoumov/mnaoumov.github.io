@@ -1,6 +1,6 @@
 ---
 description: Step-by-step method to scrape all Facebook activity log data by month using a JavaScript scroll automation script and the Web ScrapBook Chrome extension.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[facebook](<../Tags/facebook.md>)"
   - "[javascript](<../Tags/javascript.md>)"

@@ -1,6 +1,6 @@
 ---
 description: Explains how PowerShell handles the cd.. command via a built-in function rather than special-casing the syntax.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[command-line](<../Tags/command-line.md>)"

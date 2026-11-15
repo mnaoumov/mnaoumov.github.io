@@ -1,6 +1,6 @@
 ---
 description: "PowerShell function and alias that elevates a process with admin rights, mimicking Unix sudo behavior."
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[powershell](<../Tags/powershell.md>)"
   - "[windows](<../Tags/windows.md>)"

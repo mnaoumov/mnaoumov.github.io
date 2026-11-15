@@ -1,6 +1,6 @@
 ---
 description: Using Object.defineProperty to intercept input value assignments and trigger a debugger breakpoint on DOM mutation.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[javascript](<../Tags/javascript.md>)"
   - "[debugging](<../Tags/debugging.md>)"

@@ -1,6 +1,6 @@
 ---
 description: Request for a wide, code-friendly free WordPress theme with automatic post excerpts.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[wordpress](<../Tags/wordpress.md>)"
   - "[blogging](<../Tags/blogging.md>)"

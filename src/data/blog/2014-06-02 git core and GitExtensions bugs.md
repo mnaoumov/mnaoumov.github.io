@@ -1,6 +1,6 @@
 ---
 description: Summary of bug fixes and pull requests contributed to git core and GitExtensions for ANSI sequences and file history issues.
-tagLinks:
+keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[git](<../Tags/git.md>)"
   - "[git-extensions](<../Tags/git-extensions.md>)"
