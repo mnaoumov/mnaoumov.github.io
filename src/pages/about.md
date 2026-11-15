@@ -23,8 +23,9 @@ Full list at [Obsidian resources](/obsidian/).
 
 ### Other Projects
 
-- [Invoke-NativeApplication](https://github.com/mnaoumov/Invoke-NativeApplication) — PowerShell module for proper native command error handling
-- [typescript-template](https://github.com/mnaoumov/typescript-template) — Strict TypeScript project template
+- [`headless-run`](https://github.com/mnaoumov/headless-run) — Run a Windows console program without a console window, keeping its exact command line and exit code; designed for Task Scheduler
+- [`Invoke-NativeApplication`](https://github.com/mnaoumov/Invoke-NativeApplication) — PowerShell module for proper native command error handling
+- [`typescript-template`](https://github.com/mnaoumov/typescript-template) — Strict TypeScript project template
 
 ### Links
 
