@@ -1,5 +1,7 @@
 # mnaoumov.dev
 
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/mnaoumov) [![Deploy](https://img.shields.io/github/actions/workflow/status/mnaoumov/mnaoumov.github.io/deploy.yml?branch=main&label=deploy)](https://github.com/mnaoumov/mnaoumov.github.io/actions/workflows/deploy.yml)
+
 Personal programming blog by Michael Naumov. Writing about TypeScript, PowerShell, Obsidian plugin development, and developer tooling.
 
 Built with [Astro](https://astro.build/) and [AstroPaper](https://github.com/satnaing/astro-paper) theme.
