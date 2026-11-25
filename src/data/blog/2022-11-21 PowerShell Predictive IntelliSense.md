@@ -8,12 +8,11 @@ keywords:
   - "[windows](<../Tags/windows.md>)"
 pubDatetime: 2022-11-21T10:11:47-06:00
 title: "PowerShell Predictive IntelliSense"
-created: 2022-11-21T10:11:47-06:00
-updated: 2026-04-13T13:06:59-06:00
+ctime: 2022-11-21T10:11:47-06:00
+mtime: 2026-04-13T13:06:59-06:00
 disabled rules:
   - yaml-title
-url:
-  - https://mnaoumov.wordpress.com/2022/11/21/powershell-predictive-intellisense/
+url: https://mnaoumov.wordpress.com/2022/11/21/powershell-predictive-intellisense/
 ---
 
 # 2022-11-21 PowerShell Predictive IntelliSense

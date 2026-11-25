@@ -7,11 +7,10 @@ keywords:
   - "[tools](<../Tags/tools.md>)"
   - "[productivity](<../Tags/productivity.md>)"
 pubDatetime: 2019-10-11T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:33:59-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:33:59-06:00
 title: "Post SQL output to bug tracker details - Mr. Data Converter"
-url:
-  - https://mnaoumov.wordpress.com/2019/10/12/post-sql-output-to-bug-tracker-details-mr-data-converter/
+url: https://mnaoumov.wordpress.com/2019/10/12/post-sql-output-to-bug-tracker-details-mr-data-converter/
 disabled rules:
   - yaml-title
 ---

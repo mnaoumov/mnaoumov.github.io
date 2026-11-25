@@ -7,11 +7,10 @@ keywords:
   - "[windows](<../Tags/windows.md>)"
   - "[tools](<../Tags/tools.md>)"
 pubDatetime: 2017-01-05T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:56-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:56-06:00
 title: "HFS - Send large file P2P"
-url:
-  - https://mnaoumov.wordpress.com/2017/01/05/hfs-send-large-file-p2p/
+url: https://mnaoumov.wordpress.com/2017/01/05/hfs-send-large-file-p2p/
 disabled rules:
   - yaml-title
 ---

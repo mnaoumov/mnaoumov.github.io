@@ -5,11 +5,10 @@ keywords:
   - "[powershell](<../Tags/powershell.md>)"
   - "[scripting](<../Tags/scripting.md>)"
 pubDatetime: 2013-08-21T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:08:52-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:08:52-06:00
 title: 'PowerShell scripts and "Pattern Main"'
-url:
-  - https://mnaoumov.wordpress.com/2013/08/21/powershell-scripts-and-pattern-main/
+url: https://mnaoumov.wordpress.com/2013/08/21/powershell-scripts-and-pattern-main/
 disabled rules:
   - yaml-title
 aliases:

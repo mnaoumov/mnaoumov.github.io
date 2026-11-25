@@ -8,11 +8,10 @@ keywords:
   - "[bug](<../Tags/bug.md>)"
   - "[overload-resolution](<../Tags/overload-resolution.md>)"
 pubDatetime: 2012-10-26T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:02-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:02-06:00
 title: "WTF Method overloads resolution in PowerShell"
-url:
-  - https://mnaoumov.wordpress.com/2012/10/26/wtf-method-overloads-resolution-in-powershell/
+url: https://mnaoumov.wordpress.com/2012/10/26/wtf-method-overloads-resolution-in-powershell/
 disabled rules:
   - yaml-title
 ---

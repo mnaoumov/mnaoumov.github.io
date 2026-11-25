@@ -7,11 +7,10 @@ keywords:
   - "[dom](<../Tags/dom.md>)"
   - "[browser](<../Tags/browser.md>)"
 pubDatetime: 2015-11-29T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "How to debug JavaScript to find code which modifies your DOM"
-url:
-  - https://mnaoumov.wordpress.com/2015/11/29/how-to-debug-javascript-to-find-code-which-modifies-your-dom/
+url: https://mnaoumov.wordpress.com/2015/11/29/how-to-debug-javascript-to-find-code-which-modifies-your-dom/
 disabled rules:
   - yaml-title
 ---

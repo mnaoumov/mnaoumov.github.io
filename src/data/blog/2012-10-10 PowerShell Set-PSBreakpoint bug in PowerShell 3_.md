@@ -6,11 +6,10 @@ keywords:
   - "[debugging](<../Tags/debugging.md>)"
   - "[bug](<../Tags/bug.md>)"
 pubDatetime: 2012-10-10T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:02-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:02-06:00
 title: "PowerShell Set-PSBreakpoint bug in PowerShell 3_"
-url:
-  - https://mnaoumov.wordpress.com/2012/10/10/powershell-set-psbreakpoint-bug-in-powershell-3/
+url: https://mnaoumov.wordpress.com/2012/10/10/powershell-set-psbreakpoint-bug-in-powershell-3/
 disabled rules:
   - yaml-title
 ---

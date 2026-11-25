@@ -8,11 +8,10 @@ keywords:
   - "[encoding](<../Tags/encoding.md>)"
   - "[regex](<../Tags/regex.md>)"
 pubDatetime: 2014-06-14T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "Stripping invalid characters from UTF-16 strings"
-url:
-  - https://mnaoumov.wordpress.com/2014/06/14/stripping-invalid-characters-from-utf-16-strings/
+url: https://mnaoumov.wordpress.com/2014/06/14/stripping-invalid-characters-from-utf-16-strings/
 disabled rules:
   - yaml-title
 ---

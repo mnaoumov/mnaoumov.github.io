@@ -8,11 +8,10 @@ keywords:
   - "[nas](<../Tags/nas.md>)"
   - "[productivity](<../Tags/productivity.md>)"
 pubDatetime: 2021-04-18T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:56-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:56-06:00
 title: "Organizing photo collection - 20 years research"
-url:
-  - https://mnaoumov.wordpress.com/2021/04/18/organizing-photo-collection-20-years-research/
+url: https://mnaoumov.wordpress.com/2021/04/18/organizing-photo-collection-20-years-research/
 disabled rules:
   - yaml-title
 ---

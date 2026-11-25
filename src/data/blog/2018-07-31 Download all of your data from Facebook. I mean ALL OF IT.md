@@ -8,11 +8,10 @@ keywords:
   - "[data-export](<../Tags/data-export.md>)"
   - "[scraping](<../Tags/scraping.md>)"
 pubDatetime: 2018-07-31T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:56-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:56-06:00
 title: "Download all of your data from Facebook. I mean ALL OF IT"
-url:
-  - https://mnaoumov.wordpress.com/2018/07/31/download-all-of-your-data-from-facebook-i-mean-all-of-it/
+url: https://mnaoumov.wordpress.com/2018/07/31/download-all-of-your-data-from-facebook-i-mean-all-of-it/
 disabled rules:
   - yaml-title
 ---

@@ -6,11 +6,10 @@ keywords:
   - "[browser](<../Tags/browser.md>)"
   - "[flash](<../Tags/flash.md>)"
 pubDatetime: 2015-02-17T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Dolphin Browser - Browser for Android with Adobe Flash support"
-url:
-  - https://mnaoumov.wordpress.com/2015/02/18/dolphin-browser-browser-for-android-with-adobe-flash-support/
+url: https://mnaoumov.wordpress.com/2015/02/18/dolphin-browser-browser-for-android-with-adobe-flash-support/
 disabled rules:
   - yaml-title
 ---

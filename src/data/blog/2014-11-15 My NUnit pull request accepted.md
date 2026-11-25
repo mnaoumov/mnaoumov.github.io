@@ -7,11 +7,10 @@ keywords:
   - "[testing](<../Tags/testing.md>)"
   - "[open-source](<../Tags/open-source.md>)"
 pubDatetime: 2014-11-15T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "My NUnit pull request accepted"
-url:
-  - https://mnaoumov.wordpress.com/2014/11/16/my-nunit-pull-request-accepted/
+url: https://mnaoumov.wordpress.com/2014/11/16/my-nunit-pull-request-accepted/
 disabled rules:
   - yaml-title
 ---

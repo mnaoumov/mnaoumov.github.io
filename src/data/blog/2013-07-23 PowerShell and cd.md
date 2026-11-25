@@ -5,11 +5,10 @@ keywords:
   - "[powershell](<../Tags/powershell.md>)"
   - "[command-line](<../Tags/command-line.md>)"
 pubDatetime: 2013-07-23T01:00:00-06:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "PowerShell and cd.."
-url:
-  - https://mnaoumov.wordpress.com/2013/07/24/powershell-and-cd/
+url: https://mnaoumov.wordpress.com/2013/07/24/powershell-and-cd/
 disabled rules:
   - yaml-title
 ---

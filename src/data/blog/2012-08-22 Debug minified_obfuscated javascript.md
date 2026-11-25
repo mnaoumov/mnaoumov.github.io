@@ -9,11 +9,10 @@ keywords:
   - "[chrome](<../Tags/chrome.md>)"
   - "[internet-explorer](<../Tags/internet-explorer.md>)"
 pubDatetime: 2012-08-22T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "Debug minified_obfuscated javascript"
-url:
-  - https://mnaoumov.wordpress.com/2012/08/22/debug-minifiedobfuscated-javascript/
+url: https://mnaoumov.wordpress.com/2012/08/22/debug-minifiedobfuscated-javascript/
 disabled rules:
   - yaml-title
 ---

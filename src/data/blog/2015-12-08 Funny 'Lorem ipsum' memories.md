@@ -4,11 +4,10 @@ keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
   - "[anecdote](<../Tags/anecdote.md>)"
 pubDatetime: 2015-12-08T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Funny 'Lorem ipsum' memories"
-url:
-  - https://mnaoumov.wordpress.com/2015/12/08/funny-lorem-ipsum-memories/
+url: https://mnaoumov.wordpress.com/2015/12/08/funny-lorem-ipsum-memories/
 disabled rules:
   - yaml-title
 ---

@@ -6,11 +6,10 @@ keywords:
   - "[debugging](<../Tags/debugging.md>)"
   - "[error-handling](<../Tags/error-handling.md>)"
 pubDatetime: 2014-12-26T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Write-Error vs error tracing"
-url:
-  - https://mnaoumov.wordpress.com/2014/12/26/write-error-vs-error-tracing/
+url: https://mnaoumov.wordpress.com/2014/12/26/write-error-vs-error-tracing/
 disabled rules:
   - yaml-title
 ---

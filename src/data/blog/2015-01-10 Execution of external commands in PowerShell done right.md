@@ -6,11 +6,10 @@ keywords:
   - "[scripting](<../Tags/scripting.md>)"
   - "[error-handling](<../Tags/error-handling.md>)"
 pubDatetime: 2015-01-10T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Execution of external commands in PowerShell done right"
-url:
-  - https://mnaoumov.wordpress.com/2015/01/11/execution-of-external-commands-in-powershell-done-right/
+url: https://mnaoumov.wordpress.com/2015/01/11/execution-of-external-commands-in-powershell-done-right/
 disabled rules:
   - yaml-title
 ---

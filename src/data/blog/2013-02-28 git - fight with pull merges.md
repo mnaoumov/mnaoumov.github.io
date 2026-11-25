@@ -7,11 +7,10 @@ keywords:
   - "[merge](<../Tags/merge.md>)"
   - "[workflow](<../Tags/workflow.md>)"
 pubDatetime: 2013-02-28T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:54-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:54-06:00
 title: "git - fight with pull merges"
-url:
-  - https://mnaoumov.wordpress.com/2013/02/28/git-fight-with-pull-merges/
+url: https://mnaoumov.wordpress.com/2013/02/28/git-fight-with-pull-merges/
 disabled rules:
   - yaml-title
 ---

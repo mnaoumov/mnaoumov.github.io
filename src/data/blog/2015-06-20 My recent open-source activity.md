@@ -7,11 +7,10 @@ keywords:
   - "[dotnet](<../Tags/dotnet.md>)"
   - "[powershell](<../Tags/powershell.md>)"
 pubDatetime: 2015-06-20T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "My recent open-source activity"
-url:
-  - https://mnaoumov.wordpress.com/2015/06/21/my-recent-open-source-activity/
+url: https://mnaoumov.wordpress.com/2015/06/21/my-recent-open-source-activity/
 disabled rules:
   - yaml-title
 ---

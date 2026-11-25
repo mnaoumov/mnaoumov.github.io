@@ -8,11 +8,10 @@ keywords:
   - "[iframe](<../Tags/iframe.md>)"
   - "[amd](<../Tags/amd.md>)"
 pubDatetime: 2015-08-06T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "jQuery BlockUI and iframe vs require.js"
-url:
-  - https://mnaoumov.wordpress.com/2015/08/07/jquery-blockui-and-iframe-vs-require-js/
+url: https://mnaoumov.wordpress.com/2015/08/07/jquery-blockui-and-iframe-vs-require-js/
 disabled rules:
   - yaml-title
 ---

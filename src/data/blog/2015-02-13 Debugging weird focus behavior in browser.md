@@ -7,11 +7,10 @@ keywords:
   - "[browser](<../Tags/browser.md>)"
   - "[dom](<../Tags/dom.md>)"
 pubDatetime: 2015-02-13T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Debugging weird focus behavior in browser"
-url:
-  - https://mnaoumov.wordpress.com/2015/02/14/debugging-weird-focus-behavior-in-browser/
+url: https://mnaoumov.wordpress.com/2015/02/14/debugging-weird-focus-behavior-in-browser/
 disabled rules:
   - yaml-title
 ---

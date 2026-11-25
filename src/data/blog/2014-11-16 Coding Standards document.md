@@ -8,11 +8,10 @@ keywords:
   - "[code-style](<../Tags/code-style.md>)"
   - "[visual-studio](<../Tags/visual-studio.md>)"
 pubDatetime: 2014-11-16T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Coding Standards document"
-url:
-  - https://mnaoumov.wordpress.com/2014/11/17/coding-standards-document/
+url: https://mnaoumov.wordpress.com/2014/11/17/coding-standards-document/
 disabled rules:
   - yaml-title
 ---

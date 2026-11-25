@@ -6,11 +6,10 @@ keywords:
   - "[browser](<../Tags/browser.md>)"
   - "[css](<../Tags/css.md>)"
 pubDatetime: 2012-09-26T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "Annoying advertisement banners in my blog"
-url:
-  - https://mnaoumov.wordpress.com/2012/09/26/annoying-advertisement-banners-in-my-blog/
+url: https://mnaoumov.wordpress.com/2012/09/26/annoying-advertisement-banners-in-my-blog/
 disabled rules:
   - yaml-title
 ---

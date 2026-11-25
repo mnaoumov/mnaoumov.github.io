@@ -8,11 +8,10 @@ keywords:
   - "[teamcity](<../Tags/teamcity.md>)"
   - "[ci-cd](<../Tags/ci-cd.md>)"
 pubDatetime: 2013-01-29T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "Useful git hooks - Part 4"
-url:
-  - https://mnaoumov.wordpress.com/2013/01/29/useful-git-hooks-part-4/
+url: https://mnaoumov.wordpress.com/2013/01/29/useful-git-hooks-part-4/
 disabled rules:
   - yaml-title
 ---

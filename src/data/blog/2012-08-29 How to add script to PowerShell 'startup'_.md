@@ -5,11 +5,10 @@ keywords:
   - "[powershell](<../Tags/powershell.md>)"
   - "[windows](<../Tags/windows.md>)"
 pubDatetime: 2012-08-29T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "How to add script to PowerShell 'startup'_"
-url:
-  - https://mnaoumov.wordpress.com/2012/08/29/how-to-add-script-to-powershell-startup/
+url: https://mnaoumov.wordpress.com/2012/08/29/how-to-add-script-to-powershell-startup/
 disabled rules:
   - yaml-title
 ---

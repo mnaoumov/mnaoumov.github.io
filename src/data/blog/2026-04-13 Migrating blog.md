@@ -4,12 +4,11 @@ keywords:
   - "[migrated-from-wordpress](<../Tags/migrated-from-wordpress.md>)"
 pubDatetime: 2026-04-13
 title: Migrating blog
-updated: 2026-04-13T21:21:24-06:00
-url:
-  - https://mnaoumov.wordpress.com/2026/04/13/migrating-blog/
+mtime: 2026-04-13T21:21:24-06:00
+url: https://mnaoumov.wordpress.com/2026/04/13/migrating-blog/
 disabled rules:
   - yaml-title
-created: 2026-04-13T21:19:58-06:00
+ctime: 2026-04-13T21:19:58-06:00
 draft: true
 ---
 

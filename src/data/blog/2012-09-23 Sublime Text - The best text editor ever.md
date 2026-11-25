@@ -6,11 +6,10 @@ keywords:
   - "[text-editor](<../Tags/text-editor.md>)"
   - "[powershell](<../Tags/powershell.md>)"
 pubDatetime: 2012-09-23T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "Sublime Text - The best text editor ever"
-url:
-  - https://mnaoumov.wordpress.com/2012/09/23/176/
+url: https://mnaoumov.wordpress.com/2012/09/23/176/
 disabled rules:
   - yaml-title
 ---

@@ -9,8 +9,8 @@ keywords:
   - "[syncthing](<../Tags/syncthing.md>)"
 pubDatetime: 2022-05-08T00:00:00Z
 number headings: auto, first-level 1, max 6, contents ^toc, _.1.1.
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:58-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:58-06:00
 title: "Perfect Notes or My Journey to Obsidian"
 disabled rules:
   - yaml-title
@@ -889,8 +889,8 @@ Let's configure **Templater** to create Inbox notes
 >
 > ```markdown
 > ---
-> created: 2026-06-29-21-08-54-06:00
-> updated: 2022-04-29T15:02:19-06:00
+> ctime: 2026-06-29-21-08-54-06:00
+> mtime: 2022-04-29T15:02:19-06:00
 > title: 2026-06-29-21-08-54
 > > > ---
 >
@@ -1020,7 +1020,7 @@ Here is my exported configuration which you can import from extension options
   "downloadMode": "downloadsApi",
   "emDelimiter": "*",
   "fence": "```",
-  "frontmatter": "---\ncreated: {date:YYYY-MM-DD-HH-mm-ssZ}\nupdated: {date:YYYY-MM-DD-HH-mm-ssZ}
+  "frontmatter": "---\nctime: {date:YYYY-MM-DD-HH-mm-ssZ}\nmtime: {date:YYYY-MM-DD-HH-mm-ssZ}
 
 title: {date:YYYY-MM-DD-HH-mm-ss} {pageTitle}\naliases: \ntags: [{keywords}]\nsource: {baseURI}\nauthor: {byline}\n---\n\n# {date:YYYY-MM-DD-HH-mm-ss} {pageTitle}\n\n", "headingStyle": "atx", "hr": "---",
   "imagePrefix": "!!files/{date:YYYY-MM-DD-HH-mm-ss} {pageTitle}/",
@@ -1429,3 +1429,121 @@ Stay tuned!
 ```
 Я разродился огромным [URL=https://mnaoumov.wordpress.com/2022/05/08/perfect-notes-or-my-journey-to-obsidian/]постом[/URL] про заметки. Вкратце, остановился на [URL=https://obsidian.md/]Obsidian[/URL] c доработкой напильником
 ```
+
+# Draft (2022-04-30)
+
+## 2000-2014 Chaotic Mess
+
+I didn't have a dedicated way to organize my notes. I was just putting notes here and there, putting some text files in certain folders, sending emails to myself, keeping some info in messengers. The problem with this approach, is that you have to be really diligent to keep those things in order. The search capabilities are poor. Accessing all your notes from all your devices is a non-trivial task.
+
+I still have most of those files that I was saving since 2000, but that's because I kinda have this storage obsession. For instance, when I was at school, some of my classmates made a music band and they were singing some funny songs about other classmates. Recently I discovered that I am the only person that still has copy of those songs. I kept this legacy even when the singers themselves abandoned it and forgot about it.
+
+## 2014-2021 Evernote
+
+https://evernote.com/
+
+In 2014 I realized I can't live with this mess anymore. I wanted to get my notes more organized. I wanted to have access to my knowledgebase from my computers and phone at any point of time. I even purchased Evernote Premium subscription.
+
+Some features annoyed me deeply so I was trying to look for better alternatives but couldn't find anything so I was coming back to Evernote like an unfaithful husband to the old grumpy wife.
+
+### - Folder Hierarchy
+
+The feature I hated the most in Evernote all those years is **absence of folders hierarchy**. Ok, not absence, they allow one level of folders and group folders in stacks, which kinda gives you second level of nestedness. Those stacks are not really folders, because you can't put notes there.
+
+I really tried to understand why folders are not actually needed and why tags should be enough. I read articles in the Evernote knowledge base and forums but I couldn't get convinced. Call me old-school but I like to use folders for grouping similar content and be able to view that later.
+
+Yes, tags are more powerful in some sense because you can't put one note in two different folders (well, technically you can, if you are willing to use symbolic links). But you can add as many tags to one note as you need. And this is a great feature of tags, I agree. But I still want to use folders. Why? Look at my current hierarchy. I personally have several blogs for different topics
+
+```
+Blogs\Programming
+Blogs\Beauty
+Blogs\Funny
+Blogs\Likeness
+```
+
+So here we are good with Evernotes two-levels-hierarchy
+
+But actually I need more
+
+```
+Blogs\Programming\Blogger
+Blogs\Programming\Wordpress
+Blogs\Programming\Wordpress\Drafts
+Blogs\Funny\Extra
+Blogs\Funny\Template
+Blogs\Funny\Text
+Blogs\Likeness\Extra
+Blogs\Likeness\TODO
+...
+```
+
+And this can go further and further. I can easily have more and more levels of nestedness.
+
+Yes, I could simulate that all with tags, but I have a few issues with that
+
+- If I look in the folder itself I see different notes mixed that I never need to see together. So using becomes useless
+- If you try to imitate folder hierarchy with tags you have two options
+  - use single level tags with separators such as `blogs-programming-wordpress-drafts` or maybe reversed way `drafts-wordpress-programming-blogs`
+  - use nested tags `blogs/programming/wordpress/drafts`
+
+    the problem with this approach is that tags names have to be unique so you can't have `blogs/funny/extra` and `blogs/likeness/extra` tags, as they both end with `extra`, you will need to use some hacks like `blogs/likeness/extra2`
+
+C'mon that looks so hacky to me. As a programmer I wrote some helper programs to generate proper tags. But generating it is not a piece of cake.
+
+### - Note Generation
+
+Evernote has some SDK but they are not really trying to keep it up to date. I was using .NET Evernote SDK wrapper which was so old, so it didn't have many features, that I had to find unstable beta version which still was far from perfect.
+
+Alternatively I could generate notes in Evernote internal format **enex** based on xml. But it also had some gotchas. Handwriting **enex** files is not possible. Especially if you have a note with attachments. I wrote all those tools for myself but overall the experience is disapponting.
+
+### + Import From Folder
+
+That was a feature or Evernote that I actually liked. You configure a folder and Evernote automatically imports everything you put in it. I used it for Inboxing purposes
+
+### + Global Hotkey
+
+I had a global hotkey in Evernote for Windows that instantly opened a new note and I can write something on the file. For android I had a quick icon for quick notes and an icon in the notification panel to access Evernote while running other apps. This
+
+### +/- Performance
+
+Evernote was relatively fast for me at the beginning. But I always use it only on Windows and Android. On iOS it was unacceptably slow.
+
+### -! Horrible Update
+
+In 2020 Evernote team released a new version Evernote 10 which was horrible in all senses. In became super slow even for Android and they just cut out many of the features I was using on the daily basis. So immediately installed the last version before this released disaster. There are tons of messages in Evernote forum about people complaining about the version 10.
+
+I personally tried to stay on the legacy version as long as possible but in 2021 they broke login system so you couldn't use legacy version on Android anymore.
+
+That was the last drop. I needed to quit ASAP. Luckily I found the tool I am going to tell about later on. I migrated all the notes from Evernote, cancelled my Premium subscription and I left as many people from Evernote community.
+
+## 2018 Google Keep
+
+https://keep.google.com/
+
+For some months in 2018 I was trying to stop using Evernote and went to Google Keep.
+
+### + Incredibly Fast
+
+Even comparing to pretty fast Evernote, Google Keep was even faster.
+
+### - No Native Desktop App
+
+You can only use web version which doesn't really provide a good UX on Window.
+
+### -! You Can't Attach All File Attachments
+
+You can attach only images. So not even attaching pdf. That was an immediate no for me. Bye-bye, Google Keep!
+
+### 2018-2021 Nimbus Notes
+
+https://nimbusweb.me/
+
+With this tool I had a long toxic relationship. I found it in 2018 and it had this killer feature for me.
+
+### + Unlimited Folder Hierarachy
+
+### -! Everything Else
+
+I can't say anything good about this product. It is ridiculously slow. They have bugs in every aspect I was using. I was raising bugs in their bug trackers but some of them are still not fixed.
+
+I was coming and going to and from Nimbus many times. But if Evernote was like old grumpy wife, Nimbus was like a weird toxic hysterical b\*tch that nobody knows why do you keep seeing each other.

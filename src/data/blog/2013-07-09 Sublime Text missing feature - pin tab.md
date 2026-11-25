@@ -5,11 +5,10 @@ keywords:
   - "[sublime-text](<../Tags/sublime-text.md>)"
   - "[editor](<../Tags/editor.md>)"
 pubDatetime: 2013-07-09T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "Sublime Text missing feature - pin tab"
-url:
-  - https://mnaoumov.wordpress.com/2013/07/09/sublime-text-missing-feature-pin-tab/
+url: https://mnaoumov.wordpress.com/2013/07/09/sublime-text-missing-feature-pin-tab/
 disabled rules:
   - yaml-title
 ---

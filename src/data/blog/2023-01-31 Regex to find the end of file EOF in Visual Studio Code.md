@@ -7,12 +7,11 @@ keywords:
   - "[tools](<../Tags/tools.md>)"
 pubDatetime: 2023-01-31T01:09:30-06:00
 title: "Regex to find the end of file (EOF) in Visual Studio Code"
-created: 2023-01-31T01:09:30-06:00
-updated: 2026-04-10T18:33:44-06:00
+ctime: 2023-01-31T01:09:30-06:00
+mtime: 2026-04-10T18:33:44-06:00
 disabled rules:
   - yaml-title
-url:
-  - https://mnaoumov.wordpress.com/2023/01/31/regex-to-find-the-end-of-file-eof-in-visual-studio-code/
+url: https://mnaoumov.wordpress.com/2023/01/31/regex-to-find-the-end-of-file-eof-in-visual-studio-code/
 ---
 
 # 2023-01-31 Regex to find the end of file EOF in Visual Studio Code
