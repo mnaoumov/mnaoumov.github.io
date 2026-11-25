@@ -398,6 +398,13 @@
     "description": "Runtime library for Obsidian plugin development: plugin base classes, components, settings, modals, vault and metadata helpers."
   },
   {
+    "title": "Obsidian Markdown Parser",
+    "href": "https://github.com/mnaoumov/obsidian-markdown-parser",
+    "group": "tools",
+    "role": "Author",
+    "description": "Parser for Obsidian-flavoured markdown that reproduces Obsidian's editor classes, syntax, reading view and CachedMetadata, for Lezer, micromark/mdast, markdown-it and remark."
+  },
+  {
     "title": "Obsidian Plugin Yeoman Generator",
     "href": "https://github.com/mnaoumov/generator-obsidian-plugin",
     "group": "tools",
