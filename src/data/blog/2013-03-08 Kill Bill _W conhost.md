@@ -7,11 +7,10 @@ keywords:
   - "[process-management](<../Tags/process-management.md>)"
   - "[conhost](<../Tags/conhost.md>)"
 pubDatetime: 2013-03-08T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "Kill Bill _W conhost"
-url:
-  - https://mnaoumov.wordpress.com/2013/03/09/kill-the-bill-w-conhost/
+url: https://mnaoumov.wordpress.com/2013/03/09/kill-the-bill-w-conhost/
 disabled rules:
   - yaml-title
 ---

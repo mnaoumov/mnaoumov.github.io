@@ -8,11 +8,10 @@ keywords:
   - "[cherry-pick](<../Tags/cherry-pick.md>)"
   - "[version-control](<../Tags/version-control.md>)"
 pubDatetime: 2014-11-27T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "svn for git-addicted or git-svn gotchas and WTFs - Part 3"
-url:
-  - https://mnaoumov.wordpress.com/2014/11/28/svn-for-git-addicted-or-git-svn-gotchas-and-wtfs-part-3/
+url: https://mnaoumov.wordpress.com/2014/11/28/svn-for-git-addicted-or-git-svn-gotchas-and-wtfs-part-3/
 disabled rules:
   - yaml-title
 ---

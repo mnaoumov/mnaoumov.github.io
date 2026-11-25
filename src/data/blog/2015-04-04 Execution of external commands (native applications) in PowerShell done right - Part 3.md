@@ -6,11 +6,10 @@ keywords:
   - "[scripting](<../Tags/scripting.md>)"
   - "[error-handling](<../Tags/error-handling.md>)"
 pubDatetime: 2015-04-04T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Execution of external commands (native applications) in PowerShell done right - Part 3"
-url:
-  - https://mnaoumov.wordpress.com/2015/04/05/execution-of-external-commands-native-applications-in-powershell-done-right-part-3/
+url: https://mnaoumov.wordpress.com/2015/04/05/execution-of-external-commands-native-applications-in-powershell-done-right-part-3/
 disabled rules:
   - yaml-title
 ---

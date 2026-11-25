@@ -6,11 +6,10 @@ keywords:
   - "[git-extensions](<../Tags/git-extensions.md>)"
   - "[command-line](<../Tags/command-line.md>)"
 pubDatetime: 2013-06-20T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "Git Extensions from console - UPD"
-url:
-  - https://mnaoumov.wordpress.com/2013/06/20/git-extensions-from-console-upd/
+url: https://mnaoumov.wordpress.com/2013/06/20/git-extensions-from-console-upd/
 disabled rules:
   - yaml-title
 ---

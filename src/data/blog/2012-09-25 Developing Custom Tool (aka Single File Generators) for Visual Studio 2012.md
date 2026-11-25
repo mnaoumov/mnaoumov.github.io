@@ -8,11 +8,10 @@ keywords:
   - "[code-generation](<../Tags/code-generation.md>)"
   - "[com](<../Tags/com.md>)"
 pubDatetime: 2012-09-25T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "Developing Custom Tool (aka Single File Generators) for Visual Studio 2012"
-url:
-  - https://mnaoumov.wordpress.com/2012/09/26/developing-custom-tool-aka-single-file-generators-for-visual-studio-2012/
+url: https://mnaoumov.wordpress.com/2012/09/26/developing-custom-tool-aka-single-file-generators-for-visual-studio-2012/
 disabled rules:
   - yaml-title
 ---

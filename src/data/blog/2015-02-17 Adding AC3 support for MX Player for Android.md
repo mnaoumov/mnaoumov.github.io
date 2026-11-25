@@ -6,11 +6,10 @@ keywords:
   - "[media](<../Tags/media.md>)"
   - "[codec](<../Tags/codec.md>)"
 pubDatetime: 2015-02-17T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Adding AC3 support for MX Player for Android"
-url:
-  - https://mnaoumov.wordpress.com/2015/02/18/adding-ac3-support-for-mx-player-for-android/
+url: https://mnaoumov.wordpress.com/2015/02/18/adding-ac3-support-for-mx-player-for-android/
 disabled rules:
   - yaml-title
 ---

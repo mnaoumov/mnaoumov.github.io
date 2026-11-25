@@ -5,11 +5,10 @@ keywords:
   - "[powershell](<../Tags/powershell.md>)"
   - "[debugging](<../Tags/debugging.md>)"
 pubDatetime: 2012-09-11T00:00:00-07:00
-created: 2026-04-13T13:01:40-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-13T13:01:40-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "Repeat Debugger.Launch() in PowerShell"
-url:
-  - https://mnaoumov.wordpress.com/2012/09/12/repeat-debugger-launch-in-powershell/
+url: https://mnaoumov.wordpress.com/2012/09/12/repeat-debugger-launch-in-powershell/
 disabled rules:
   - yaml-title
 ---

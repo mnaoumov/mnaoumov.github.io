@@ -5,11 +5,10 @@ keywords:
   - "[powershell](<../Tags/powershell.md>)"
   - "[debugging](<../Tags/debugging.md>)"
 pubDatetime: 2012-09-26T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "[PowerShell] Built-in support for -Debug and -Verbose for your scripts"
-url:
-  - https://mnaoumov.wordpress.com/2012/09/26/powershell-built-in-support-for-debug-and-verbose-for-your-scripts/
+url: https://mnaoumov.wordpress.com/2012/09/26/powershell-built-in-support-for-debug-and-verbose-for-your-scripts/
 aliases:
   - "[PowerShell] Built-in support for -Debug and -Verbose for your scripts"
 disabled rules:

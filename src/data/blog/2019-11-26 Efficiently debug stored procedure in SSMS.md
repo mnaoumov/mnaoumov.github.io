@@ -7,11 +7,10 @@ keywords:
   - "[debugging](<../Tags/debugging.md>)"
   - "[sql-server](<../Tags/sql-server.md>)"
 pubDatetime: 2019-11-26T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:33:59-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:33:59-06:00
 title: "Efficiently debug stored procedure in SSMS"
-url:
-  - https://mnaoumov.wordpress.com/2019/11/26/efficiently-debug-stored-procedure-in-ssms/
+url: https://mnaoumov.wordpress.com/2019/11/26/efficiently-debug-stored-procedure-in-ssms/
 disabled rules:
   - yaml-title
 ---

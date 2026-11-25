@@ -6,11 +6,10 @@ keywords:
   - "[virtualization](<../Tags/virtualization.md>)"
   - "[productivity](<../Tags/productivity.md>)"
 pubDatetime: 2014-12-02T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:04-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:04-06:00
 title: "VirtualBox host key - change it!"
-url:
-  - https://mnaoumov.wordpress.com/2014/12/03/virtualbox-host-key-change-it/
+url: https://mnaoumov.wordpress.com/2014/12/03/virtualbox-host-key-change-it/
 disabled rules:
   - yaml-title
 ---

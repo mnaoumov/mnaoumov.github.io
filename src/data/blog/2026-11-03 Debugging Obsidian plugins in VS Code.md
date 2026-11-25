@@ -2,8 +2,8 @@
 title: Debugging Obsidian plugins in VS Code
 description: Attach VS Code to Obsidian's renderer and debug TypeScript with the Obsidian Dev Toolkit's generated source-map configuration.
 pubDatetime: 2026-11-03T10:21:00-06:00
-created: 2026-11-03T10:21:00-06:00
-updated: 2026-11-03T10:21:00-06:00
+ctime: 2026-11-03T10:21:00-06:00
+mtime: 2026-11-03T10:21:00-06:00
 tags:
   - obsidian
   - debugging

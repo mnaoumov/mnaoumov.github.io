@@ -7,11 +7,10 @@ keywords:
   - "[bug](<../Tags/bug.md>)"
   - "[windows](<../Tags/windows.md>)"
 pubDatetime: 2013-01-01T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "WTF_ PowerShell 3 _ Cygwin"
-url:
-  - https://mnaoumov.wordpress.com/2013/01/01/wtf-powershell-3-cygwin/
+url: https://mnaoumov.wordpress.com/2013/01/01/wtf-powershell-3-cygwin/
 disabled rules:
   - yaml-title
 ---

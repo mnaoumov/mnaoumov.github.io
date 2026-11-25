@@ -7,11 +7,10 @@ keywords:
   - "[bare-repo](<../Tags/bare-repo.md>)"
   - "[scripting](<../Tags/scripting.md>)"
 pubDatetime: 2013-02-27T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "git checkout on bare repo"
-url:
-  - https://mnaoumov.wordpress.com/2013/02/27/git-checkout-on-bare-repo/
+url: https://mnaoumov.wordpress.com/2013/02/27/git-checkout-on-bare-repo/
 disabled rules:
   - yaml-title
 ---

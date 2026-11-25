@@ -7,11 +7,10 @@ keywords:
   - "[troubleshooting](<../Tags/troubleshooting.md>)"
   - "[legacy](<../Tags/legacy.md>)"
 pubDatetime: 2016-03-31T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Nightmare on Skype street, or Skype on old computer"
-url:
-  - https://mnaoumov.wordpress.com/2016/04/01/nightmare-on-skype-street-or-skype-on-old-computer/
+url: https://mnaoumov.wordpress.com/2016/04/01/nightmare-on-skype-street-or-skype-on-old-computer/
 disabled rules:
   - yaml-title
 ---

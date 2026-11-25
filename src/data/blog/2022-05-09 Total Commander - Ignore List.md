@@ -7,13 +7,12 @@ keywords:
   - "[windows](<../Tags/windows.md>)"
   - "[tools](<../Tags/tools.md>)"
 pubDatetime: 2022-05-09T15:57:47-06:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:37:44-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:37:44-06:00
 title: "Total Commander - Ignore List"
 disabled rules:
   - yaml-title
-url:
-  - https://mnaoumov.wordpress.com/2022/05/09/total-commander-ignore-list/
+url: https://mnaoumov.wordpress.com/2022/05/09/total-commander-ignore-list/
 ---
 
 # 2022-05-09 Total Commander - Ignore List

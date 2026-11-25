@@ -6,11 +6,10 @@ keywords:
   - "[dotnet](<../Tags/dotnet.md>)"
   - "[debugging](<../Tags/debugging.md>)"
 pubDatetime: 2014-06-19T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "PowerShell .NET property access swallows exceptions"
-url:
-  - https://mnaoumov.wordpress.com/2014/06/19/powershell-net-property-access-swallows-exceptions/
+url: https://mnaoumov.wordpress.com/2014/06/19/powershell-net-property-access-swallows-exceptions/
 disabled rules:
   - yaml-title
 ---

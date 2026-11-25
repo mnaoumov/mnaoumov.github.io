@@ -6,11 +6,10 @@ keywords:
   - "[ssms](<../Tags/ssms.md>)"
   - "[sql](<../Tags/sql.md>)"
 pubDatetime: 2015-02-18T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "SQL Server Management Studio and very large strings"
-url:
-  - https://mnaoumov.wordpress.com/2015/02/18/sql-server-management-studio-and-very-large-strings/
+url: https://mnaoumov.wordpress.com/2015/02/18/sql-server-management-studio-and-very-large-strings/
 disabled rules:
   - yaml-title
 ---

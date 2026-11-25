@@ -8,11 +8,10 @@ keywords:
   - "[asp-net](<../Tags/asp-net.md>)"
   - "[firefox](<../Tags/firefox.md>)"
 pubDatetime: 2016-02-12T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "WTF! MicrosoftAjax.js vs 'use strict' vs Firefox vs IE"
-url:
-  - https://mnaoumov.wordpress.com/2016/02/12/wtf-microsoftajax-js-vs-use-strict-vs-firefox-vs-ie/
+url: https://mnaoumov.wordpress.com/2016/02/12/wtf-microsoftajax-js-vs-use-strict-vs-firefox-vs-ie/
 disabled rules:
   - yaml-title
 ---

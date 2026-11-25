@@ -7,11 +7,10 @@ keywords:
   - "[javascript](<../Tags/javascript.md>)"
   - "[jquery](<../Tags/jquery.md>)"
 pubDatetime: 2012-06-20T00:20:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "The proper way to use Syntax Highlighter with Blogger"
-url:
-  - https://mnaoumov.blogspot.com/2012/06/proper-way-to-use-code-highlighter-with.html
+url: https://mnaoumov.blogspot.com/2012/06/proper-way-to-use-code-highlighter-with.html
 disabled rules:
   - yaml-title
 ---

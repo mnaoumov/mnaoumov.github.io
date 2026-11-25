@@ -7,11 +7,10 @@ keywords:
   - "[video](<../Tags/video.md>)"
   - "[photo-management](<../Tags/photo-management.md>)"
 pubDatetime: 2021-05-22T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:56-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:56-06:00
 title: "Bulk update video files Capture Time in Adobe Lightroom Classic CC"
-url:
-  - https://mnaoumov.wordpress.com/2021/05/22/bulk-update-video-files-capture-time-in-adobe-lightroom-classic-cc/
+url: https://mnaoumov.wordpress.com/2021/05/22/bulk-update-video-files-capture-time-in-adobe-lightroom-classic-cc/
 disabled rules:
   - yaml-title
 ---

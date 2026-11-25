@@ -7,11 +7,10 @@ keywords:
   - "[windows](<../Tags/windows.md>)"
   - "[writing-tools](<../Tags/writing-tools.md>)"
 pubDatetime: 2012-10-10T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:53-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:53-06:00
 title: "MarkdownPad - very nice Markdown editor"
-url:
-  - https://mnaoumov.wordpress.com/2012/10/10/markdownpad-very-nice-markdown-editor/
+url: https://mnaoumov.wordpress.com/2012/10/10/markdownpad-very-nice-markdown-editor/
 disabled rules:
   - yaml-title
 ---

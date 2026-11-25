@@ -7,13 +7,12 @@ keywords:
   - "[javascript](<../Tags/javascript.md>)"
   - "[chrome](<../Tags/chrome.md>)"
 pubDatetime: 2022-05-12T10:12:26-06:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:04-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:04-06:00
 title: "Chrome search for dynamically loaded code"
 disabled rules:
   - yaml-title
-url:
-  - https://mnaoumov.wordpress.com/2022/05/12/chrome-search-for-dynamically-loaded-code/
+url: https://mnaoumov.wordpress.com/2022/05/12/chrome-search-for-dynamically-loaded-code/
 ---
 
 # 2022-05-12 Chrome search for dynamically loaded code

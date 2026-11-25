@@ -7,11 +7,10 @@ keywords:
   - "[tools](<../Tags/tools.md>)"
   - "[sql-server](<../Tags/sql-server.md>)"
 pubDatetime: 2016-12-20T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:56-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:56-06:00
 title: "My new favorite SQL toy - ApexSQL Refactor"
-url:
-  - https://mnaoumov.wordpress.com/2016/12/20/my-new-favorite-sql-toy-apexsql-refactor/
+url: https://mnaoumov.wordpress.com/2016/12/20/my-new-favorite-sql-toy-apexsql-refactor/
 disabled rules:
   - yaml-title
 ---

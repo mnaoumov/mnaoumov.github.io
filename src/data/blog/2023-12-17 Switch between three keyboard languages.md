@@ -8,10 +8,9 @@ keywords:
   - "[productivity](<../Tags/productivity.md>)"
 pubDatetime: 2023-12-17T00:16:59-06:00
 title: "Switch between three keyboard languages"
-created: 2023-12-17T00:16:59-06:00
-updated: 2026-04-13T13:06:59-06:00
-url:
-  - https://mnaoumov.wordpress.com/2023/12/17/switch-between-three-keyboard-languages/
+ctime: 2023-12-17T00:16:59-06:00
+mtime: 2026-04-13T13:06:59-06:00
+url: https://mnaoumov.wordpress.com/2023/12/17/switch-between-three-keyboard-languages/
 disabled rules:
   - yaml-title
 ---

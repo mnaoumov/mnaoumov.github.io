@@ -6,11 +6,10 @@ keywords:
   - "[debugging](<../Tags/debugging.md>)"
   - "[error-handling](<../Tags/error-handling.md>)"
 pubDatetime: 2014-12-25T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:04-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:04-06:00
 title: 'PowerShell $ErrorActionPreference = "Stop" vs error tracing'
-url:
-  - https://mnaoumov.wordpress.com/2014/12/25/powershell-erroractionpreference-stop-vs-error-tracing/
+url: https://mnaoumov.wordpress.com/2014/12/25/powershell-erroractionpreference-stop-vs-error-tracing/
 disabled rules:
   - yaml-title
 ---

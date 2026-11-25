@@ -7,11 +7,10 @@ keywords:
   - "[registry](<../Tags/registry.md>)"
   - "[networking](<../Tags/networking.md>)"
 pubDatetime: 2014-06-05T01:00:00-06:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:54-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:54-06:00
 title: "PowerShell 3 - Attempting to perform the InitializeDefaultDrives operation on the FileSystem provider failed"
-url:
-  - https://mnaoumov.wordpress.com/2014/06/06/powershell-3-attempting-to-perform-the-initializedefaultdrives-operation-on-the-filesystem-provider-failed/
+url: https://mnaoumov.wordpress.com/2014/06/06/powershell-3-attempting-to-perform-the-initializedefaultdrives-operation-on-the-filesystem-provider-failed/
 disabled rules:
   - yaml-title
 ---

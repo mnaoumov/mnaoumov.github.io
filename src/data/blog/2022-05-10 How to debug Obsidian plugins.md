@@ -8,8 +8,8 @@ keywords:
   - "[typescript](<../Tags/typescript.md>)"
   - "[browser](<../Tags/browser.md>)"
 pubDatetime: 2022-05-10T11:08:43-06:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-11-03T10:21:00-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-11-03T10:21:00-06:00
 title: "How to debug Obsidian plugins"
 disabled rules:
   - yaml-title

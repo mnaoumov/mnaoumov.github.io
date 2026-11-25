@@ -7,11 +7,10 @@ keywords:
   - "[debugging](<../Tags/debugging.md>)"
   - "[filesystem](<../Tags/filesystem.md>)"
 pubDatetime: 2019-10-17T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:56-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:56-06:00
 title: "Windows case-insensitive file names = nightmares with Node.JS"
-url:
-  - https://mnaoumov.wordpress.com/2019/10/18/windows-case-insensitive-file-names-nightmares-with-node-js/
+url: https://mnaoumov.wordpress.com/2019/10/18/windows-case-insensitive-file-names-nightmares-with-node-js/
 disabled rules:
   - yaml-title
 ---

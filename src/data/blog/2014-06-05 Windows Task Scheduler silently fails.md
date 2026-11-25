@@ -7,11 +7,10 @@ keywords:
   - "[networking](<../Tags/networking.md>)"
   - "[registry](<../Tags/registry.md>)"
 pubDatetime: 2014-06-05T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Windows Task Scheduler silently fails"
-url:
-  - https://mnaoumov.wordpress.com/2014/06/05/windows-task-scheduler-silently-fails/
+url: https://mnaoumov.wordpress.com/2014/06/05/windows-task-scheduler-silently-fails/
 disabled rules:
   - yaml-title
 ---

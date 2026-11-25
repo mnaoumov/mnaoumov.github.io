@@ -6,11 +6,10 @@ keywords:
   - "[scripting](<../Tags/scripting.md>)"
   - "[debugging](<../Tags/debugging.md>)"
 pubDatetime: 2014-06-21T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "PowerShell Start-Job WTF"
-url:
-  - https://mnaoumov.wordpress.com/2014/06/21/powershell-start-job-wtf/
+url: https://mnaoumov.wordpress.com/2014/06/21/powershell-start-job-wtf/
 disabled rules:
   - yaml-title
 ---

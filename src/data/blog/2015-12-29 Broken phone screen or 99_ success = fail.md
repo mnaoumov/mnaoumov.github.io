@@ -6,11 +6,10 @@ keywords:
   - "[hardware](<../Tags/hardware.md>)"
   - "[troubleshooting](<../Tags/troubleshooting.md>)"
 pubDatetime: 2015-12-29T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-13T13:06:55-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-13T13:06:55-06:00
 title: "Broken phone screen or 99% success = fail"
-url:
-  - https://mnaoumov.wordpress.com/2015/12/30/broken-phone-screen-or-99-success-fail/
+url: https://mnaoumov.wordpress.com/2015/12/30/broken-phone-screen-or-99-success-fail/
 disabled rules:
   - yaml-title
 ---

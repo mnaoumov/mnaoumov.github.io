@@ -7,11 +7,10 @@ keywords:
   - "[windows](<../Tags/windows.md>)"
   - "[clipboard](<../Tags/clipboard.md>)"
 pubDatetime: 2013-08-20T00:00:00-07:00
-created: 2026-04-10T08:03:36-06:00
-updated: 2026-04-10T18:34:03-06:00
+ctime: 2026-04-10T08:03:36-06:00
+mtime: 2026-04-10T18:34:03-06:00
 title: "How to reach unreachable or copy files to RDP - Part 2"
-url:
-  - https://mnaoumov.wordpress.com/2013/08/21/how-to-reach-unreachable-or-copy-files-to-rdp-part-2/
+url: https://mnaoumov.wordpress.com/2013/08/21/how-to-reach-unreachable-or-copy-files-to-rdp-part-2/
 disabled rules:
   - yaml-title
 ---
