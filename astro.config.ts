@@ -14,6 +14,7 @@ import {
 import { transformerFileName } from "./src/utils/transformers/fileName";
 import { SITE } from "./src/config";
 import { rehypeObsidianHeadings } from "./rehype-obsidian-headings.ts";
+import { remarkObsidianCallouts } from "./remark-obsidian-callouts.ts";
 import { remarkStripBackmatter } from "./remark-strip-backmatter.ts";
 import { remarkStripFirstHeading } from "./remark-strip-first-heading.ts";
 
@@ -30,6 +31,7 @@ export default defineConfig({
       remarkPlugins: [
         remarkStripFirstHeading,
         remarkStripBackmatter,
+        remarkObsidianCallouts,
         remarkToc,
         [remarkCollapse, { test: "Table of contents" }],
       ],

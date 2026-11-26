@@ -1,0 +1,167 @@
+/*
+ * Obsidian callouts, rendered by remark-obsidian-callouts.ts.
+ * Colours and icons adapted from Quartz (https://github.com/jackyzha0/quartz,
+ * quartz/styles/callouts.scss), MIT License, Copyright (c) 2021 jackyzha0;
+ * the full notice is in remark-obsidian-callouts.ts. The icons are Lucide's.
+ */
+
+.app-prose .callout {
+  --callout-icon-note: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="2" x2="22" y2="6"/><path d="M7.5 20.5 19 9l-4-4L3.5 16.5 2 22z"/></svg>');
+  --callout-icon-abstract: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="2" width="8" height="4" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="M12 11h4"/><path d="M12 16h4"/><path d="M8 11h.01"/><path d="M8 16h.01"/></svg>');
+  --callout-icon-info: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>');
+  --callout-icon-todo: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="m9 12 2 2 4-4"/></svg>');
+  --callout-icon-tip: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>');
+  --callout-icon-success: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>');
+  --callout-icon-question: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>');
+  --callout-icon-warning: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>');
+  --callout-icon-failure: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>');
+  --callout-icon-danger: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>');
+  --callout-icon-bug: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="14" x="8" y="6" rx="4"/><path d="m19 7-3 2"/><path d="m5 7 3 2"/><path d="m19 19-3-2"/><path d="m5 19 3-2"/><path d="M20 13h-4"/><path d="M4 13h4"/><path d="m10 4 1 2"/><path d="m14 4-1 2"/></svg>');
+  --callout-icon-example: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>');
+  --callout-icon-quote: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>');
+  --callout-icon-fold: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>');
+
+  /* Any type without its own colour (custom types included) looks like a note, as in Obsidian. */
+  --callout-rgb: 68 138 255;
+  --callout-icon: var(--callout-icon-note);
+
+  display: block;
+  margin-block: 1.5em;
+  padding: 0 1rem;
+  overflow: hidden;
+  border: 1px solid rgb(var(--callout-rgb) / 0.35);
+  border-inline-start-width: 4px;
+  border-radius: 0.375rem;
+  background-color: rgb(var(--callout-rgb) / 0.08);
+  color: var(--foreground);
+}
+
+.app-prose .callout[data-callout="abstract"] {
+  --callout-rgb: 0 176 255;
+  --callout-icon: var(--callout-icon-abstract);
+}
+
+.app-prose .callout[data-callout="info"] {
+  --callout-rgb: 0 184 212;
+  --callout-icon: var(--callout-icon-info);
+}
+
+.app-prose .callout[data-callout="todo"] {
+  --callout-rgb: 0 184 212;
+  --callout-icon: var(--callout-icon-todo);
+}
+
+.app-prose .callout[data-callout="tip"] {
+  --callout-rgb: 0 191 165;
+  --callout-icon: var(--callout-icon-tip);
+}
+
+.app-prose .callout[data-callout="success"] {
+  --callout-rgb: 9 173 122;
+  --callout-icon: var(--callout-icon-success);
+}
+
+.app-prose .callout[data-callout="question"] {
+  --callout-rgb: 219 166 66;
+  --callout-icon: var(--callout-icon-question);
+}
+
+.app-prose .callout[data-callout="warning"] {
+  --callout-rgb: 219 137 66;
+  --callout-icon: var(--callout-icon-warning);
+}
+
+.app-prose .callout[data-callout="failure"] {
+  --callout-rgb: 219 66 66;
+  --callout-icon: var(--callout-icon-failure);
+}
+
+.app-prose .callout[data-callout="danger"] {
+  --callout-rgb: 219 66 66;
+  --callout-icon: var(--callout-icon-danger);
+}
+
+.app-prose .callout[data-callout="bug"] {
+  --callout-rgb: 219 66 66;
+  --callout-icon: var(--callout-icon-bug);
+}
+
+.app-prose .callout[data-callout="example"] {
+  --callout-rgb: 122 67 181;
+  --callout-icon: var(--callout-icon-example);
+}
+
+.app-prose .callout[data-callout="quote"] {
+  --callout-rgb: 158 158 158;
+  --callout-icon: var(--callout-icon-quote);
+}
+
+.app-prose .callout-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  padding-block: 0.75rem;
+  color: rgb(var(--callout-rgb));
+  font-weight: 600;
+}
+
+.app-prose summary.callout-title {
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.app-prose summary.callout-title::-webkit-details-marker {
+  display: none;
+}
+
+.app-prose .callout-title-inner {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-style: normal;
+}
+
+.app-prose .callout-title-inner code {
+  color: inherit;
+}
+
+.app-prose .callout-icon,
+.app-prose .callout-fold {
+  flex: 0 0 1.125rem;
+  width: 1.125rem;
+  height: 1.125rem;
+  background-color: currentColor;
+  mask-image: var(--callout-icon);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+}
+
+.app-prose .callout-fold {
+  --callout-icon: var(--callout-icon-fold);
+  margin-inline-start: auto;
+  transition: transform 0.15s ease;
+}
+
+.app-prose details.callout:not([open]) .callout-fold {
+  transform: rotate(-90deg);
+}
+
+.app-prose .callout-content {
+  padding-block-end: 0.75rem;
+}
+
+.app-prose .callout-content > :first-child {
+  margin-top: 0;
+}
+
+.app-prose .callout-content > :last-child {
+  margin-bottom: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-prose .callout-fold {
+    transition: none;
+  }
+}

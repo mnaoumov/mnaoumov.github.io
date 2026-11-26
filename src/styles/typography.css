@@ -79,7 +79,8 @@
       @apply border-s-accent/80 wrap-break-word opacity-80;
     }
 
-    details {
+    /* The collapsed table of contents; a foldable callout is a <details> too and styles itself. */
+    details:not(.callout) {
       @apply inline-block cursor-pointer text-foreground select-none [&_p]:hidden [&_ul]:my-0!;
     }
 
