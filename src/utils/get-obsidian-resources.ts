@@ -13,7 +13,13 @@ export interface ObsidianResource {
   previousName?: string;
   language?: string;
   replacements?: { title: string; href: string }[];
+  // Total downloads from the community directory; absent for anything the
+  // directory does not list.
+  downloads?: number;
 }
+
+const RELEASES_RAW =
+  "https://raw.githubusercontent.com/obsidianmd/obsidian-releases/HEAD";
 
 export const RESOURCE_GROUPS = [
   { id: "plugins", title: "Plugins" },
@@ -69,11 +75,58 @@ async function loadResources(): Promise<ObsidianResource[]> {
       `Using the curated Obsidian resources: ${String(error)}`
     );
   }
+  try {
+    await addDownloadCounts(resources);
+  } catch (error) {
+    if (process.env.CI) {
+      throw error;
+    }
+    process.emitWarning(
+      `Showing Obsidian resources without download counts: ${String(error)}`
+    );
+  }
   return [...resources.values()].sort(
     (a, b) =>
       Number(Boolean(a.retired)) - Number(Boolean(b.retired)) ||
       a.title.localeCompare(b.title)
   );
+}
+
+// The directory's stats are keyed by plugin id, and its plugin list maps each
+// id to a repository, which is how a listed resource is matched.
+async function addDownloadCounts(
+  resources: Map<string, ObsidianResource>
+): Promise<void> {
+  const [plugins, stats] = await Promise.all([
+    fetchJson<{ id: string; repo: string }[]>("community-plugins.json"),
+    fetchJson<Record<string, { downloads?: number }>>(
+      "community-plugin-stats.json"
+    ),
+  ]);
+  const downloadsByHref = new Map<string, number>();
+  for (const plugin of plugins) {
+    const downloads = stats[plugin.id]?.downloads;
+    if (typeof downloads === "number") {
+      downloadsByHref.set(
+        `https://github.com/${plugin.repo}`.toLowerCase(),
+        downloads
+      );
+    }
+  }
+  for (const resource of resources.values()) {
+    const downloads = downloadsByHref.get(resource.href.toLowerCase());
+    if (downloads !== undefined) {
+      resource.downloads = downloads;
+    }
+  }
+}
+
+async function fetchJson<T>(file: string): Promise<T> {
+  const response = await fetch(`${RELEASES_RAW}/${file}`);
+  if (!response.ok) {
+    throw new Error(`${file} answered ${response.status}`);
+  }
+  return (await response.json()) as T;
 }
 
 function isObsidianRepo(repo: GitHubRepo): boolean {

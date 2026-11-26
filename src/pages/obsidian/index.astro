@@ -49,6 +49,17 @@ const resources = await getObsidianResources();
         class="w-full rounded border border-border bg-background px-3 py-2"
         aria-controls="resource-list"
       />
+      <label for="resource-sort" class="mt-4 mr-2 inline-block font-semibold">
+        Sort by
+      </label>
+      <select
+        id="resource-sort"
+        class="rounded border border-border bg-background px-2 py-1"
+        aria-controls="resource-list"
+      >
+        <option value="name">Name</option>
+        <option value="downloads">Downloads</option>
+      </select>
       <p
         id="resource-count"
         role="status"
@@ -76,7 +87,11 @@ const resources = await getObsidianResources();
             {resources
               .filter(resource => resource.group === group.id)
               .map(resource => (
-                <li data-resource class="border-b border-border py-5">
+                <li
+                  data-resource
+                  data-downloads={resource.downloads ?? 0}
+                  class="border-b border-border py-5"
+                >
                   <h3 class="text-lg font-medium">
                     <a
                       href={resource.href}
@@ -88,6 +103,8 @@ const resources = await getObsidianResources();
                   <p class="my-1 text-sm opacity-75">
                     {resource.role}
                     {resource.language && ` · ${resource.language}`}
+                    {resource.downloads !== undefined &&
+                      ` · ${resource.downloads.toLocaleString("en-US")} downloads`}
                     {resource.retired && " · Retired"}
                   </p>
                   <p>{resource.description}</p>
@@ -178,7 +195,27 @@ const resources = await getObsidianResources();
         empty.hidden = visible > 0;
       }
     }
+    // Entries are rendered by name, retired last, so the original order is
+    // the name order to restore. Sorting by downloads is stable, so equal
+    // counts keep that order.
+    const sort = document.querySelector<HTMLSelectElement>("#resource-sort");
+    function sortResources() {
+      const byDownloads = sort?.value === "downloads";
+      for (const list of document.querySelectorAll<HTMLElement>(
+        "[data-resource-group] ul"
+      )) {
+        const items = entries.filter(entry => entry.parentElement === list);
+        if (byDownloads) {
+          items.sort(
+            (a, b) => Number(b.dataset.downloads) - Number(a.dataset.downloads)
+          );
+        }
+        list.append(...items);
+      }
+    }
     search.addEventListener("input", filterResources);
+    sort?.addEventListener("change", sortResources);
+    sortResources();
     filterResources();
   });
 </script>
